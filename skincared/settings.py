@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     # Skincared apps
     'home',
+    'skincare', 
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
