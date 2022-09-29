@@ -13,6 +13,7 @@ class Brand(models.Model):
     class Meta:
         '''Orders Brands Alphabetically '''
         ordering = ['friendly_name']
+        ordering = ['first_letter']
 
     def __str__(self):
         return self.name
