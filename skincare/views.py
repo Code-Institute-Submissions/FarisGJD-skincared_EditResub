@@ -18,10 +18,10 @@ from .models import Brand
 def all_brands(request):
     """ A view to render all products aswell as sorting and seraching """
 
-    brands = Brands.objects.all()
+    brands = Brand.objects.all()
 
     context = {
         'brands': brands,
     }
 
-    return render(request, 'skincare/brands.html', context)
+    return render(request, 'brands/brands.html', context)
