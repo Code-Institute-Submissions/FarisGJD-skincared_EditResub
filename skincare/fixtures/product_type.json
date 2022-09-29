@@ -1,7 +1,7 @@
 [
     {
         "pk": 1,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "cleanser",
             "friendly_name": "Cleanser", 
@@ -11,7 +11,7 @@
     },
     {
         "pk": 2,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "exfoliator",
             "friendly_name": "Exfoliator", 
@@ -21,7 +21,7 @@
     },
     {
         "pk": 3,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "toner",
             "friendly_name": "Toner", 
@@ -31,7 +31,7 @@
     },
     {
         "pk": 4,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "essence",
             "friendly_name": "Essence", 
@@ -41,7 +41,7 @@
     },
     {
         "pk": 5,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "mist",
             "friendly_name": "Mist", 
@@ -51,7 +51,7 @@
     },
     {
         "pk": 6,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "serum",
             "friendly_name": "Serum", 
@@ -61,7 +61,7 @@
     },
     {
         "pk": 7,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "ampoule",
             "friendly_name": "Ampoule", 
@@ -71,7 +71,7 @@
     },
     {
         "pk": 8,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "eye_care",
             "friendly_name": "Eye Care", 
@@ -81,7 +81,7 @@
     },
     {
         "pk": 9,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "lip_care",
             "friendly_name": "Lip Care", 
@@ -91,7 +91,7 @@
     },
     {
         "pk": 10,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "treatment",
             "friendly_name": "Treatment", 
@@ -101,7 +101,7 @@
     },
     {
         "pk": 11,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "moisturiser",
             "friendly_name": "Moisturiser", 
@@ -111,7 +111,7 @@
     },
     {
         "pk": 12,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "sunscreen",
             "friendly_name": "Sunscreen", 
@@ -121,7 +121,7 @@
     },
     {
         "pk": 13,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "body_cleanser",
             "friendly_name": "Body Cleanser", 
@@ -131,7 +131,7 @@
     },
     {
         "pk": 14,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "body_moisturiser",
             "friendly_name": "Body Moisturiser", 
@@ -141,7 +141,7 @@
     },
     {
         "pk": 15,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "hand_care",
             "friendly_name": "Hand Care", 
@@ -151,7 +151,7 @@
     },
     {
         "pk": 16,
-        "model": "products.productType", 
+        "model": "skincare.productType", 
         "fields": {
             "name": "foot_care",
             "friendly_name": "Foot Care", 
