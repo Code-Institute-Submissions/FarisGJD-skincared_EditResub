@@ -1,7 +1,7 @@
 [
     {
         "pk": 1,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "make_prem",
             "friendly_name": "make p:rem",
@@ -12,7 +12,7 @@
     },
     {
         "pk": 2,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "sioris",
             "friendly_name": "Sioris",
@@ -23,7 +23,7 @@
     },
     {
         "pk": 3,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "dewytree",
             "friendly_name": "DEWYTREE",
@@ -34,7 +34,7 @@
     },
     {
         "pk": 4,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "la_roche_posay",
             "friendly_name": "La Roche-Posay",
@@ -45,7 +45,7 @@
     },
     {
         "pk": 5,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "laneige",
             "friendly_name": "LANEIGE",
@@ -56,7 +56,7 @@
     },
     {
         "pk": 6,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "innisfree",
             "friendly_name": "innisfree",
@@ -67,7 +67,7 @@
     },
     {
         "pk": 7,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "cerave",
             "friendly_name": "CeraVe",
@@ -78,7 +78,7 @@
     },
     {
         "pk": 8,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "the_inkey_list",
             "friendly_name": "The INKEY List",
@@ -89,7 +89,7 @@
     },
     {
         "pk": 9,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "cosrx",
             "friendly_name": "COSRX",
@@ -100,7 +100,7 @@
     },
     {
         "pk": 10,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "krave",
             "friendly_name": "Krave",
@@ -111,7 +111,7 @@
     },
     {
         "pk": 11,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "haruharu_wonder",
             "friendly_name": "Haruharu WONDER",
@@ -122,7 +122,7 @@
     },
     {
         "pk": 12,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "rovectin",
             "friendly_name": "ROVECTIN",
@@ -133,7 +133,7 @@
     },
     {
         "pk": 13,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "by_wishtrend",
             "friendly_name": "ByWishtrend",
@@ -144,7 +144,7 @@
     },
     {
         "pk": 14,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "tosowoong",
             "friendly_name": "TOSOWOONG",
@@ -155,7 +155,7 @@
     },
     {
         "pk": 15,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "papa_recipe",
             "friendly_name": "PAPA RECIPE",
@@ -166,7 +166,7 @@
     },
     {
         "pk": 16,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "petitfee",
             "friendly_name": "PETITFEE",
@@ -177,7 +177,7 @@
     },
     {
         "pk": 17,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "banila_co",
             "friendly_name": "BANILA CO",
@@ -188,7 +188,7 @@
     },
     {
         "pk": 18,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "farmacy",
             "friendly_name": "FARMACY",
@@ -199,7 +199,7 @@
     },
     {
         "pk": 19,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "hemish",
             "friendly_name": "hemish",
@@ -210,7 +210,7 @@
     },
     {
         "pk": 20,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "rohto_mentholatum",
             "friendly_name": "Rohto Mentholatum",
@@ -221,7 +221,7 @@
     },
     {
         "pk": 21,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "purito",
             "friendly_name": "PURITO",
@@ -232,7 +232,7 @@
     },
     {
         "pk": 22,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "dear_klaris",
             "friendly_name": "Dear, Klaris",
@@ -243,7 +243,7 @@
     },
     {
         "pk": 23,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "deciem",
             "friendly_name": "DECIEM",
@@ -254,7 +254,7 @@
     },
     {
         "pk": 24,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "paulas_choice",
             "friendly_name": "Paula’s Choice",
@@ -265,7 +265,7 @@
     },
     {
         "pk": 25,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "facetheory",
             "friendly_name": "facetheory",
@@ -276,7 +276,7 @@
     },
     {
         "pk": 26,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "missha",
             "friendly_name": "MISSHA",
@@ -287,7 +287,7 @@
     },
     {
         "pk": 27,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "im_from",
             "friendly_name": "I’m From",
@@ -298,7 +298,7 @@
     },
     {
         "pk": 28,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "tonymoly",
             "friendly_name": "TONYMOLY",
@@ -309,7 +309,7 @@
     },
     {
         "pk": 29,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "pyunkang_yul",
             "friendly_name": "Pyunkang Yul",
@@ -320,7 +320,7 @@
     },
     {
         "pk": 30,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "beauty_of_joseon",
             "friendly_name": "BEAUTY OF JOSEON",
@@ -331,7 +331,7 @@
     },
     {
         "pk": 31,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "sk-ii",
             "friendly_name": "SK-II",
@@ -342,7 +342,7 @@
     },
     {
         "pk": 32,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "primeria",
             "friendly_name": "primeria",
@@ -353,7 +353,7 @@
     },
     {
         "pk": 33,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "scinic",
             "friendly_name": "SCINIC",
@@ -364,7 +364,7 @@
     },
     {
         "pk": 34,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "neogen_dermology",
             "friendly_name": "NEOGEN DERMALOGY",
@@ -375,7 +375,7 @@
     },
     {
         "pk": 35,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "tiam",
             "friendly_name": "TIA’M",
@@ -386,7 +386,7 @@
     },
     {
         "pk": 36,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "etude_house",
             "friendly_name": "ETUDE HOUSE",
@@ -397,7 +397,7 @@
     },
     {
         "pk": 37,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "dr_ceuracle",
             "friendly_name": "Dr. Ceuracle",
@@ -408,7 +408,7 @@
     },
     {
         "pk": 38,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "some_by_mi",
             "friendly_name": "SOME BY MI",
@@ -419,7 +419,7 @@
     },
     {
         "pk": 39,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "skinceuticals",
             "friendly_name": "SKINCEUTICALS",
@@ -430,7 +430,7 @@
     },
     {
         "pk": 40,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "perricone_md",
             "friendly_name": "Perricone MD",
@@ -441,7 +441,7 @@
     },
     {
         "pk": 41,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "ample_n",
             "friendly_name": "AMPLE:N",
@@ -452,7 +452,7 @@
     },
     {
         "pk": 42,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "isntree",
             "friendly_name": "Isntree",
@@ -463,7 +463,7 @@
     },
     {
         "pk": 43,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "the_lab_by_blacn_doux",
             "friendly_name": "The Lab by blanc doux",
@@ -474,7 +474,7 @@
     },
     {
         "pk": 44,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "skin_1004",
             "friendly_name": "SKIN1004",
@@ -485,7 +485,7 @@
     },
     {
         "pk": 45,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "drunk_elephant",
             "friendly_name": "Drunk Elephant",
@@ -496,7 +496,7 @@
     },
     {
         "pk": 46,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "versed",
             "friendly_name": "Versed",
@@ -507,7 +507,7 @@
     },
     {
         "pk": 47,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "benton",
             "friendly_name": "Benton",
@@ -518,7 +518,7 @@
     },
     {
         "pk": 48,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "eucerin",
             "friendly_name": "Eucerin",
@@ -529,7 +529,7 @@
     },
     {
         "pk": 49,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "necessaire",
             "friendly_name": "Nécessaire",
@@ -540,7 +540,7 @@
     },
     {
         "pk": 50,
-        "model": "skincare.brands", 
+        "model": "products.brand", 
         "fields": {
             "name": "illiyoon",
             "friendly_name": "ILLIYOON",
