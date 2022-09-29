@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="brands-header">
+    <h2>BRANDS</h2>
+    <hr>
+    <hr>
+    <hr>
+</div>
+
+<div class="brands-list-container">
+    {% for brand in brands %}
+    <a href="">
+        <div class="brands-list">
+            {{brand.friendly_name}}
+        </div>
+    </a>
+    {% endfor %}
+</div>
+{% endblock %}
