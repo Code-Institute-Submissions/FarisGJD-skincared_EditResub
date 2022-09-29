@@ -19,7 +19,7 @@ def all_brands(request):
     """ A view to render all products aswell as sorting and seraching """
 
     brands = Brand.objects.all()
-
+    
     context = {
         'brands': brands,
     }
