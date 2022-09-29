@@ -1,7 +1,7 @@
 [
     {
         "pk":1,
-        "model":"products.skincare",
+        "model":"skincare.skincare",
         "fields":{
             "brand": 1,
             "about": "Adopting the Nordic lagom concept meaning “just the right amount”, Korean brand make p:rem simplifies skin care routines with its multifunctional products. The brand’s collection uses highly pure natural ingredients like Arctic raspberry extract, Finnish birch sap and peat water from Denmark, and counts on the brand’s patented Micro Trans Moisture Technology to effectively deliver them into skin. Packaging and ingredient quantity are kept minimal, reflecting the 'just right' philosophy. All products are made in Korea.",
@@ -27,7 +27,7 @@
      }, 
      {
         "pk":2,
-        "model":"products.skincare",
+        "model":"skincare.skincare",
         "fields":{
             "brand": 2,
             "about": "Green beauty brand Sioris name combines the words “simple” and “original.” Following a “Fresh, Safe, Honest” philosophy, Sioris sources organic ingredients from local farms to create cruelty-free formulas without petrochemicals, and ensure peak freshness and efficacy. About 70% of its products are certified COSMOS organic. Sioris’s skin care products all have tongue-in-cheek names, including the brand’s bestsellers Time Is Running Out Mist, Cleanse Me Softly Milk cleanser, and A Calming Day Ampoule. All products from Sioris are 100% made in Korea.",
@@ -53,7 +53,7 @@
      },
      {
       "pk":3,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 3,
           "about": "DEWYTREE is inspired by the crystal-clear image of dewdrops and the vitality of trees. The brand's name and its slogan, 'Nature Recipe,' also represent its commitment to using only fresh ingredients that are fully disclosed for customer benefit. All DEWYTREE products are dermatologist-tested and entirely manufactured in Korea.",
@@ -79,7 +79,7 @@
    },
    {
       "pk":4,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 4,
           "about": "La Roche-Posay is the number 1 dermocosmetic brand worldwide, recommended by 90,000 dermatologists. Driven by our values of courage, commitment and love, we partner with dermatologists and experts to design innovative skincare solutions for the most fragile skin and be useful to people.",
@@ -105,7 +105,7 @@
    },
    {
       "pk":5,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 5,
           "about": "LANEIGE products combine modern technology and high-quality ingredients to reveal clear, youthful beauty. Deriving its name from the French word for “snow,” the Korean beauty brand emphasizes the importance of water, applying Water Science technology to create skin care products that give skin hydration. LANEIGE's Cream Skin Refiner toner and mist, Water Sleeping Mask and Water Bank Moisture Essence are among the brand's perennial skin care bestsellers. A part of Amorepacific group, LANEIGE is also well known for lip care thanks to its famous Lip Sleeping Mask and the Layering Lip Bar, a Korean makeup go-to for gradient lips.",
@@ -131,7 +131,7 @@
    },
    {
       "pk":6,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 6,
           "about": "Innisfree offers Korean skin care that harmoniously combines pure and natural ingredients with an eco-friendly philosophy. From pore-clearing clay masks with super volcanic clusters to intensive hydrating eye creams, the Korean beauty brand's vast array of skin care and makeup products make use of vegetable, fruit and mineral ingredients, such as green tea, marine seaweed, black tea, cherry blossom and volcanic clay from South Korea's mineral-rich Jeju Island. innisfree engages in fair trade practices to promote higher environmental standards and sustainability. Some of the brand's bestsellers include the Super Volcanic Pore Clay Mask 2X, Green Tea Seed Serum, Canola Honey Lip Balm and No Sebum Mineral Powder. The innisfree Jeju Orchid, Blueberry Rebalancing and My Real Squeeze Mask lines are also very popular with customers.",
@@ -157,7 +157,7 @@
    },
    {
       "pk":7,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 7,
           "about": "The formulation of skin-identical ceramides with MultiVesicular Emulsion Technology (MVE) was the birth of CeraVe. CeraVe have the only line of skincare products with a unique blend of three essential ceramides, plus patented MVE technology that gradually releases our ceramide-enriched formula over an extended period of time. MVE is like a sphere with a series of layers that slowly dissolves, releasing the ingredients into your skin. The product continues to work after it is applied, hydrating your skin all day in just one use. This system—along with their unique combination of skin-identical ceramides—helps replenish your skin’s existing ceramides, relieves dry skin by reducing moisture loss, increases hydration and helps restore the skin barrier.",
@@ -183,7 +183,7 @@
    },
    {
       "pk":8,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 7,
           "about": "The formulation of skin-identical ceramides with MultiVesicular Emulsion Technology (MVE) was the birth of CeraVe. CeraVe have the only line of skincare products with a unique blend of three essential ceramides, plus patented MVE technology that gradually releases our ceramide-enriched formula over an extended period of time. MVE is like a sphere with a series of layers that slowly dissolves, releasing the ingredients into your skin. The product continues to work after it is applied, hydrating your skin all day in just one use. This system—along with their unique combination of skin-identical ceramides—helps replenish your skin’s existing ceramides, relieves dry skin by reducing moisture loss, increases hydration and helps restore the skin barrier.",
@@ -209,7 +209,7 @@
    },
    {
       "pk":9,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 7,
           "about": "The formulation of skin-identical ceramides with MultiVesicular Emulsion Technology (MVE) was the birth of CeraVe. CeraVe have the only line of skincare products with a unique blend of three essential ceramides, plus patented MVE technology that gradually releases our ceramide-enriched formula over an extended period of time. MVE is like a sphere with a series of layers that slowly dissolves, releasing the ingredients into your skin. The product continues to work after it is applied, hydrating your skin all day in just one use. This system—along with their unique combination of skin-identical ceramides—helps replenish your skin’s existing ceramides, relieves dry skin by reducing moisture loss, increases hydration and helps restore the skin barrier.",
@@ -235,7 +235,7 @@
    },
    {
       "pk":10,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 7,
           "about": "The formulation of skin-identical ceramides with MultiVesicular Emulsion Technology (MVE) was the birth of CeraVe. CeraVe have the only line of skincare products with a unique blend of three essential ceramides, plus patented MVE technology that gradually releases our ceramide-enriched formula over an extended period of time. MVE is like a sphere with a series of layers that slowly dissolves, releasing the ingredients into your skin. The product continues to work after it is applied, hydrating your skin all day in just one use. This system—along with their unique combination of skin-identical ceramides—helps replenish your skin’s existing ceramides, relieves dry skin by reducing moisture loss, increases hydration and helps restore the skin barrier.",
@@ -261,7 +261,7 @@
    },
    {
       "pk":11,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 8,
           "about": "The INKEY List’s aim is simple: break through beauty jargon to deliver a straightforward take on the most-wanted ingredients in {skin care} (right up our street). A succinct collection of hero products formulated by a crack team of experts and scientists, this range incorporates all the industry heavy-hitters – from retinol to hyaluronic acid – and allows you to customise your regime to suit your skin’s ever-changing needs. The products contain as few ingredients as possible, all of the highest quality and at ‘give-it-a-go’ prices.",
@@ -287,7 +287,7 @@
    },
    {
       "pk":12,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 8,
           "about": "The INKEY List’s aim is simple: break through beauty jargon to deliver a straightforward take on the most-wanted ingredients in {skin care} (right up our street). A succinct collection of hero products formulated by a crack team of experts and scientists, this range incorporates all the industry heavy-hitters – from retinol to hyaluronic acid – and allows you to customise your regime to suit your skin’s ever-changing needs. The products contain as few ingredients as possible, all of the highest quality and at ‘give-it-a-go’ prices.",
@@ -313,7 +313,7 @@
    },
    {
       "pk":13,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 9,
           "about": "COSRX utilizes its 10 years of experience to continuously deliver functional, ingredient-rich cosmetics. The brand takes its name from the word 'cosmetics' and the symbol 'RX' (denoting 'prescription') to affirm its commitment to creating effective, affordable and skin-friendly products. COSRX is known for its short ingredients list that features high quality and effective extracts and compounds that help trouble-prone, dry and dehydrated skin, as well as aging and sensitive skin. All COSRX products are 100% made in Korea and cruelty-free.",
@@ -339,7 +339,7 @@
    },
    {
       "pk":14,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 10,
           "about": "Skincare should be as easy and as intuitive as feeding your body what it’s craving. Skincare should be fun and a form of self-care, not something that causes you to stress to breakout even more! That’s where we come in. We want to help you #PressReset on your current skincare routine and uncomplicate the industry by providing you with the bare essentials and teaching you to listen to your skin’s true cravings. KraveBeauty was founded by beauty influencer, Liah Yoo, to fight the ineffective yet conventional skincare routine that has carelessly trained us to apply more than what our skin actually needs. We create skincare products that work with your skin, not against it.",
@@ -365,7 +365,7 @@
    },
    {
       "pk":15,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 11,
           "about": "With a name that means “every day” in Korean, it's no wonder that skin care brand Haruharu WONDER wishes to be involved in every step of a customer's daily life – whether that means enhancing their natural beauty, supporting their healthy lifestyles or helping them maintain youthful, radiant skin. The brand’s solutions are made from carefully selected, EWG-verified ingredients, of which a minimum of 95% are naturally derived. Products also make use of patented Ultra Deep Technology to enable active ingredients to be effectively delivered to skin. Haruharu WONDER focuses on two main lines: the Black Rice Line and Original Line. Packaging from the Black Rice Line incorporates the elegant contours of its key ingredient black rice grain, while the Original Line’s containers are designed to resemble takeout coffee cups in hopes that these items will help customers kick start their day with an energy boost. Bestsellers include the Black Rice Hyaluronic Cream, which supplies nutrition and hydration; Black Rice Hyaluronic Toner, which strengthens the skin barrier for revitalization; and Black Bamboo Mist, which cools and refreshes dull and fatigued skin. All Haruharu WONDER products are 100% made in Korea.",
@@ -391,7 +391,7 @@
    },
    {
       "pk":16,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 12,
           "about": "ROVECTIN offers a complete range of skin care products to transform and restore skin. The brand's Anti-Irritant line offers relief to dry, aging and sensitive skin, and includes the bestselling Anti-Irritant Barrier Repair Ultra Cream. The Skin Essentials collection is designed for everyday use and features the popular Skin Essentials Barrier Repair Face Oil. Currently manufactured in the US and Korea, all ROVECTIN products use only high-quality, hypoallergenic ingredients, and are formulated without fragrances, artificial colorants, parabens or other harmful compounds.",
@@ -417,7 +417,7 @@
    },
    {
       "pk":17,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 13,
           "about": "Part of the leading K-Beauty company Wishtrend, Korean skin care brand ByWishtrend offers a range of products that target various skin concerns for healthy skin. Highlights include the Green Tea & Enzyme Powder Wash, a gentle exfoliating face wash suitable for any skin type, including combination skin and sensitive skin. Also popular are ByWishtrend’s Vitamin C products targeting dullness, lack of elasticity and pigmentation. The cruelty-free brand's bestsellers include the Pure Vitamin C 21.5% Advanced Serum, Natural Vitamin 21.5% Enhancing Sheet Mask and Vitamin 75 Maximizing Cream, all of which are 100% Korea-made.",
@@ -443,7 +443,7 @@
    },
    {
       "pk":18,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 14,
           "about": "Exclusively made in Korea, TOSOWOONG carries a range of cosmetics designed for whitening, anti-aging and other skin concerns. Launched in 2004, the brand extensively tests each product for six months to ensure optimum results.",
@@ -469,7 +469,7 @@
    },
    {
       "pk":19,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 15,
           "about": "Papa recipe’s story began with a father in Korea who created the Organic Jojoba Oil for his daughter suffering from troubled skin. Established in 2012, the skin care brand has continued to develop its “true recipe” to achieve beautiful skin. papa recipe is known for its BomBee Honey line, which nourishes and moisturizes skin with all-natural manuka honey, propolis and royal jelly extracts. All of the brand’s products are cruelty free and safe to use by children and pregnant women.",
@@ -495,7 +495,7 @@
    },
    {
       "pk":20,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 16,
           "about": "Founded by NS Retail Co., Ltd. in 2007, PETITFEE specializes in daily facial and body care products that promote skin resilience and vitality. Getting its name from the French words 'petit fée,' which means 'tiny fairy,' the brand develops its avant-garde products from hydrogel, the jelly form of water that deeply moisturizes skin. The Gold & EGF Eye & Spot Patch, Gold Neck Cream and Gold & EGF Hydro Gel Mask Pack are among some of its bestsellers. koelf is a sister brand of PETITFEE. Meaning 'Korean elf,' the brand carries cosmetics, facial and body care products for women in their twenties. All PETITFEE and koelf products are 100% made in Korea).",
@@ -521,7 +521,7 @@
    },
    {
       "pk":21,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 17,
           "about": "Launched in 2005, Korean cosmetics brand BANILA CO believes great skin is the best base for great makeup. The brand's skin care and makeup collections are designed to work seamlessly together to help achieve flawless skin that looks natural and beautiful, with or without makeup.",
@@ -547,7 +547,7 @@
    },
    {
       "pk":22,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 18,
           "about": "FARMACY are pioneering the farm-to-face {skin care} philosophy to give you that lit-from-within radiant skin, naturally. Their potent formulas deliver real results to real skin. Rooted in skin science and powered by farm-sourced ingredients, they nourish, nurture and rebalance your complexion from the inside out. It’s the clean, cruelty-free range your shelf has been missing.",
@@ -573,7 +573,7 @@
    },
    {
       "pk":23,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 9,
           "about": "COSRX utilizes its 10 years of experience to continuously deliver functional, ingredient-rich cosmetics. The brand takes its name from the word 'cosmetics' and the symbol 'RX' (denoting 'prescription') to affirm its commitment to creating effective, affordable and skin-friendly products. COSRX is known for its short ingredients list that features high quality and effective extracts and compounds that help trouble-prone, dry and dehydrated skin, as well as aging and sensitive skin. All COSRX products are 100% made in Korea and cruelty-free.",
@@ -599,7 +599,7 @@
    },
    {
       "pk":24,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 19,
           "about": "Launched in 2016, heimish focuses primarily on makeup in neutral shades suitable for everyday wear. The brand's range of colours and attractive packaging appeal to the modern woman who want a refreshing yet natural look. All heimish products are cruelty-free, made without parabens and manufactured in Korea.",
@@ -625,7 +625,7 @@
    },
    {
       "pk":25,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 8,
           "about": "The INKEY List’s aim is simple: break through beauty jargon to deliver a straightforward take on the most-wanted ingredients in {skin care} (right up our street). A succinct collection of hero products formulated by a crack team of experts and scientists, this range incorporates all the industry heavy-hitters – from retinol to hyaluronic acid – and allows you to customise your regime to suit your skin’s ever-changing needs. The products contain as few ingredients as possible, all of the highest quality and at ‘give-it-a-go’ prices.",
@@ -651,7 +651,7 @@
    },
    {
       "pk":26,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 20,
           "about": "Rohto Pharmaceutical has been offering beauty products, non-prescription drugs and supplements made from exclusive and effective formulas since its launch of Ikatsu, a gastrointestinal medicine in 1899. The Japan-based company acquired US company Mentholatum in 1988 and now owns a number of well-known brands, including Haba Labo, OXY, Acnes, Rohto Eye Drops, Mentholatum, Lipice and Sunplay. Hada Labo is a global cult favorite with its collection of moisturizing cleansers, toners and creams. OXY and Acnes provide treatments for troubled skin, Rohto Eye Drops aid with eye care, and Mentholatum offers health and bodycare products like ointments and medicated lip balms.",
@@ -677,7 +677,7 @@
    },
    {
       "pk":27,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 21,
           "about": "Korean skin care brand PURITO uses the English word “purify” and the Korean word for “soil” as inspirations for its name and principles. Eco-friendly and cruelty-free, PURITO constantly strives to improve its hypoallergenic, chemical-free and affordable products. The brand uses natural ingredients in its skin care range which is made in Korea. All items are gentle enough to be used on sensitized skin including the popular Daily Go-To Sunscreen, which is composed of chemical and mineral filters to provide broad spectrum SPF 50+ PA++++ UV protection. Infused with centella asiatica extract, it soothes skin without leaving a white cast. Other bestsellers include the Cica Clearing BB Cream, Fermented Complex 94 Boosting Essence, Centella Green Level Recovery Cream, Centella Green Level Buffet Serum and Centella Unscented Serum.",
@@ -703,7 +703,7 @@
    },
    {
       "pk":28,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 22,
           "about": "Dear, Klairs is a Korean beauty brand that strives for simplicity. Established in 2010, the cruelty-free, sensitive skin-friendly brand offers skin care products made with the simplest ingredients, and free of colorants, alcohols, parabens and artificial fragrances. Dear, Klairs products incorporate easily into any daily skin care routine. Its vegan oil cleansers, Gentle Black Fresh Cleansing Oil and Gentle Black Deep Cleansing Oil, provide a first cleanse suitable for any skin type including oily skin.",
@@ -729,7 +729,7 @@
    },
    {
       "pk":29,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 23,
           "about": "The Ordinary is an evolving collection of treatments offering familiar, effective clinical technologies positioned to raise pricing and communication integrity in skincare. The brand was created to celebrate integrity in its most humble and true form. Its offering is pioneering, not in the familiar technologies it uses, but in its honesty and integrity. The Ordinary is born to disallow commodity to be disguised as ingenuity. The Ordinary is ‘Clinical formulations with integrity’.",
@@ -755,7 +755,7 @@
    }, 
    {
       "pk":30,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 23,
           "about": "The Ordinary is an evolving collection of treatments offering familiar, effective clinical technologies positioned to raise pricing and communication integrity in skincare. The brand was created to celebrate integrity in its most humble and true form. Its offering is pioneering, not in the familiar technologies it uses, but in its honesty and integrity. The Ordinary is born to disallow commodity to be disguised as ingenuity. The Ordinary is ‘Clinical formulations with integrity’.",
@@ -781,7 +781,7 @@
    },
    {
       "pk":31,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 23,
           "about": "The Ordinary is an evolving collection of treatments offering familiar, effective clinical technologies positioned to raise pricing and communication integrity in skincare. The brand was created to celebrate integrity in its most humble and true form. Its offering is pioneering, not in the familiar technologies it uses, but in its honesty and integrity. The Ordinary is born to disallow commodity to be disguised as ingenuity. The Ordinary is ‘Clinical formulations with integrity’.",
@@ -807,7 +807,7 @@
    },
    {
       "pk":32,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 13,
           "about": "Part of the leading K-Beauty company Wishtrend, Korean skin care brand ByWishtrend offers a range of products that target various skin concerns for healthy skin. Highlights include the Green Tea & Enzyme Powder Wash, a gentle exfoliating face wash suitable for any skin type, including combination skin and sensitive skin. Also popular are ByWishtrend’s Vitamin C products targeting dullness, lack of elasticity and pigmentation. The cruelty-free brand's bestsellers include the Pure Vitamin C 21.5% Advanced Serum, Natural Vitamin 21.5% Enhancing Sheet Mask and Vitamin 75 Maximizing Cream, all of which are 100% Korea-made.",
@@ -833,7 +833,7 @@
    },
    {
       "pk":33,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 9,
           "about": "COSRX utilizes its 10 years of experience to continuously deliver functional, ingredient-rich cosmetics. The brand takes its name from the word 'cosmetics' and the symbol 'RX' (denoting 'prescription') to affirm its commitment to creating effective, affordable and skin-friendly products. COSRX is known for its short ingredients list that features high quality and effective extracts and compounds that help trouble-prone, dry and dehydrated skin, as well as aging and sensitive skin. All COSRX products are 100% made in Korea and cruelty-free.",
@@ -859,7 +859,7 @@
    },
    {
       "pk":34,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 18,
           "about": "FARMACY are pioneering the farm-to-face {skin care} philosophy to give you that lit-from-within radiant skin, naturally. Their potent formulas deliver real results to real skin. Rooted in skin science and powered by farm-sourced ingredients, they nourish, nurture and rebalance your complexion from the inside out. It’s the clean, cruelty-free range your shelf has been missing.",
@@ -885,7 +885,7 @@
    },
    {
       "pk":35,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 24,
           "about": "Renowned for being 100% transparent and a trustworthy leader in the beauty industry, PAULA'S CHOICE challenge ideas, beliefs and myths surrounding products and ingredients to help empower their fans. Cutting through the noise, the brand has become a reliable source for providing Holy Grail skin care products that work to create a hardworking routine that will deliver results. Backed by science, environmentally conscious, never animal-tested and packed for potency, these highly-effective formulas deserve a place in your go-to routine, stat.",
@@ -911,7 +911,7 @@
    },
    {
       "pk":36,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 25,
           "about": "Facetheory believe that beauty shouldn't cost the earth or causes harm to people, animals or the planet, which is why they are Leaping Bunny and PETA approved.  Leaping Bunny is recognised as the international gold standard for cruelty-free products, and facetheroy adhere to a fixed cut-off date policy and proactively monitor their suppliers to ensure that their products continue to adhere to Leaping Bunny criteria. There supplier monitoring system is also independently audited in line with Leaping Bunny requirements.",
@@ -937,7 +937,7 @@
    },
    {
       "pk":37,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 9,
           "about": "COSRX utilizes its 10 years of experience to continuously deliver functional, ingredient-rich cosmetics. The brand takes its name from the word 'cosmetics' and the symbol 'RX' (denoting 'prescription') to affirm its commitment to creating effective, affordable and skin-friendly products. COSRX is known for its short ingredients list that features high quality and effective extracts and compounds that help trouble-prone, dry and dehydrated skin, as well as aging and sensitive skin. All COSRX products are 100% made in Korea and cruelty-free.",
@@ -963,7 +963,7 @@
    },
    {
       "pk":38,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 9,
           "about": "COSRX utilizes its 10 years of experience to continuously deliver functional, ingredient-rich cosmetics. The brand takes its name from the word 'cosmetics' and the symbol 'RX' (denoting 'prescription') to affirm its commitment to creating effective, affordable and skin-friendly products. COSRX is known for its short ingredients list that features high quality and effective extracts and compounds that help trouble-prone, dry and dehydrated skin, as well as aging and sensitive skin. All COSRX products are 100% made in Korea and cruelty-free.",
@@ -989,7 +989,7 @@
    },
    {
       "pk":39,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 26,
           "about": "Korean beauty brand MISSHA offers a vast variety of products such as skin care, makeup, hair care and foot care lines. MISSHA makes affordable and high-quality beauty products within reach of people everywhere. In skin care, popular items include anti-aging products like the Time Revolution Night Repair Ampoule 5X and The First Treatment Essence, as well as rich moisturizers like the Super Aqua Ultra Hyalron Cream and the Super Aqua Cell Renew Snail Cream.",
@@ -1015,7 +1015,7 @@
    },
    {
       "pk":40,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 23,
           "about": "In the business of beauty, perception is more powerful than reality and it is for this reason that brands—especially those in functional beauty—prioritize what they say ahead of what they do. The science of skin health has evolved vastly—truly advanced technologies exist today that are very complex to use and even more complex to explain. Our humility and persistence have allowed us to create NIOD with only a single genetic commitment—to be at the very edge of science without regard to brands, trends, criticisms and words. commitment means that NIOD will always have a very narrow audience that appreciates a genuine commitment to true quality and innovation—an audience not inspired by marketing or pricing strategies, but instead by truth and accountability.",
@@ -1041,7 +1041,7 @@
    },
    {
       "pk":41,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 5,
           "about": "LANEIGE products combine modern technology and high-quality ingredients to reveal clear, youthful beauty. Deriving its name from the French word for “snow,” the Korean beauty brand emphasizes the importance of water, applying Water Science technology to create skin care products that give skin hydration. LANEIGE's Cream Skin Refiner toner and mist, Water Sleeping Mask and Water Bank Moisture Essence are among the brand's perennial skin care bestsellers. A part of Amorepacific group, LANEIGE is also well known for lip care thanks to its famous Lip Sleeping Mask and the Layering Lip Bar, a Korean makeup go-to for gradient lips.",
@@ -1067,7 +1067,7 @@
    },
    {
       "pk":42,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 11,
           "about": "With a name that means “every day” in Korean, it's no wonder that skin care brand Haruharu WONDER wishes to be involved in every step of a customer's daily life – whether that means enhancing their natural beauty, supporting their healthy lifestyles or helping them maintain youthful, radiant skin. The brand’s solutions are made from carefully selected, EWG-verified ingredients, of which a minimum of 95% are naturally derived. Products also make use of patented Ultra Deep Technology to enable active ingredients to be effectively delivered to skin. Haruharu WONDER focuses on two main lines: the Black Rice Line and Original Line. Packaging from the Black Rice Line incorporates the elegant contours of its key ingredient black rice grain, while the Original Line’s containers are designed to resemble takeout coffee cups in hopes that these items will help customers kick start their day with an energy boost. Bestsellers include the Black Rice Hyaluronic Cream, which supplies nutrition and hydration; Black Rice Hyaluronic Toner, which strengthens the skin barrier for revitalization; and Black Bamboo Mist, which cools and refreshes dull and fatigued skin. All Haruharu WONDER products are 100% made in Korea.",
@@ -1093,7 +1093,7 @@
    },
    {
       "pk":43,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 27,
           "about": "Skin care brand I'm from distinguishes itself from other beauty labels with its philosophy of transparency. Each product proudly lists all its ingredients, as well as the origin of its primary ingredient, and the name of the farm where it was harvested. A sister brand of SKIN&LAB and CHICA Y CHICO, I'm from manufactures all its products in Korea, including its popular Honey Mask, Volcanic Mask and Ginseng Serum.",
@@ -1119,7 +1119,7 @@
    },
    {
       "pk":44,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 22,
           "about": "Dear, Klairs is a Korean beauty brand that strives for simplicity. Established in 2010, the cruelty-free, sensitive skin-friendly brand offers skin care products made with the simplest ingredients, and free of colorants, alcohols, parabens and artificial fragrances. Dear, Klairs products incorporate easily into any daily skin care routine. Its vegan oil cleansers, Gentle Black Fresh Cleansing Oil and Gentle Black Deep Cleansing Oil, provide a first cleanse suitable for any skin type including oily skin.",
@@ -1145,7 +1145,7 @@
    },
    {
       "pk":45,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 5,
           "about": "LANEIGE products combine modern technology and high-quality ingredients to reveal clear, youthful beauty. Deriving its name from the French word for “snow,” the Korean beauty brand emphasizes the importance of water, applying Water Science technology to create skin care products that give skin hydration. LANEIGE's Cream Skin Refiner toner and mist, Water Sleeping Mask and Water Bank Moisture Essence are among the brand's perennial skin care bestsellers. A part of Amorepacific group, LANEIGE is also well known for lip care thanks to its famous Lip Sleeping Mask and the Layering Lip Bar, a Korean makeup go-to for gradient lips.",
@@ -1171,7 +1171,7 @@
    },
    {
       "pk":46,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 9,
           "about": "COSRX utilizes its 10 years of experience to continuously deliver functional, ingredient-rich cosmetics. The brand takes its name from the word 'cosmetics' and the symbol 'RX' (denoting 'prescription') to affirm its commitment to creating effective, affordable and skin-friendly products. COSRX is known for its short ingredients list that features high quality and effective extracts and compounds that help trouble-prone, dry and dehydrated skin, as well as aging and sensitive skin. All COSRX products are 100% made in Korea and cruelty-free.",
@@ -1197,7 +1197,7 @@
    },
    {
       "pk":47,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 28,
           "about": "Korean skin care and cosmetics brand TONYMOLY aims to be the premier source of skin care with its high-quality products packed with natural ingredients like tea tree, strawberry seeds and black tea to treat various skin concerns. TONYMOLY prides itself on being at the forefront of Korean beauty with one-of-a-kind packaging and high-profile Korean celebrities as spokespersons. TONYMOLY skin care bestsellers include antioxidant-rich products from the Chok Chok Green Tea collection, such as the Chok Chok Green Tea Watery Cream, while popular makeup items include lip tints like the Perfect Lips Shocking Lip. Other TONYMOLY products designed to deliver an instant moisture boost include the Wheat Sprout Biome Concentrate Serum and Magic Food Banana Sleeping Pack.",
@@ -1223,7 +1223,7 @@
    },
    {
       "pk":48,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 35,
           "about": "TIA'M means 'a twinkle in the eye when you meet someone for the first time' in Persian. A Korean skin care brand, TIA'M uses safe and natural ingredients to produce effective and affordable products that improve skin from within. The brand is famous for its Spot Remover Kit, Anti-Pollution Salt Facial Scrub, My Little Pore No Sebum Cream and Aura Milk Face Peeling Cream. All products are manufactured in Korea.",
@@ -1249,7 +1249,7 @@
    },
    {
       "pk":49,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 36,
           "about": "ETUDE, formerly known as Etude House, offers high-quality skin care and cosmetics at affordable prices. Created with young women in mind, the Korean beauty brand's items come in a wide colour palette and whimsical packaging. ETUDE prides itself on playful makeup, especially lip tints like the Dear Darling Water Gel Tint and eye makeup like the Play Colour Eyes eye shadows and Drawing Eye Brow liners. In skin care, ETUDE is known for the Moistful Collagen line and the Soon Jung line, which includes the 2x Barrier Intensive Cream and pH 5.5 Relief Toner for sensitive skin. The brand also has an impressive collection of hand, body and foot care products, not to mention hair and makeup tools in adorable designs. Products from ETUDE are made in Korea with the exception of some of its eyebrow pencils, accessories, beauty tools and nail products.",
@@ -1275,7 +1275,7 @@
    },
    {
       "pk":50,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 29,
           "about": "Korean skin care brand Pyunkang Yul was established in March 2016 by Pyunkang Korean Medicine Hospital, a traditional medicine clinic known for treating atopic skin disorders. Adhering to a philosophy of holistic body wellness, Pyunkang Yul believes healthy skin is attained by maintaining its oil and moisture balance. The Korean beauty brand avoids unnecessary chemical substances in its products, using only natural ingredients that are most gentle on the skin. Pyunkang Yul's bestsellers include the Essence Toner, Moisture Ampoule, Moisture Cream, Intensive Repair Cream and Nutrition Cream from its basic line and the Calming Deep Moisture Toner from its Calming line made for combination skin. The Black Tea Time Reverse Eye Cream which combats fine lines and the ATO Cream which caters to the sensitive skin type are also popular. Products are 100% made in Korea and cruelty-free.",
@@ -1301,7 +1301,7 @@
    },
    {
       "pk":51,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 30,
           "about": "Known for its Dynasty Cream, Korean brand Beauty of Joseon uses luxurious Oriental herbs to create skin care for women in their 20s to 40s. The brand was inspired by a 19th century encyclopaedia describing the skin care secrets of upper-class Korean women. With products made entirely in Korea, Beauty of Joseon reveals the natural beauty of one’s skin by improving its overall condition and resolving fundamental problems such as roughness, dehydration and dull skin tone.",
@@ -1327,7 +1327,7 @@
    },
    {
       "pk":52,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 27,
           "about": "Skin care brand I'm from distinguishes itself from other beauty labels with its philosophy of transparency. Each product proudly lists all its ingredients, as well as the origin of its primary ingredient, and the name of the farm where it was harvested. A sister brand of SKIN&LAB and CHICA Y CHICO, I'm from manufactures all its products in Korea, including its popular Honey Mask, Volcanic Mask and Ginseng Serum.",
@@ -1353,7 +1353,7 @@
    },
    {
       "pk":53,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 31,
           "about": "SK-II's approach to skin care began with a Japanese scientist's observation of the youthful hands of sake brewery workers. That led to the development of Pitera, SK-II’s skin-loving galactomyces ferment filtrate ingredient derived from yeast. The premium Japanese beauty brand is renowned for its anti-aging skin care products that help restore the skin's natural 28-day renewal cycle. The famous SK-II Facial Treatment Essence contains 90% Pitera to refine skin, even skin tone and reduce fine lines and dark spots. SK-II's facial moisturizers are popular too, including the Skinpower Cream and Skinpower Eye Cream containing Pitera and flower extracts to revitalize skin and brighten dark spots.",
@@ -1379,7 +1379,7 @@
    },
    {
       "pk":54,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 32,
           "about": "Combining the words 'prime' and 'era', primera is an eco-friendly Korean skin care brand that uses plant-based ingredients. primera's environmentally conscious values ensure that all its products are free of parabens, mineral oil and artificial fragrances. Bestsellers include the Miracle Seed Essence infused with patented Lotus Seed Activator, Organience Water containing black bean extracts, Wild Peach Pore Water, Super Black Seed Cold-Drop Cream, and Alpine Berry Watery Soothing Gel Cream infused with Alpine berry complex. primera belongs to the AMOREPACIFIC group, which includes popular Korean beauty brands like innisfree and ETUDE.",
@@ -1405,7 +1405,7 @@
    },
    {
       "pk":55,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 33,
           "about": "Inspired by the life cycle of a plant seed, SCINIC uses botanical extracts for its makeup and skin care ranges for men and women. Its products boost the skin's natural immunity and refine and invigorate skin cells. The brand develops skin-friendly cosmetics to promote overall skin health without the use of parabens, artificial colours, mineral oils or genetically modified ingredients.",
@@ -1431,7 +1431,7 @@
    },
    {
       "pk":56,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 34,
           "about": "Using biotechnology to enhance the benefits of natural ingredients, NEOGEN creates multifunctional skin care and cosmetics for optimal results in a simplified regimen. The Korean skin care brand's most famous line is NEOGEN DERMALOGY, which specializes in innovative daily skin care products for different skin types. NEOGEN DERMALOGY features the Real Ferment, Real Fresh, Real Vita, Real Cica, Probiotics and A-Clear collections, as well as the cult favourite Bio-Peel Gauze Peeling pads that gently exfoliate skin. Among other lines, re:p offers all-natural products made with minimal processing, NEOGEN Agecure focuses on anti-aging skin care to reduce fine lines, and Surmedic provides targeted solutions for skin concerns. Bestselling NEOGEN products include the Real Ferment Micro Essence, Probiotics Double Action Serum, Day-Light Protection Airy Sunscreen and Vita Duo Cream Joan Day Joan Night.",
@@ -1457,7 +1457,7 @@
    },
    {
       "pk":57,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 1,
           "about": "Adopting the Nordic lagom concept meaning “just the right amount”, Korean brand make p:rem simplifies skin care routines with its multifunctional products. The brand’s collection uses highly pure natural ingredients like Arctic raspberry extract, Finnish birch sap and peat water from Denmark, and counts on the brand’s patented Micro Trans Moisture Technology to effectively deliver them into skin. Packaging and ingredient quantity are kept minimal, reflecting the 'just right' philosophy. All products are made in Korea.",
@@ -1483,7 +1483,7 @@
    },
    {
       "pk":58,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 9,
           "about": "COSRX utilizes its 10 years of experience to continuously deliver functional, ingredient-rich cosmetics. The brand takes its name from the word 'cosmetics' and the symbol 'RX' (denoting 'prescription') to affirm its commitment to creating effective, affordable and skin-friendly products. COSRX is known for its short ingredients list that features high quality and effective extracts and compounds that help trouble-prone, dry and dehydrated skin, as well as aging and sensitive skin. All COSRX products are 100% made in Korea and cruelty-free.",
@@ -1509,7 +1509,7 @@
    },
    {
       "pk":59,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 9,
           "about": "COSRX utilizes its 10 years of experience to continuously deliver functional, ingredient-rich cosmetics. The brand takes its name from the word 'cosmetics' and the symbol 'RX' (denoting 'prescription') to affirm its commitment to creating effective, affordable and skin-friendly products. COSRX is known for its short ingredients list that features high quality and effective extracts and compounds that help trouble-prone, dry and dehydrated skin, as well as aging and sensitive skin. All COSRX products are 100% made in Korea and cruelty-free.",
@@ -1535,7 +1535,7 @@
    },
    {
       "pk":60,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 37,
           "about": "Established in 2000, LJH Cosmetics has since rebranded itself as Dr. Ceuracle. The brand’s new name combines the words “cosmeceutical” and “miracle” to emphasize the efficacy of its wide range of products. Dr. Ceuracle’s motto 'Curing Skin, Caring Beauty' highlights its balanced use of natural ingredients, dermatological knowledge and technology to solve skin concerns and enhance beauty. Bestselling products from the brand include the Tea Tree Purifine 95 Essence, Tea Tree Purifine 70 Toner and Royal Vita Propolis 33 Ampoule.",
@@ -1561,7 +1561,7 @@
    },
    {
       "pk":61,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 20,
           "about": "Rohto Pharmaceutical has been offering beauty products, non-prescription drugs and supplements made from exclusive and effective formulas since its launch of Ikatsu, a gastrointestinal medicine in 1899. The Japan-based company acquired US company Mentholatum in 1988 and now owns a number of well-known brands, including Haba Labo, OXY, Acnes, Rohto Eye Drops, Mentholatum, Lipice and Sunplay. Hada Labo is a global cult favorite with its collection of moisturizing cleansers, toners and creams. OXY and Acnes provide treatments for troubled skin, Rohto Eye Drops aid with eye care, and Mentholatum offers health and bodycare products like ointments and medicated lip balms.",
@@ -1587,7 +1587,7 @@
    },
    {
       "pk":62,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 13,
           "about": "Part of the leading K-Beauty company Wishtrend, Korean skin care brand ByWishtrend offers a range of products that target various skin concerns for healthy skin. Highlights include the Green Tea & Enzyme Powder Wash, a gentle exfoliating face wash suitable for any skin type, including combination skin and sensitive skin. Also popular are ByWishtrend’s Vitamin C products targeting dullness, lack of elasticity and pigmentation. The cruelty-free brand's bestsellers include the Pure Vitamin C 21.5% Advanced Serum, Natural Vitamin 21.5% Enhancing Sheet Mask and Vitamin 75 Maximizing Cream, all of which are 100% Korea-made.",
@@ -1613,7 +1613,7 @@
    },
    {
       "pk":63,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 21,
           "about": "Korean skin care brand PURITO uses the English word “purify” and the Korean word for “soil” as inspirations for its name and principles. Eco-friendly and cruelty-free, PURITO constantly strives to improve its hypoallergenic, chemical-free and affordable products. The brand uses natural ingredients in its skin care range which is made in Korea. All items are gentle enough to be used on sensitized skin including the popular Daily Go-To Sunscreen, which is composed of chemical and mineral filters to provide broad spectrum SPF 50+ PA++++ UV protection. Infused with centella asiatica extract, it soothes skin without leaving a white cast. Other bestsellers include the Cica Clearing BB Cream, Fermented Complex 94 Boosting Essence, Centella Green Level Recovery Cream, Centella Green Level Buffet Serum and Centella Unscented Serum.",
@@ -1639,7 +1639,7 @@
    },
    {
       "pk":64,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 38,
           "about": "SOME BY MI believes natural beauty deserves attention. The brand takes its name from the Korean word 'mi' which means 'beauty', and proudly manufactures all its products in Korea. SOME BY MI offers a wide range of skin care and makeup essentials including its bestselling AHA BHA PHA 30 Days Miracle Toner, the Coverst Moisture Outstanding Cushion, and its Rose Intensive Tone-Up Cream and Rose Intensive Body Tone-Up Cream.",
@@ -1665,7 +1665,7 @@
    },
    {
       "pk":65,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 39,
           "about": "Physicians and skincare professionals define cosmeceuticals as products on the cutting-edge between cosmetics and pharmaceuticals. Active ingredients in cosmeceuticals are expected to be clinically proven to enhance skincare efficacy. At SKINCEUTICALS, their products provide scientifically proven skin improvement crafted in elegant formulations for customized skincare regimens.",
@@ -1691,7 +1691,7 @@
    },
    {
       "pk":66,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 40,
           "about": "Perricone MD is driven by the pursuit of fearless innovation and a stubbornly uncompromising spirit of excellence. Good enough has never been good enough—a belief that drives our commitment to consistently deliver targeted results. We continuously seek the truth in unlocking the powerful science behind healthy-looking skin, from the inside-out and outside-in.",
@@ -1717,7 +1717,7 @@
    },
    {
       "pk":67,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 23,
           "about": "In the business of beauty, perception is more powerful than reality and it is for this reason that brands—especially those in functional beauty—prioritize what they say ahead of what they do. The science of skin health has evolved vastly—truly advanced technologies exist today that are very complex to use and even more complex to explain. Our humility and persistence have allowed us to create NIOD with only a single genetic commitment—to be at the very edge of science without regard to brands, trends, criticisms and words. commitment means that NIOD will always have a very narrow audience that appreciates a genuine commitment to true quality and innovation—an audience not inspired by marketing or pricing strategies, but instead by truth and accountability.",
@@ -1743,7 +1743,7 @@
    },
    {
       "pk":68,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 23,
           "about": "In the business of beauty, perception is more powerful than reality and it is for this reason that brands—especially those in functional beauty—prioritize what they say ahead of what they do. The science of skin health has evolved vastly—truly advanced technologies exist today that are very complex to use and even more complex to explain. Our humility and persistence have allowed us to create NIOD with only a single genetic commitment—to be at the very edge of science without regard to brands, trends, criticisms and words. commitment means that NIOD will always have a very narrow audience that appreciates a genuine commitment to true quality and innovation—an audience not inspired by marketing or pricing strategies, but instead by truth and accountability.",
@@ -1769,7 +1769,7 @@
    },
    {
       "pk":69,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 23,
           "about": "DECIEM is a humble and happy umbrella of good beauty brands like NIOD, Hylamide, and The Ordinary. We’ve been called every good and bad thing you can think of like 'The most thrilling thing to happen to skincare' and 'The hottest beauty company right now'.",
@@ -1795,7 +1795,7 @@
    },
    {
       "pk":70,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 41,
           "about": "AMPLE: N specializes in ampoule-based skin care and is part of the Coreana Cosmetics family of brands. AMPLE: N relies on the concept of “Dermo-Ampoulism”, in which ampoules are employed for a variety of skin problems, as the basis for developing its products. Drawing upon over 30 years of knowledge accumulated by the Coreana Cosmetics Laboratory, the brand's products are infused with patented ingredient combinations that have been proven effective.",
@@ -1821,7 +1821,7 @@
    },
    {
       "pk":71,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 24,
           "about": "Renowned for being 100% transparent and a trustworthy leader in the beauty industry, PAULA'S CHOICE challenge ideas, beliefs and myths surrounding products and ingredients to help empower their fans. Cutting through the noise, the brand has become a reliable source for providing Holy Grail skin care products that work to create a hardworking routine that will deliver results. Backed by science, environmentally conscious, never animal-tested and packed for potency, these highly-effective formulas deserve a place in your go-to routine, stat.",
@@ -1847,7 +1847,7 @@
    },
    {
       "pk":72,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 42,
           "about": "Isntree fuses 'island', 'natural' and 'tree' together to inspire its brand name and guiding philosophy. Showing honesty in its choice of ingredients, the brand uses only the safest and purest from nature. Isntree produces effective skin, body and hair care products such as its popular Aloe Soothing Gel, Hyaluronic Acid Aqua Gel Cream, Sensitive Balancing Sun Protection Plus SPF50+ PA++++ and Sensitive Balancing Cleansing Foam. All the brand's products are 100% made-in-Korea and free from animal-testing.",
@@ -1873,7 +1873,7 @@
    },
    {
       "pk":73,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 8,
           "about": "The INKEY List’s aim is simple: break through beauty jargon to deliver a straightforward take on the most-wanted ingredients in {skin care} (right up our street). A succinct collection of hero products formulated by a crack team of experts and scientists, this range incorporates all the industry heavy-hitters – from retinol to hyaluronic acid – and allows you to customise your regime to suit your skin’s ever-changing needs. The products contain as few ingredients as possible, all of the highest quality and at ‘give-it-a-go’ prices.",
@@ -1899,7 +1899,7 @@
    },
    {
       "pk":74,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 23,
           "about": "In the business of beauty, perception is more powerful than reality and it is for this reason that brands—especially those in functional beauty—prioritize what they say ahead of what they do. The science of skin health has evolved vastly—truly advanced technologies exist today that are very complex to use and even more complex to explain. Our humility and persistence have allowed us to create NIOD with only a single genetic commitment—to be at the very edge of science without regard to brands, trends, criticisms and words. commitment means that NIOD will always have a very narrow audience that appreciates a genuine commitment to true quality and innovation—an audience not inspired by marketing or pricing strategies, but instead by truth and accountability.",
@@ -1925,7 +1925,7 @@
    },
    {
       "pk":75,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 4,
           "about": "La Roche-Posay is the number 1 dermocosmetic brand worldwide, recommended by 90,000 dermatologists. Driven by our values of courage, commitment and love, we partner with dermatologists and experts to design innovative skincare solutions for the most fragile skin and be useful to people.",
@@ -1951,7 +1951,7 @@
    },
    {
       "pk":76,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 9,
           "about": "COSRX utilizes its 10 years of experience to continuously deliver functional, ingredient-rich cosmetics. The brand takes its name from the word 'cosmetics' and the symbol 'RX' (denoting 'prescription') to affirm its commitment to creating effective, affordable and skin-friendly products. COSRX is known for its short ingredients list that features high quality and effective extracts and compounds that help trouble-prone, dry and dehydrated skin, as well as aging and sensitive skin. All COSRX products are 100% made in Korea and cruelty-free.",
@@ -1977,7 +1977,7 @@
    },
    {
       "pk":77,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 41,
           "about": "AMPLE: N specializes in ampoule-based skin care and is part of the Coreana Cosmetics family of brands. AMPLE: N relies on the concept of “Dermo-Ampoulism”, in which ampoules are employed for a variety of skin problems, as the basis for developing its products. Drawing upon over 30 years of knowledge accumulated by the Coreana Cosmetics Laboratory, the brand's products are infused with patented ingredient combinations that have been proven effective.",
@@ -2003,7 +2003,7 @@
    },
    {
       "pk":78,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 43,
           "about": "THE LAB by blanc doux’s luxurious products are formulated with high-quality, naturally derived ingredients. The Korean brand’s Pinot Noir line harnesses the rejuvenating powers of wine extract while its Lab series uses cruelty-free and EWG-certified ingredients. THE LAB by blanc doux’s bestselling items include the Oligo Hyaluronic Acid 5000 Toner and Pinot Noir Spray Serum. All of THE LAB by blanc doux’s products are 100% made in Korea.",
@@ -2029,7 +2029,7 @@
    },
    {
       "pk":79,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 44,
           "about": "SKIN 1004's 100% Korea-made products target problems like acne, skin hypersensitivity, enlarged pores and redness using the best sources for ingredients. The brand's most popular offerings are the Zombie Pack enriched with albumin and aloe vera, and the Madagascar Centella Asiatica 100 Ampoule containing extracts from Madagascan centella. In the Korean language, the number 'one thousand and four' is a homonym for 'angel', which is meant to represent the brand's aim to be the guardian angel for one's skin.",
@@ -2055,7 +2055,7 @@
    },
    {
       "pk":80,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 23,
           "about": "In the business of beauty, perception is more powerful than reality and it is for this reason that brands—especially those in functional beauty—prioritize what they say ahead of what they do. The science of skin health has evolved vastly—truly advanced technologies exist today that are very complex to use and even more complex to explain. Our humility and persistence have allowed us to create NIOD with only a single genetic commitment—to be at the very edge of science without regard to brands, trends, criticisms and words. commitment means that NIOD will always have a very narrow audience that appreciates a genuine commitment to true quality and innovation—an audience not inspired by marketing or pricing strategies, but instead by truth and accountability.",
@@ -2081,7 +2081,7 @@
    },
    {
       "pk":81,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 10,
           "about": "Skincare should be as easy and as intuitive as feeding your body what it’s craving. Skincare should be fun and a form of self-care, not something that causes you to stress to breakout even more! That’s where we come in. We want to help you #PressReset on your current skincare routine and uncomplicate the industry by providing you with the bare essentials and teaching you to listen to your skin’s true cravings. KraveBeauty was founded by beauty influencer, Liah Yoo, to fight the ineffective yet conventional skincare routine that has carelessly trained us to apply more than what our skin actually needs. We create skincare products that work with your skin, not against it.",
@@ -2107,7 +2107,7 @@
    },
    {
       "pk":82,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 30,
           "about": "Known for its Dynasty Cream, Korean brand Beauty of Joseon uses luxurious Oriental herbs to create skin care for women in their 20s to 40s. The brand was inspired by a 19th century encyclopaedia describing the skin care secrets of upper-class Korean women. With products made entirely in Korea, Beauty of Joseon reveals the natural beauty of one’s skin by improving its overall condition and resolving fundamental problems such as roughness, dehydration and dull skin tone.",
@@ -2133,7 +2133,7 @@
    },
    {
       "pk":83,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 24,
           "about": "Renowned for being 100% transparent and a trustworthy leader in the beauty industry, PAULA'S CHOICE challenge ideas, beliefs and myths surrounding products and ingredients to help empower their fans. Cutting through the noise, the brand has become a reliable source for providing Holy Grail skin care products that work to create a hardworking routine that will deliver results. Backed by science, environmentally conscious, never animal-tested and packed for potency, these highly-effective formulas deserve a place in your go-to routine, stat.",
@@ -2159,7 +2159,7 @@
    },
    {
       "pk":84,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 23,
           "about": "The Ordinary is an evolving collection of treatments offering familiar, effective clinical technologies positioned to raise pricing and communication integrity in skincare. The brand was created to celebrate integrity in its most humble and true form. Its offering is pioneering, not in the familiar technologies it uses, but in its honesty and integrity. The Ordinary is born to disallow commodity to be disguised as ingenuity. The Ordinary is ‘Clinical formulations with integrity’.",
@@ -2185,7 +2185,7 @@
    },
    {
       "pk":85,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 8,
           "about": "The INKEY List’s aim is simple: break through beauty jargon to deliver a straightforward take on the most-wanted ingredients in {skin care} (right up our street). A succinct collection of hero products formulated by a crack team of experts and scientists, this range incorporates all the industry heavy-hitters – from retinol to hyaluronic acid – and allows you to customise your regime to suit your skin’s ever-changing needs. The products contain as few ingredients as possible, all of the highest quality and at ‘give-it-a-go’ prices.",
@@ -2211,7 +2211,7 @@
    },
    {
       "pk":86,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 8,
           "about": "The INKEY List’s aim is simple: break through beauty jargon to deliver a straightforward take on the most-wanted ingredients in {skin care} (right up our street). A succinct collection of hero products formulated by a crack team of experts and scientists, this range incorporates all the industry heavy-hitters – from retinol to hyaluronic acid – and allows you to customise your regime to suit your skin’s ever-changing needs. The products contain as few ingredients as possible, all of the highest quality and at ‘give-it-a-go’ prices.",
@@ -2237,7 +2237,7 @@
    },
    {
       "pk":87,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 45,
           "about": "Think of Drunk Elephant as an ingredient-elimination philosophy for a total skin reset. Using these products exclusively is the best way to get maximum results. So I invite you to take a #drunkbreak. See what happens when your skin returns to its healthiest, most balanced state. You may find that your skin is so smooth and even and glowing that you can go without makeup. Good luck! And thanks for being part of the Drunk Elephant community.",
@@ -2263,7 +2263,7 @@
    },
    {
       "pk":88,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 23,
           "about": "The Ordinary is an evolving collection of treatments offering familiar, effective clinical technologies positioned to raise pricing and communication integrity in skincare. The brand was created to celebrate integrity in its most humble and true form. Its offering is pioneering, not in the familiar technologies it uses, but in its honesty and integrity. The Ordinary is born to disallow commodity to be disguised as ingenuity. The Ordinary is ‘Clinical formulations with integrity’.",
@@ -2289,7 +2289,7 @@
    },
    {
       "pk":89,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 46,
           "about": "We formulate to the highest standards in the world, European Union standards, nixing 1,350+ ingredients that have questionable data when it comes to the health of our skin, body, and planet. Every ingredient has a purpose, and unless that purpose is proven safe and effective, we skip it. If that ever changes, so will our ‘no thanks’ list.",
@@ -2315,7 +2315,7 @@
    },
    {
       "pk":90,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 24,
           "about": "Renowned for being 100% transparent and a trustworthy leader in the beauty industry, PAULA'S CHOICE challenge ideas, beliefs and myths surrounding products and ingredients to help empower their fans. Cutting through the noise, the brand has become a reliable source for providing Holy Grail skin care products that work to create a hardworking routine that will deliver results. Backed by science, environmentally conscious, never animal-tested and packed for potency, these highly-effective formulas deserve a place in your go-to routine, stat.",
@@ -2341,7 +2341,7 @@
    },
    {
       "pk":91,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 23,
           "about": "In the business of beauty, perception is more powerful than reality and it is for this reason that brands—especially those in functional beauty—prioritize what they say ahead of what they do. The science of skin health has evolved vastly—truly advanced technologies exist today that are very complex to use and even more complex to explain. Our humility and persistence have allowed us to create NIOD with only a single genetic commitment—to be at the very edge of science without regard to brands, trends, criticisms and words. commitment means that NIOD will always have a very narrow audience that appreciates a genuine commitment to true quality and innovation—an audience not inspired by marketing or pricing strategies, but instead by truth and accountability.",
@@ -2367,7 +2367,7 @@
    },
    {
       "pk":92,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 23,
           "about": "The Ordinary is an evolving collection of treatments offering familiar, effective clinical technologies positioned to raise pricing and communication integrity in skincare. The brand was created to celebrate integrity in its most humble and true form. Its offering is pioneering, not in the familiar technologies it uses, but in its honesty and integrity. The Ordinary is born to disallow commodity to be disguised as ingenuity. The Ordinary is ‘Clinical formulations with integrity’.",
@@ -2393,7 +2393,7 @@
    },
    {
       "pk":93,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 25,
           "about": "Facetheory believe that beauty shouldn't cost the earth or causes harm to people, animals or the planet, which is why they are Leaping Bunny and PETA approved.  Leaping Bunny is recognised as the international gold standard for cruelty-free products, and facetheroy adhere to a fixed cut-off date policy and proactively monitor their suppliers to ensure that their products continue to adhere to Leaping Bunny criteria. There supplier monitoring system is also independently audited in line with Leaping Bunny requirements.",
@@ -2419,7 +2419,7 @@
    },
    {
       "pk":94,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 9,
           "about": "COSRX utilizes its 10 years of experience to continuously deliver functional, ingredient-rich cosmetics. The brand takes its name from the word 'cosmetics' and the symbol 'RX' (denoting 'prescription') to affirm its commitment to creating effective, affordable and skin-friendly products. COSRX is known for its short ingredients list that features high quality and effective extracts and compounds that help trouble-prone, dry and dehydrated skin, as well as aging and sensitive skin. All COSRX products are 100% made in Korea and cruelty-free.",
@@ -2445,7 +2445,7 @@
    },
    {
       "pk":95,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 47,
           "about": "Benton (Looking for solutions to their own skin problems, brothers JangWon and ChaeWon Lee established cult favorite brand Benton in 2011. The brand's name is a contraction of the main character's name from the film 'The Curious Case of Benjamin Button', which tells the story of a man who is aging backward. The brand relies heavily on natural ingredients to encourage and restore skin to its original healthy state, and keep it looking young all the time. Among its all-time bestsellers are Snail Bee High Content Essence, Aloe BHA Skin Toner and the Aloe Propolis Soothing Gel. All Benton products are 100% made in Korea and are not tested on animals, earning them a Cruelty-Free Certification and the 'Beauty Without Bunnies' logo from PETA).",
@@ -2471,7 +2471,7 @@
    },
    {
       "pk":96,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 29,
           "about": "Korean skin care brand Pyunkang Yul was established in March 2016 by Pyunkang Korean Medicine Hospital, a traditional medicine clinic known for treating atopic skin disorders. Adhering to a philosophy of holistic body wellness, Pyunkang Yul believes healthy skin is attained by maintaining its oil and moisture balance. The Korean beauty brand avoids unnecessary chemical substances in its products, using only natural ingredients that are most gentle on the skin. Pyunkang Yul's bestsellers include the Essence Toner, Moisture Ampoule, Moisture Cream, Intensive Repair Cream and Nutrition Cream from its basic line and the Calming Deep Moisture Toner from its Calming line made for combination skin. The Black Tea Time Reverse Eye Cream which combats fine lines and the ATO Cream which caters to the sensitive skin type are also popular. Products are 100% made in Korea and cruelty-free.",
@@ -2497,7 +2497,7 @@
    },
    {
       "pk":97,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 8,
           "about": "The INKEY List’s aim is simple: break through beauty jargon to deliver a straightforward take on the most-wanted ingredients in {skin care} (right up our street). A succinct collection of hero products formulated by a crack team of experts and scientists, this range incorporates all the industry heavy-hitters – from retinol to hyaluronic acid – and allows you to customise your regime to suit your skin’s ever-changing needs. The products contain as few ingredients as possible, all of the highest quality and at ‘give-it-a-go’ prices.",
@@ -2523,7 +2523,7 @@
    },
    {
       "pk":98,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 8,
           "about": "The INKEY List’s aim is simple: break through beauty jargon to deliver a straightforward take on the most-wanted ingredients in {skin care} (right up our street). A succinct collection of hero products formulated by a crack team of experts and scientists, this range incorporates all the industry heavy-hitters – from retinol to hyaluronic acid – and allows you to customise your regime to suit your skin’s ever-changing needs. The products contain as few ingredients as possible, all of the highest quality and at ‘give-it-a-go’ prices.",
@@ -2549,7 +2549,7 @@
    },
    {
       "pk":99,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 7,
           "about": "The formulation of skin-identical ceramides with MultiVesicular Emulsion Technology (MVE) was the birth of CeraVe. CeraVe have the only line of skincare products with a unique blend of three essential ceramides, plus patented MVE technology that gradually releases our ceramide-enriched formula over an extended period of time. MVE is like a sphere with a series of layers that slowly dissolves, releasing the ingredients into your skin. The product continues to work after it is applied, hydrating your skin all day in just one use. This system—along with their unique combination of skin-identical ceramides—helps replenish your skin’s existing ceramides, relieves dry skin by reducing moisture loss, increases hydration and helps restore the skin barrier.",
@@ -2575,7 +2575,7 @@
    },
    {
       "pk":100,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 24,
           "about": "Renowned for being 100% transparent and a trustworthy leader in the beauty industry, PAULA'S CHOICE challenge ideas, beliefs and myths surrounding products and ingredients to help empower their fans. Cutting through the noise, the brand has become a reliable source for providing Holy Grail skin care products that work to create a hardworking routine that will deliver results. Backed by science, environmentally conscious, never animal-tested and packed for potency, these highly-effective formulas deserve a place in your go-to routine, stat.",
@@ -2601,7 +2601,7 @@
    },
    {
       "pk":101,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 4,
           "about": "La Roche-Posay is the number 1 dermocosmetic brand worldwide, recommended by 90,000 dermatologists. Driven by our values of courage, commitment and love, we partner with dermatologists and experts to design innovative skincare solutions for the most fragile skin and be useful to people.",
@@ -2627,7 +2627,7 @@
    },
    {
       "pk":102,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 4,
           "about": "La Roche-Posay is the number 1 dermocosmetic brand worldwide, recommended by 90,000 dermatologists. Driven by our values of courage, commitment and love, we partner with dermatologists and experts to design innovative skincare solutions for the most fragile skin and be useful to people.",
@@ -2653,7 +2653,7 @@
    },
    {
       "pk":103,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 32,
           "about": "Combining the words 'prime' and 'era', primera is an eco-friendly Korean skin care brand that uses plant-based ingredients. primera's environmentally conscious values ensure that all its products are free of parabens, mineral oil and artificial fragrances. Bestsellers include the Miracle Seed Essence infused with patented Lotus Seed Activator, Organience Water containing black bean extracts, Wild Peach Pore Water, Super Black Seed Cold-Drop Cream, and Alpine Berry Watery Soothing Gel Cream infused with Alpine berry complex. primera belongs to the AMOREPACIFIC group, which includes popular Korean beauty brands like innisfree and ETUDE.",
@@ -2679,7 +2679,7 @@
    },
    {
       "pk":104,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 37,
           "about": "Established in 2000, LJH Cosmetics has since rebranded itself as Dr. Ceuracle. The brand’s new name combines the words “cosmeceutical” and “miracle” to emphasize the efficacy of its wide range of products. Dr. Ceuracle’s motto 'Curing Skin, Caring Beauty' highlights its balanced use of natural ingredients, dermatological knowledge and technology to solve skin concerns and enhance beauty. Bestselling products from the brand include the Tea Tree Purifine 95 Essence, Tea Tree Purifine 70 Toner and Royal Vita Propolis 33 Ampoule.",
@@ -2705,7 +2705,7 @@
    },
    {
       "pk":105,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 8,
           "about": "The INKEY List’s aim is simple: break through beauty jargon to deliver a straightforward take on the most-wanted ingredients in {skin care} (right up our street). A succinct collection of hero products formulated by a crack team of experts and scientists, this range incorporates all the industry heavy-hitters – from retinol to hyaluronic acid – and allows you to customise your regime to suit your skin’s ever-changing needs. The products contain as few ingredients as possible, all of the highest quality and at ‘give-it-a-go’ prices.",
@@ -2731,7 +2731,7 @@
    },
    {
       "pk":106,
-      "model":"products.skincare",
+      "model":"skincare.skincare",
       "fields":{
           "brand": 37,
           "about": "Established in 2000, LJH Cosmetics has since rebranded itself as Dr. Ceuracle. The brand’s new name combines the words “cosmeceutical” and “miracle” to emphasize the efficacy of its wide range of products. Dr. Ceuracle’s motto 'Curing Skin, Caring Beauty' highlights its balanced use of natural ingredients, dermatological knowledge and technology to solve skin concerns and enhance beauty. Bestselling products from the brand include the Tea Tree Purifine 95 Essence, Tea Tree Purifine 70 Toner and Royal Vita Propolis 33 Ampoule.",
@@ -2757,7 +2757,7 @@
    },
    {
     "pk":107,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 9,
         "about": "COSRX utilizes its 10 years of experience to continuously deliver functional, ingredient-rich cosmetics. The brand takes its name from the word 'cosmetics' and the symbol 'RX' (denoting 'prescription') to affirm its commitment to creating effective, affordable and skin-friendly products. COSRX is known for its short ingredients list that features high quality and effective extracts and compounds that help trouble-prone, dry and dehydrated skin, as well as aging and sensitive skin. All COSRX products are 100% made in Korea and cruelty-free.",
@@ -2783,7 +2783,7 @@
  },
  {
     "pk":108,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 46,
         "about": "We formulate to the highest standards in the world, European Union standards, nixing 1,350+ ingredients that have questionable data when it comes to the health of our skin, body, and planet. Every ingredient has a purpose, and unless that purpose is proven safe and effective, we skip it. If that ever changes, so will our ‘no thanks’ list.",
@@ -2809,7 +2809,7 @@
  },
  {
     "pk":109,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 30,
         "about": "Known for its Dynasty Cream, Korean brand Beauty of Joseon uses luxurious Oriental herbs to create skin care for women in their 20s to 40s. The brand was inspired by a 19th century encyclopaedia describing the skin care secrets of upper-class Korean women. With products made entirely in Korea, Beauty of Joseon reveals the natural beauty of one’s skin by improving its overall condition and resolving fundamental problems such as roughness, dehydration and dull skin tone.",
@@ -2835,7 +2835,7 @@
  },
  {
     "pk":110,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 8,
         "about": "The INKEY List’s aim is simple: break through beauty jargon to deliver a straightforward take on the most-wanted ingredients in {skin care} (right up our street). A succinct collection of hero products formulated by a crack team of experts and scientists, this range incorporates all the industry heavy-hitters – from retinol to hyaluronic acid – and allows you to customise your regime to suit your skin’s ever-changing needs. The products contain as few ingredients as possible, all of the highest quality and at ‘give-it-a-go’ prices.",
@@ -2861,7 +2861,7 @@
  },
  {
     "pk":111,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 7,
         "about": "The formulation of skin-identical ceramides with MultiVesicular Emulsion Technology (MVE) was the birth of CeraVe. CeraVe have the only line of skincare products with a unique blend of three essential ceramides, plus patented MVE technology that gradually releases our ceramide-enriched formula over an extended period of time. MVE is like a sphere with a series of layers that slowly dissolves, releasing the ingredients into your skin. The product continues to work after it is applied, hydrating your skin all day in just one use. This system—along with their unique combination of skin-identical ceramides—helps replenish your skin’s existing ceramides, relieves dry skin by reducing moisture loss, increases hydration and helps restore the skin barrier.",
@@ -2887,7 +2887,7 @@
  },
  {
     "pk":112,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 30,
         "about": "Known for its Dynasty Cream, Korean brand Beauty of Joseon uses luxurious Oriental herbs to create skin care for women in their 20s to 40s. The brand was inspired by a 19th century encyclopaedia describing the skin care secrets of upper-class Korean women. With products made entirely in Korea, Beauty of Joseon reveals the natural beauty of one’s skin by improving its overall condition and resolving fundamental problems such as roughness, dehydration and dull skin tone.",
@@ -2913,7 +2913,7 @@
  },
  {
     "pk":113,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 9,
         "about": "COSRX utilizes its 10 years of experience to continuously deliver functional, ingredient-rich cosmetics. The brand takes its name from the word 'cosmetics' and the symbol 'RX' (denoting 'prescription') to affirm its commitment to creating effective, affordable and skin-friendly products. COSRX is known for its short ingredients list that features high quality and effective extracts and compounds that help trouble-prone, dry and dehydrated skin, as well as aging and sensitive skin. All COSRX products are 100% made in Korea and cruelty-free.",
@@ -2939,7 +2939,7 @@
  },
  {
     "pk":114,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 20,
         "about": "Rohto Pharmaceutical has been offering beauty products, non-prescription drugs and supplements made from exclusive and effective formulas since its launch of Ikatsu, a gastrointestinal medicine in 1899. The Japan-based company acquired US company Mentholatum in 1988 and now owns a number of well-known brands, including Haba Labo, OXY, Acnes, Rohto Eye Drops, Mentholatum, Lipice and Sunplay. Hada Labo is a global cult favorite with its collection of moisturizing cleansers, toners and creams. OXY and Acnes provide treatments for troubled skin, Rohto Eye Drops aid with eye care, and Mentholatum offers health and bodycare products like ointments and medicated lip balms.",
@@ -2965,7 +2965,7 @@
  },
  {
     "pk":115,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 20,
         "about": "Rohto Pharmaceutical has been offering beauty products, non-prescription drugs and supplements made from exclusive and effective formulas since its launch of Ikatsu, a gastrointestinal medicine in 1899. The Japan-based company acquired US company Mentholatum in 1988 and now owns a number of well-known brands, including Haba Labo, OXY, Acnes, Rohto Eye Drops, Mentholatum, Lipice and Sunplay. Hada Labo is a global cult favorite with its collection of moisturizing cleansers, toners and creams. OXY and Acnes provide treatments for troubled skin, Rohto Eye Drops aid with eye care, and Mentholatum offers health and bodycare products like ointments and medicated lip balms.",
@@ -2991,7 +2991,7 @@
  },
  {
     "pk":116,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 4,
         "about": "La Roche-Posay is the number 1 dermocosmetic brand worldwide, recommended by 90,000 dermatologists. Driven by our values of courage, commitment and love, we partner with dermatologists and experts to design innovative skincare solutions for the most fragile skin and be useful to people.",
@@ -3017,7 +3017,7 @@
  },
  {
     "pk":117,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 48,
         "about": "For more than a century Beiersdorf, the company behind Eucerin, has been associated with groundbreaking innovation in skin care formulas. From the beginning, research and product development at Eucerin has been inseparable from dermatological research.",
@@ -3043,7 +3043,7 @@
  },
  {
     "pk":118,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 49,
         "about": "Launched by Randi Christiansen and Nick Axelrod in 2018, Nécessaire has steadily climbed the ladder in the beauty industry. It is now mentioned in the same breath as established brands such as Glossier and Kiehls having currently only existed for two years. With products that range from a fragrance-free shower gel to an exfoliator and body lotion to body serum Nécessaire wants you to take care of your body.",
@@ -3069,7 +3069,7 @@
  },
  {
     "pk":119,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 7,
         "about": "The formulation of skin-identical ceramides with MultiVesicular Emulsion Technology (MVE) was the birth of CeraVe. CeraVe have the only line of skincare products with a unique blend of three essential ceramides, plus patented MVE technology that gradually releases our ceramide-enriched formula over an extended period of time. MVE is like a sphere with a series of layers that slowly dissolves, releasing the ingredients into your skin. The product continues to work after it is applied, hydrating your skin all day in just one use. This system—along with their unique combination of skin-identical ceramides—helps replenish your skin’s existing ceramides, relieves dry skin by reducing moisture loss, increases hydration and helps restore the skin barrier.",
@@ -3095,7 +3095,7 @@
  },
  {
     "pk":120,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 7,
         "about": "The formulation of skin-identical ceramides with MultiVesicular Emulsion Technology (MVE) was the birth of CeraVe. CeraVe have the only line of skincare products with a unique blend of three essential ceramides, plus patented MVE technology that gradually releases our ceramide-enriched formula over an extended period of time. MVE is like a sphere with a series of layers that slowly dissolves, releasing the ingredients into your skin. The product continues to work after it is applied, hydrating your skin all day in just one use. This system—along with their unique combination of skin-identical ceramides—helps replenish your skin’s existing ceramides, relieves dry skin by reducing moisture loss, increases hydration and helps restore the skin barrier.",
@@ -3121,7 +3121,7 @@
  },
  {
     "pk":121,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 4,
         "about": "La Roche-Posay is the number 1 dermocosmetic brand worldwide, recommended by 90,000 dermatologists. Driven by our values of courage, commitment and love, we partner with dermatologists and experts to design innovative skincare solutions for the most fragile skin and be useful to people.",
@@ -3147,7 +3147,7 @@
  },
  {
     "pk":122,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 4,
         "about": "La Roche-Posay is the number 1 dermocosmetic brand worldwide, recommended by 90,000 dermatologists. Driven by our values of courage, commitment and love, we partner with dermatologists and experts to design innovative skincare solutions for the most fragile skin and be useful to people.",
@@ -3173,7 +3173,7 @@
  },
  {
     "pk":123,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 38,
         "about": "SOME BY MI believes natural beauty deserves attention. The brand takes its name from the Korean word 'mi' which means 'beauty', and proudly manufactures all its products in Korea. SOME BY MI offers a wide range of skin care and makeup essentials including its bestselling AHA BHA PHA 30 Days Miracle Toner, the Coverst Moisture Outstanding Cushion, and its Rose Intensive Tone-Up Cream and Rose Intensive Body Tone-Up Cream.",
@@ -3199,7 +3199,7 @@
  },
  {
     "pk":124,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 50,
         "about": "A subsidiary of the Amorepacific Group, ILLIYOON develops hypoallergenic skin care that effectively moisturizes and revitalizes skin using Asian heritage ingredients like ginseng root water, angelica acutiloba root and liriope platyphylla. Combined with patented ceramide encapsulation technology, ILLIYOON’s unique blend of ingredients reinforces skin’s natural barrier with improved self-hydrating power. The brand is known for its Ceramide Ato Concentrate Cream, Ceramide Ato Lotion and Ultra Repair Lotion.",
@@ -3225,7 +3225,7 @@
  },
  {
     "pk":123,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 38,
         "about": "SOME BY MI believes natural beauty deserves attention. The brand takes its name from the Korean word 'mi' which means 'beauty', and proudly manufactures all its products in Korea. SOME BY MI offers a wide range of skin care and makeup essentials including its bestselling AHA BHA PHA 30 Days Miracle Toner, the Coverst Moisture Outstanding Cushion, and its Rose Intensive Tone-Up Cream and Rose Intensive Body Tone-Up Cream.",
@@ -3251,7 +3251,7 @@
  },
  {
     "pk":124,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 12,
         "about": "ROVECTIN offers a complete range of skin care products to transform and restore skin. The brand's Anti-Irritant line offers relief to dry, aging and sensitive skin, and includes the bestselling Anti-Irritant Barrier Repair Ultra Cream. The Skin Essentials collection is designed for everyday use and features the popular Skin Essentials Barrier Repair Face Oil. Currently manufactured in the US and Korea, all ROVECTIN products use only high-quality, hypoallergenic ingredients, and are formulated without fragrances, artificial colorants, parabens or other harmful compounds.",
@@ -3277,7 +3277,7 @@
  },
  {
     "pk":125,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 14,
         "about": "Exclusively made in Korea, TOSOWOONG carries a range of cosmetics designed for whitening, anti-aging and other skin concerns. Launched in 2004, the brand extensively tests each product for six months to ensure optimum results.",
@@ -3303,7 +3303,7 @@
  },
  {
     "pk":126,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 9,
         "about": "COSRX utilizes its 10 years of experience to continuously deliver functional, ingredient-rich cosmetics. The brand takes its name from the word 'cosmetics' and the symbol 'RX' (denoting 'prescription') to affirm its commitment to creating effective, affordable and skin-friendly products. COSRX is known for its short ingredients list that features high quality and effective extracts and compounds that help trouble-prone, dry and dehydrated skin, as well as aging and sensitive skin. All COSRX products are 100% made in Korea and cruelty-free.",
@@ -3329,7 +3329,7 @@
  },
  {
     "pk":127,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 29,
         "about": "Korean skin care brand Pyunkang Yul was established in March 2016 by Pyunkang Korean Medicine Hospital, a traditional medicine clinic known for treating atopic skin disorders. Adhering to a philosophy of holistic body wellness, Pyunkang Yul believes healthy skin is attained by maintaining its oil and moisture balance. The Korean beauty brand avoids unnecessary chemical substances in its products, using only natural ingredients that are most gentle on the skin. Pyunkang Yul's bestsellers include the Essence Toner, Moisture Ampoule, Moisture Cream, Intensive Repair Cream and Nutrition Cream from its basic line and the Calming Deep Moisture Toner from its Calming line made for combination skin. The Black Tea Time Reverse Eye Cream which combats fine lines and the ATO Cream which caters to the sensitive skin type are also popular. Products are 100% made in Korea and cruelty-free.",
@@ -3355,7 +3355,7 @@
  },
  {
     "pk":128,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 48,
         "about": "For more than a century Beiersdorf, the company behind Eucerin, has been associated with groundbreaking innovation in skin care formulas. From the beginning, research and product development at Eucerin has been inseparable from dermatological research.",
@@ -3381,7 +3381,7 @@
  },
  {
     "pk":129,
-    "model":"products.skincare",
+    "model":"skincare.skincare",
     "fields":{
         "brand": 7,
         "about": "The formulation of skin-identical ceramides with MultiVesicular Emulsion Technology (MVE) was the birth of CeraVe. CeraVe have the only line of skincare products with a unique blend of three essential ceramides, plus patented MVE technology that gradually releases our ceramide-enriched formula over an extended period of time. MVE is like a sphere with a series of layers that slowly dissolves, releasing the ingredients into your skin. The product continues to work after it is applied, hydrating your skin all day in just one use. This system—along with their unique combination of skin-identical ceramides—helps replenish your skin’s existing ceramides, relieves dry skin by reducing moisture loss, increases hydration and helps restore the skin barrier.",
