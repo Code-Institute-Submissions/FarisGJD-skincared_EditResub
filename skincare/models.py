@@ -1,21 +1,6 @@
 from django.db import models
 
 
-class BrandIdentifier(models.Model):
-    letter = models.CharField(max_length=10, null=True, blank=True)
-    brand_name = models.ForeignKey(
-        Brand, to_field=' friendly_name', on_delete=models.SET_NULL
-        )
-    slug = models.SlugField(max_length=200, unique=True)
-
-    class Meta:
-        '''Orders Brands Indentifiers Alphabetically '''
-        ordering = ['letter']
-
-    def __str__(self):
-        return self.letter
-
-
 class Brand(models.Model):
     """ Brands Model """
 
