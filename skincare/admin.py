@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Brand,  ProductType
+from .models import Brand, BrandCategory, ProductType
 
 
 class BrandAdmin(admin.ModelAdmin):
@@ -21,6 +21,16 @@ class ProductTypeAdmin(admin.ModelAdmin):
     )
     ordering = ('friendly_name',)
 
+# class ProductTypeAdmin(admin.ModelAdmin):
+#     """ Customise Product Type Admin Panel """
 
+#     list_display = (
+#         'friendly_name',
+#         'name'
+#     )
+#     ordering = ('friendly_name',)
+
+
+admin.site.register(BrandCategory)
 admin.site.register(Brand, BrandAdmin)
 admin.site.register(ProductType, ProductTypeAdmin)
