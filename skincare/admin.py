@@ -8,9 +8,8 @@ class BrandAdmin(admin.ModelAdmin):
     list_display = (
         'friendly_name',
         'name',
-        'first_letter',
     )
-    ordering = ('friendly_name', 'first_letter')
+    ordering = ('friendly_name',)
 
 
 class ProductTypeAdmin(admin.ModelAdmin):
