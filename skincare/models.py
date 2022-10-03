@@ -27,8 +27,8 @@ class Brand(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.slug:
-            self.slug = slugify(self.identifier)
-        super(BrandCategory(), self).save(*args, **kwargs)
+            self.slug = slugify(self.friendly_name)
+        super(Brand, self).save(*args, **kwargs)
 
 
 class ProductType(models.Model):
