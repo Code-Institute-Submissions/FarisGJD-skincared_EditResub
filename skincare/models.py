@@ -12,7 +12,7 @@ class Brand(models.Model):
     )
     about = models.TextField()
     image = models.ImageField(null=True, blank=True)
-    slug = models.SlugField(max_length=200, null=True, unique=True)
+    slug = models.SlugField(max_length=200, null=True)
 
     class Meta:
         '''Orders Brands Alphabetically '''
