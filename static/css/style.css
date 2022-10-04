@@ -296,6 +296,14 @@ footer ul {
     width: 15%;
 }
 
+.brands-list-container-navigation-menu {
+    font-size: 1.3rem;
+    display: flex; 
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
 /* Mobile Header: Burger Menu, Serach Icon, Logo, User Profile & Shopping Bag */
 
 #mobile-header-container {

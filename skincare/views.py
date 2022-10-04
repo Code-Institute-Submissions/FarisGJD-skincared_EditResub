@@ -7,21 +7,22 @@ def all_brands(request):
 
     # Renders Brands Model
     brands = Brand.objects.all()
-
-    # Filters brand starting letter and only renders single ones  
-    brand_letters_query = Brand.objects.values_list('character_identifier')
+    # Filters brand starting letter and only renders single ones
+    brand_letters_query = Brand.objects.values_list(
+        'character_identifier', flat=True
+        )
     brand_letters = []
-    # for letters in brand_letters_query:
-    #     if letters not in brand_letters:
-    #         brand_letters.append(letters)
+    for letters in brand_letters_query:
+        if letters not in brand_letters:
+            brand_letters.append(letters)
 
     # Allow you to filter by brands use after letters are established
-    brand = brands.filter(character_identifier="a")
+    # brand = brands.filter(character_identifier="a")
 
     context = {
         'brands': brands,
         'brand_letters': brand_letters,
-        'brand': brand,
+        # 'brand': brand,
     }
 
     return render(request, 'brands/brands.html', context)
