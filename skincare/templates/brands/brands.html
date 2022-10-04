@@ -12,11 +12,20 @@
         {% for letter in brand_letters %}
         <a href="{{letter}}">
             {{letter}}
-            {{A}}
-            {{B}}
         </a>
         {% endfor %}
     </div>
+</div>
+
+<div class="brand-container">
+    {% for letter in brand_letters %}
+    <a href="{{letter}}">
+        {{letter}}
+    </a>
+    <hr>
+    <hr>
+    <hr>
+    {% endfor %}
 </div>
 
 <div class="brands-list-container">
