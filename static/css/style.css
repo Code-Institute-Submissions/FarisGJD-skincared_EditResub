@@ -552,21 +552,35 @@ footer ul {
 
 /* Brands Page */
 
-.brands-header h2 {
+.brands-header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 4rem;
     margin-top: 20px;
 }
 
+.brands-header h2 {
+    font-size: 4rem;
+}
+
 .brands-header hr {
-    width: 20%;
+    width: 50%;
     margin: auto;
 }
 
+.brands-a-z {
+    margin: 20px; 
+    text-transform: uppercase;
+
+}
+
+.brands-a-z a {
+    font-size: 2rem;
+    color: #000000;
+    padding: 5px;
+}
 
 .brands-list-container {
     width: 100%;
