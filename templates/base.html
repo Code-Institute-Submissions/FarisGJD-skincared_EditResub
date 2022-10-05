@@ -79,17 +79,29 @@
                             <span class="material-symbols-outlined profile-icon">person</span>
                             <p>MY ACCOUNT</p>
                         </a>
-
+                        
                         <div class="user-profile-drop-down-menu">
                             {% if request.useris_authenticated %}
                                 {% if request.user.is_superuser %}
                                 <a href="">PRODUCT MANAGEMENT</a>
+                                <hr>
+                                <hr>
+                                <hr>
                                 {% endif %}
                                 <a href="">PROFILE</a>
                                 <a href="{% url 'account_logout' %}">LOGOUT</a>
+                                <hr>
+                                <hr>
+                                <hr>
                             {% else %}
                                 <a href="{% url 'account_signup' %}">REGISTER</a>
+                                <hr>
+                                <hr>
+                                <hr>
                                 <a href="{% url 'account_login' %}">LOGIN</a>
+                                <hr>
+                                <hr>
+                                <hr>
                             {% endif %}
                         </div>
                     </li>

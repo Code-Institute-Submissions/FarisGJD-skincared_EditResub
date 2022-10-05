@@ -17,12 +17,12 @@ def all_brands(request):
             brand_letters.append(letters)
 
     # Allow you to filter by brands use after letters are established
-    # brand = brands.filter(character_identifier="a")
+    brand = brands.filter(character_identifier="a")
 
     context = {
         'brands': brands,
         'brand_letters': brand_letters,
-        # 'brand': brand,
+        'brand': brand,
     }
 
     return render(request, 'brands/brands.html', context)

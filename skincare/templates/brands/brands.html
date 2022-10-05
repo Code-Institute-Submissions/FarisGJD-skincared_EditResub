@@ -4,13 +4,11 @@
 {% block content %}
 <div class="brands-header">
     <h2>BRANDS</h2>
-    <hr>
-    <hr>
-    <hr>
+  
 
     <div class="brands-a-z">
         {% for letter in brand_letters %}
-        <a href="{{letter}}">
+        <a href="{{brand_letter}}">
             {{letter}}
         </a>
         {% endfor %}
@@ -19,9 +17,19 @@
 
 <div class="brand-container">
     {% for letter in brand_letters %}
-    <a href="{{letter}}">
+    <a href="{{brand_letter}}">
         {{letter}}
     </a>
+    {% for b in brand%}
+    {% if letter == "a"%}
+    {{b}}
+    {% endif %}
+    {% endfor %}
+    {% for b in brand%}
+    {% if letter == "b"%}
+    {{b}}
+    {% endif %}
+    {% endfor %}
     <hr>
     <hr>
     <hr>
