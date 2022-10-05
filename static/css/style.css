@@ -164,6 +164,7 @@ header {
 
 .user-profile-drop-down-menu {
     display: none;
+    background-color: #ffffff;
 }
 
 .profile-active {
@@ -175,6 +176,10 @@ header {
 
 .user-profile-drop-down-menu a {
     padding: 5px;
+}
+
+.user-profile-drop-down-menu:hover {
+    color: #EE4B2B;
 }
 
 /* Footer  */
@@ -299,6 +304,11 @@ footer ul {
     width: 15%;
 }
 
+.navigation-options a:hover {
+    color: #EE4B2B;
+}
+
+
 /* Mobile Header: Burger Menu, Serach Icon, Logo, User Profile & Shopping Bag */
 
 #mobile-header-container {
@@ -390,6 +400,11 @@ footer ul {
     color: #ffffff;
     font-size: 1.5rem;
 }
+
+.mobile-navigation-container a:hover {
+    color: #EE4B2B;
+}
+
 
 .mobile-navigation-menus {
     padding-left: 0px;
@@ -583,6 +598,10 @@ footer ul {
     padding: 5px;
 }
 
+.brands-a-z a:hover {
+    color: #EE4B2B;
+}
+
 .brands-list-container {
     width: 100%;
     text-align: center;
@@ -600,10 +619,6 @@ footer ul {
 
 .brands-list {
     position: absolute;
-}
-
-.brands-list:hover {
-    border-bottom: dotted #000000;
 }
 
 .brand-container {
@@ -779,6 +794,11 @@ footer ul {
     #hero-image {
         min-height: 100vh;
     }
+
+    .profile-active {
+        margin-left: -15px;
+    }
+    
 }
 
 @media only screen and (max-width: 650px) {
@@ -867,7 +887,12 @@ footer ul {
 
     .navigation-options a {
         font-size: 1rem;
-    }    
+    } 
+
+    .user-profile-drop-down-menu a {
+        font-size: 0.8rem;
+    }
+    
 }
 
 @media only screen and (max-width: 400px) {
