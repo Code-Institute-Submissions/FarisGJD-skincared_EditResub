@@ -39,9 +39,15 @@
                             <a href="">PRODUCT MANAGEMENT</a>
                             {% endif %}
                             <a href="">PROFILE</a>
+                            <hr>
+                            <hr>
+                            <hr>
                             <a href="{% url 'account_logout' %}">LOGOUT</a>
                         {% else %}
                             <a href="{% url 'account_signup' %}">REGISTER</a>
+                            <hr>
+                            <hr>
+                            <hr>
                             <a href="{% url 'account_login' %}">LOGIN</a>
                         {% endif %}
                     </div>
