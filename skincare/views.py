@@ -5,9 +5,10 @@ from .models import Brand
 def all_brands(request):
     """ A view to render all products aswell as sorting and seraching """
 
-    # Renders Brands Model
+    # Retrieves brand object
     brands = Brand.objects.all()
-    # Filters brand starting letter and only renders single ones
+
+    # Renders brand starting letters and ommits duplicate values
     brand_letters_query = Brand.objects.values_list(
         'character_identifier', flat=True
         )
@@ -16,7 +17,7 @@ def all_brands(request):
         if letters not in brand_letters:
             brand_letters.append(letters)
 
-    # Allow you to filter by brands use after letters are established
+    # Filters and allocates brands by starting character
     brand = brands.filter(character_identifier="a")
 
     context = {

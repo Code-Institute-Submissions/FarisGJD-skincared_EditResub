@@ -7,39 +7,38 @@
     <hr>
     <hr>
     <hr>
-  
 
     <div class="brands-a-z">
         {% for letter in brand_letters %}
-        <a href="{{brand_letter}}">
+        <a href="#{{letter}}">
             {{letter}}
         </a>
         {% endfor %}
     </div>
 </div>
 
+
+
+
+
+
+
 <div class="brand-container">
     {% for letter in brand_letters %}
-    <a href="{{brand_letter}}">
+    {% if letter == letter %}
+    <div id="{{letter}}">
         {{letter}}
-    </a>
-    {% for b in brand%}
-    {% if letter == "a"%}
-    {{b}}
+    </div>
     {% endif %}
-    {% endfor %}
-    {% for b in brand%}
-    {% if letter == "b"%}
-    {{b}}
-    {% endif %}
-    {% endfor %}
+        <div class="a"></div>
+  
     <hr>
     <hr>
     <hr>
     {% endfor %}
 </div>
 
-<div class="brands-list-container">
+<!-- <div class="brands-list-container">
     {% for brand in brands %}
     <a href="">
         <div class="brands-list">
@@ -47,6 +46,6 @@
         </div>
     </a>
     {% endfor %}
-</div>
+</div> -->
 
 {% endblock %}

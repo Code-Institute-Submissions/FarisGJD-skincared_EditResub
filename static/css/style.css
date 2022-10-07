@@ -600,6 +600,7 @@ footer ul {
 
 .brands-a-z a:hover {
     color: #EE4B2B;
+    cursor: pointer;
 }
 
 .brands-list-container {
@@ -958,4 +959,10 @@ footer ul {
     .navigation-options-mobile a {
         font-size: 1em;
     }
+}
+
+.a {
+    height: 1000px; 
+    width: 100%;
+    background-color: red;
 }
