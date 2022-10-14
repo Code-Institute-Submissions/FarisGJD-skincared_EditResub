@@ -26,27 +26,39 @@
                     {% for brand in brands %}
                 {% if letter == "a" %}
                 <a href="#">
+                    {% if brand.friendly_name|first == "A"%}
                     {{brand.friendly_name}}
+                    {% endif %}
                 </a>
                 {% elif letter == "b" %}
                 <a href="#">
+                    {% if brand.friendly_name|first == "B"%}
                     {{brand.friendly_name}}
+                    {% endif %}
                 </a>
                 {% elif letter == "c" %}
                 <a href="#">
+                    {% if brand.friendly_name|first == "C"%}
                     {{brand.friendly_name}}
+                    {% endif %}
                 </a>
                 {% elif letter == "d" %}
                 <a href="#">
+                    {% if brand.friendly_name|first == "D"%}
                     {{brand.friendly_name}}
+                    {% endif %}
                 </a>
                 {% elif letter == "e" %}
                 <a href="#">
+                    {% if brand.friendly_name|first == "E"%}
                     {{brand.friendly_name}}
+                    {% endif %}
                 </a>
                 {% elif letter == "f" %}
                 <a href="#">
+                    {% if brand.friendly_name|first == "F"%}
                     {{brand.friendly_name}}
+                    {% endif %}
                 </a>
                 {% elif letter == "g" %}
                 <a href="#">
