@@ -615,13 +615,6 @@ footer ul {
     width: 85%;
 }
 
-.brand-container a {
-    color: #000000;
-    text-transform: none;
-    font-size: 2rem;
-    margin: 10px;
-}
-
 .brand-container a:hover {
     color: #EE4B2B;
    
@@ -637,11 +630,12 @@ footer ul {
     flex-wrap: wrap;
 }
 
-/* .brand {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
+.brand a {
+    color: #000000;
+    text-transform: none;
+    font-size: 2rem;
+    margin-right: 10px;
+}
 
 /* Media Queries */ 
 
