@@ -1,6 +1,5 @@
 {% extends "base.html" %}
 {% load static %}
-
 {% block content %}
 <div class="brand-header">
     <h2>BRANDS</h2>
@@ -21,7 +20,7 @@
     <div class="brand-container">
         {% for letter in brand_letters %}
         <div class="brand-inner-container">
-            <div id="{{letter}}">
+            <div id="{{letter}}" class="brand-letter">
                 {{letter}}
                 <div class="brand">
                     {% for brand in brands %}

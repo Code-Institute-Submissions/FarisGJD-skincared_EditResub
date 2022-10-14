@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from .models import Brand
-from django.db.models import F
 
 
 def all_brands(request):
