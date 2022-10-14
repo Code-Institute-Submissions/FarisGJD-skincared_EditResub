@@ -793,7 +793,15 @@ footer ul {
     .profile-active {
         margin-left: -15px;
     }
-    
+
+    .brand-header h2 {
+        font-size: 3.5rem;
+        margin-top: 30px;
+    }
+
+    .brand-container {
+        font-size: 3.5rem;
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -807,9 +815,7 @@ footer ul {
     
     .hero-text a {
         font-size: 2rem; 
-    }
-
-  
+    } 
 }
 
 @media only screen and (max-width: 600px) {
@@ -869,6 +875,18 @@ footer ul {
     .navigation-options-mobile a {
         font-size: 1.1em;
     }
+
+    .brand-header h2 {
+        font-size: 3rem;
+    }
+
+    .brand-container {
+        font-size: 3rem;
+    }
+
+    .brand a {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -890,6 +908,18 @@ footer ul {
 
     .profile-active {
         margin-left: -10px;
+    }
+
+    .brand-header h2 {
+        font-size: 2.5rem;
+    }
+
+    .brand-container {
+        font-size: 2.5rem;
+    }
+
+    .brand-a-z a {
+        font-size: 1.2rem;
     }
     
 }
@@ -913,6 +943,10 @@ footer ul {
 
     .navigation-items-container a {
         font-size: 1.3rem;
+    }
+
+    .brand a {
+        font-size: 1.2rem;
     }
 }
 
@@ -956,5 +990,13 @@ footer ul {
 
     .navigation-options-mobile a {
         font-size: 1em;
+    }
+
+    .brand-header h2 {
+        font-size: 2rem;
+    }
+
+    .brand-container {
+        font-size: 2rem;
     }
 }
