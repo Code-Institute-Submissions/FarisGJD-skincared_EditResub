@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import Brand
+from django.db.models import F
 
 
 def all_brands(request):
@@ -18,16 +19,16 @@ def all_brands(request):
             brand_letters.append(letters)
 
     # Filters and allocates brands by starting character
-    brand = brands.filter(character_identifier="a")
+    brand_startswith = brands.filter(
+        friendly_name='b')
 
     context = {
         'brands': brands,
         'brand_letters': brand_letters,
-        'brand': brand,
+        'brand_startswith': brand_startswith,
     }
 
     return render(request, 'brands/brands.html', context)
-
 
 # from .models import Skincare
 
