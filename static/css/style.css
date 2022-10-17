@@ -242,6 +242,7 @@ footer ul {
     margin-top: 25px;
     background-color: #f5f5f5;
     letter-spacing: 1px;
+    position: relative;
 }
 
 .navigation-items-container {
@@ -289,6 +290,7 @@ footer ul {
     flex-wrap: wrap;
     height: 250px;
     padding-top: 20px;
+    position: absolute;
 }
 
 .navigation-options h3 {

@@ -10,48 +10,56 @@ for (let i = 0; i < userProfileIcon.length; i++) {
     })
 }
 
-// Main Navigation 
+// Main Navigation
 
-const navButtonSkin = document.querySelector(".js-nav-button-skincare");
+const navButtonSkin = document.querySelectorAll(".js-nav-button-skincare");
 const navDropDownSkin = document.querySelector(".skincare-container");
 
-navButtonSkin.addEventListener("mouseenter", () => {
-    navDropDownSkin.classList.add("main-nav-js");
-})
+for(let i = 0; i < navButtonSkin.length; i++) {
+    navButtonSkin[i].addEventListener("mousemove", () => {
+        navDropDownSkin.classList.add("main-nav-js");
+    })
+}
 
 window.addEventListener("mouseout", () => {
     navDropDownSkin.classList.remove("main-nav-js");
 })
 
-const navButtonBrand = document.querySelector(".js-nav-button-brands");
+const navButtonBrand = document.querySelectorAll(".js-nav-button-brands");
 const navDropDownBrand = document.querySelector(".brands-container");
 
-navButtonBrand.addEventListener("mouseenter", () => {
-    navDropDownBrand.classList.add("main-nav-js");
-})
+for(let i = 0; i < navButtonBrand.length; i++) {
+    navButtonBrand[i].addEventListener("mousemove", () => {
+        navDropDownBrand.classList.add("main-nav-js");
+    })
+}
 
 window.addEventListener("mouseout", () => {
     navDropDownBrand.classList.remove("main-nav-js");
 })
 
 
-const navButtonSkinType = document.querySelector(".js-nav-button-skin-type");
+const navButtonSkinType = document.querySelectorAll(".js-nav-button-skin-type");
 const navDropDownSkinType = document.querySelector(".skin-type-container");
 
-navButtonSkinType.addEventListener("mouseenter", () => {
-    navDropDownSkinType.classList.add("main-nav-js");
-})
+for(let i = 0; i < navButtonSkinType.length; i++) {
+    navButtonSkinType[i].addEventListener("mousemove", () => {
+        navDropDownSkinType.classList.add("main-nav-js");
+    })
+}
 
 window.addEventListener("mouseout", () => {
     navDropDownSkinType.classList.remove("main-nav-js");
 })
 
-const navButtonSkinConcern = document.querySelector(".js-nav-button-skin-concern");
-const navDropDownSkinConcern = document.querySelector(".skin-concern-container")
+const navButtonSkinConcern = document.querySelectorAll(".js-nav-button-skin-concern");
+const navDropDownSkinConcern = document.querySelector(".skin-concern-container");
 
-navButtonSkinConcern.addEventListener("mouseenter", () => {
-    navDropDownSkinConcern.classList.add("main-nav-js");
-})
+for(let i = 0; i < navButtonSkinConcern.length; i++) {
+    navButtonSkinConcern[i].addEventListener("mousemove", () => {
+        navDropDownSkinConcern.classList.add("main-nav-js");
+    })
+}
 
 window.addEventListener("mouseout", () => {
     navDropDownSkinConcern.classList.remove("main-nav-js");
