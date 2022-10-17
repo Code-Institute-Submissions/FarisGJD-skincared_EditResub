@@ -62,11 +62,15 @@
                 </a>
                 {% elif letter == "g" %}
                 <a href="#">
+                    {% if brand.friendly_name|first == "G"%}
                     {{brand.friendly_name}}
+                    {% endif %}
                 </a>
                 {% elif letter == "h" %}
                 <a href="#">
+                    {% if brand.friendly_name|first == "H"%}
                     {{brand.friendly_name}}
+                    {% endif %}
                 </a>
                 {% elif letter == "i" %}
                 <a href="#">

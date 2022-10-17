@@ -11,48 +11,49 @@ for (let i = 0; i < userProfileIcon.length; i++) {
 }
 
 // Main Navigation 
+
 const navButtonSkin = document.querySelector(".js-nav-button-skincare");
 const navDropDownSkin = document.querySelector(".skincare-container")
 
 navButtonSkin.addEventListener("mouseenter", () => {
-    navDropDownSkin.classList.add("main-nav-js")
+    navDropDownSkin.classList.toggle("main-nav-js")
 })
 
 navDropDownSkin.addEventListener("mouseleave", () => {
-    navDropDownSkin.classList.remove("main-nav-js")
+    navDropDownSkin.classList.toggle("main-nav-js")
 })
 
 const navButtonBrand = document.querySelector(".js-nav-button-brands");
 const navDropDownBrand = document.querySelector(".brands-container")
 
 navButtonBrand.addEventListener("mouseenter", () => {
-    navDropDownBrand.classList.add("main-nav-js")
+    navDropDownBrand.classList.toggle("main-nav-js")
 })
 
 navDropDownBrand.addEventListener("mouseleave", () => {
-    navDropDownBrand.classList.remove("main-nav-js")
+    navDropDownBrand.classList.toggle("main-nav-js")
 })
 
 const navButtonSkinType = document.querySelector(".js-nav-button-skin-type");
 const navDropDownSkinType = document.querySelector(".skin-type-container")
 
 navButtonSkinType.addEventListener("mouseenter", () => {
-    navDropDownSkinType.classList.add("main-nav-js")
+    navDropDownSkinType.classList.toggle("main-nav-js")
 })
 
 navDropDownSkinType.addEventListener("mouseleave", () => {
-    navDropDownSkinType.classList.remove("main-nav-js")
+    navDropDownSkinType.classList.toggle("main-nav-js")
 })
 
 const navButtonSkinConcern = document.querySelector(".js-nav-button-skin-concern");
 const navDropDownSkinConcern = document.querySelector(".skin-concern-container")
 
 navButtonSkinConcern.addEventListener("mouseenter", () => {
-    navDropDownSkinConcern.classList.add("main-nav-js")
+    navDropDownSkinConcern.classList.toggle("main-nav-js")
 })
 
 navDropDownSkinConcern.addEventListener("mouseleave", () => {
-    navDropDownSkinConcern.classList.remove("main-nav-js")
+    navDropDownSkinConcern.classList.toggle("main-nav-js")
 })
 
 
