@@ -856,7 +856,7 @@ footer ul {
     }
     
     .logo-mobile-bottom {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         bottom: 5px;
         margin-left: 10px;
     }
@@ -972,21 +972,12 @@ footer ul {
 
 @media only screen and (max-width: 350px) {
     .logo-mobile-container {
-        width: 45px;
-        height: 45px;
-        position: relative;
-        margin-top: 15px;
+        width: 61px;
+        height: 61px;
     }
 
-    .logo-mobile {
-        font-size: 1.5rem;
-        text-shadow: 1px 1px #353935;
-    }
-    
     .logo-mobile-bottom {
-        font-size: 1rem;
-        margin-left: 5px;
-        bottom: 2px;
+        bottom: 1px;
     }
 
     .navigation-items-container a {
