@@ -437,7 +437,11 @@ footer ul {
 .navigation-item-mobile:hover .mobile-dropdown {
     display: flex; 
     flex-direction: column;
-} 
+}
+
+.navigation-item a:hover {
+    border-bottom: 0.5px solid #000000;
+}
 
 /* Logo */
 
@@ -604,7 +608,7 @@ footer ul {
 }
 
 .brand-outer-contianer{
-    /* width: 100%;  */
+    /* width: 100vw;  */
 }
 
 .brand-container {
@@ -612,6 +616,7 @@ footer ul {
     flex-direction: column;
     text-transform: uppercase;
     font-size: 4rem;
+    /* width: 100vw;  */
 }
 
 .brand-letter {
@@ -751,9 +756,18 @@ footer ul {
     }
 
     .logo-mobile-container {
-        width: 85px;
-        height: 85px;
+        width: 74px;
+        height: 74px;
     }
+
+    .logo-top {
+        font-size: 3.3rem;
+    }
+    
+    .logo-bottom {
+        bottom: -4px;
+    }
+    
     
     #user-profile-shoppingcart-container ul {
         display: flex; 
@@ -819,7 +833,9 @@ footer ul {
     
     .hero-text a {
         font-size: 2rem; 
-    } 
+    }
+
+
 }
 
 @media only screen and (max-width: 600px) {
