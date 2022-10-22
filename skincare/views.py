@@ -9,7 +9,7 @@ def all_brands(request):
     brands = Brand.objects.all()
 
     # Renders brand starting letters and ommits duplicate values
-    brand_letters_query = Brand.objects.values_list(
+    brand_letters_query = brands.values_list(
         'character_identifier', flat=True
         )
     brand_letters = []
@@ -18,8 +18,10 @@ def all_brands(request):
             brand_letters.append(letters)
 
     # Filters and allocates brands by starting character
+    brand_letters_startswith = tuple(brand_letters)
     brand_startswith = brands.filter(
-        friendly_name='b')
+        friendly_name__istartswith={brand_letters_startswith}
+        ).values()
 
     context = {
         'brands': brands,
@@ -28,17 +30,3 @@ def all_brands(request):
     }
 
     return render(request, 'brands/brands.html', context)
-
-# from .models import Skincare
-
-
-# def all_products(request):
-#     """ A view to render all products aswell as sorting and seraching """
-
-#     skincare = Skincare.objects.all()
-
-#     context = {
-#         'skincare': skincare,
-#     }
-
-#     return render(request, 'skincare/skincare.html', context)

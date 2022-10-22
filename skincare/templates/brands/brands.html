@@ -21,128 +21,88 @@
         {% for letter in brand_letters %}
         <div class="brand-inner-container">
             <div id="{{letter}}" class="brand-letter">
-                {{letter}}
+                <div class="brand-letter-container">
+                    {{letter}}
+                </div>
                 <div class="brand">
                     {% for brand in brands %}
                 {% if letter == "a" %}
                 <a href="#">
-                    {% if brand.friendly_name|first == "A"%}
-                    {{brand.friendly_name}}
-                    {% endif %}
                 </a>
                 {% elif letter == "b" %}
                 <a href="#">
-                    {% if brand.friendly_name|first == "B"%}
-                    {{brand.friendly_name}}
-                    {% endif %}
                 </a>
                 {% elif letter == "c" %}
                 <a href="#">
-                    {% if brand.friendly_name|first == "C"%}
-                    {{brand.friendly_name}}
-                    {% endif %}
                 </a>
                 {% elif letter == "d" %}
                 <a href="#">
-                    {% if brand.friendly_name|first == "D"%}
-                    {{brand.friendly_name}}
-                    {% endif %}
                 </a>
                 {% elif letter == "e" %}
                 <a href="#">
-                    {% if brand.friendly_name|first == "E"%}
-                    {{brand.friendly_name}}
-                    {% endif %}
                 </a>
                 {% elif letter == "f" %}
                 <a href="#">
-                    {% if brand.friendly_name|first == "F"%}
-                    {{brand.friendly_name}}
-                    {% endif %}
                 </a>
                 {% elif letter == "g" %}
                 <a href="#">
-                    {% if brand.friendly_name|first == "G"%}
-                    {{brand.friendly_name}}
-                    {% endif %}
                 </a>
                 {% elif letter == "h" %}
                 <a href="#">
-                    {% if brand.friendly_name|first == "H"%}
-                    {{brand.friendly_name}}
-                    {% endif %}
                 </a>
                 {% elif letter == "i" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "j" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "k" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "l" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "m" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "n" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "o" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "p" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "q" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "r" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "s" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "t" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "u" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "v" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "w" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "x" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "y" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 {% elif letter == "z" %}
                 <a href="#">
-                    {{brand.friendly_name}}
                 </a>
                 </div>
                 {% endif %}

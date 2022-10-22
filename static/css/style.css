@@ -46,7 +46,7 @@ hr {
     font-size: 1.5rem;
 }
 
-.logo-mobile-container, .fa-bars, .hero-text a {
+.logo-mobile-container, .fa-bars, .hero-text a, .brand-letter-container  {
     box-shadow: -0.5px -0.5px #ffffff, -1px -1px #353935, 0.5px 0.5px #ffffff, 1px 1px #353935, -1.5px -1.5px #ffffff, -2.5px -2.5px #353935,1.5px 1.5px #ffffff, 2.5px 2.5px #353935,  -3px -3px #ffffff, -4px -4px #353935, 3px 3px #ffffff, 4px 4px #353935, -3.5px -3.5px #ffffff, -4.5px -4.5px #353935, 3.5px 3.5px #ffffff, 4.5px 4.5px #353935, -4px -4px #ffffff, -5px -5px #000000;
 }
 
@@ -607,21 +607,25 @@ footer ul {
     color: #EE4B2B;
 }
 
-.brand-outer-contianer{
-    /* width: 100vw;  */
-}
-
 .brand-container {
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
     font-size: 4rem;
-    /* width: 100vw;  */
 }
 
 .brand-letter {
-    scroll-margin-top: 210px;
+    scroll-margin-top: 220px;
     margin-left: 20px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.brand-letter-container {
+    height: 60px; 
+    width: 60px; 
+    background-color: black;
+    text-align: center;
 }
 
 .brand-container a:hover {
@@ -642,7 +646,7 @@ footer ul {
 .brand a {
     color: #000000;
     text-transform: none;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-right: 10px;
 }
 
@@ -767,8 +771,7 @@ footer ul {
     .logo-bottom {
         bottom: -4px;
     }
-    
-    
+
     #user-profile-shoppingcart-container ul {
         display: flex; 
         flex-direction: row;
@@ -820,6 +823,11 @@ footer ul {
     .brand-container {
         font-size: 3.5rem;
     }
+
+    .brand-letter-container {
+        height: 55px; 
+        width: 55px; 
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -834,8 +842,6 @@ footer ul {
     .hero-text a {
         font-size: 2rem; 
     }
-
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -904,6 +910,11 @@ footer ul {
         font-size: 3rem;
     }
 
+    .brand-letter-container {
+        height: 45px; 
+        width: 45px; 
+    }
+
     .brand a {
         font-size: 1.5rem;
     }
@@ -936,6 +947,11 @@ footer ul {
 
     .brand-container {
         font-size: 2.5rem;
+    }
+
+    .brand-letter-container {
+        height: 40px; 
+        width: 40px; 
     }
 
     .brand-a-z a {
@@ -1010,5 +1026,10 @@ footer ul {
 
     .brand-container {
         font-size: 2rem;
+    }
+
+    .brand-letter-container {
+        height: 35px; 
+        width: 35px; 
     }
 }
