@@ -134,6 +134,7 @@ def all_brands(request):
 
 def full_brands(request, slug):
 
+    queryset = Brand.objects.all()
     full_brand = get_object_or_404(queryset, slug=slug)
 
-    return redner(request, 'brands/full_brands.html', context)
+    return render(request, 'brands/full_brands.html')
