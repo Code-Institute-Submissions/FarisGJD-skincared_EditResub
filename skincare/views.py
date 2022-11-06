@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+# from django.views import generic, View
 from .models import Brand
 
 
@@ -129,3 +130,10 @@ def all_brands(request):
     }
 
     return render(request, 'brands/brands.html', context)
+
+
+def full_brands(request, slug):
+
+    full_brand = get_object_or_404(queryset, slug=slug)
+
+    return redner(request, 'brands/full_brands.html', context)
