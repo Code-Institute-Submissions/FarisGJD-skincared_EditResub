@@ -1,5 +1,4 @@
 from django.shortcuts import render, get_object_or_404
-# from django.views import generic, View
 from .models import Brand
 
 
@@ -18,8 +17,9 @@ def all_brands(request):
         if letters not in brand_letters:
             brand_letters.append(letters)
 
-    # Filters and allocates brands by starting character
-    # brand_letters_tuple = tuple(brand_letters)
+    # Filters and renders brands by starting character
+    # Needs refactoring, maybe by using the brand_letters varaible as a
+    # filter value?
 
     brand_a = brands.filter(
         friendly_name__istartswith="a")
@@ -134,7 +134,10 @@ def all_brands(request):
 
 def full_brands(request, slug):
 
+    # Retrives Brand object
     queryset = Brand.objects.all()
+
+    # Retrives the slug from the Brand object then applies it to each brand
     full_brand = get_object_or_404(queryset, slug=slug)
 
     return render(request, 'brands/full_brands.html')
