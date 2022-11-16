@@ -2,10 +2,18 @@
 {% load static %}
 {% block content %}
 
+<div class="full-brand-header">
+    <h2>
+        {{full_brand.friendly_name}}
+    </h2>
+    <hr>
+    <hr>
+    <hr>
+</div>
 
 <div class="brand-image-text-container">
     <div class="brand-image">
-        <img src="{{full_brand.image.url}}" alt="{{full_brand.friendly_name}}">
+        <img src="/media/skincare/brands/ample_n.webp" width="600" height="200" alt="{{full_brand.friendly_name}}">
     </div>
 
     <div class="brand-text">
@@ -14,15 +22,5 @@
         </p>
     </div>
 </div>
-
-<div class="full-brand-header">
-    <h2>
-        {{full_brand.friendly_name}}
-    </h2>
-</div>
-<hr>
-<hr>
-<hr>
-
 
 {% endblock %}
