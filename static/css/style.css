@@ -650,6 +650,32 @@ footer ul {
     margin-right: 20px;
 }
 
+/* Full Brands Page */ 
+
+.brand-image-text-container {
+    margin-top: 60px; 
+    width: 500px;
+    height: 500px;
+    background-color: red ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.brand-image {
+    width: 100px; 
+    height: 100px; 
+    background-color: blue;
+}
+
+
+.brand-text {
+    width: 100px; 
+    height: 100px; 
+    background-color: yellowgreen;
+}
+
 /* Media Queries */ 
 
 @media only screen and (max-width: 1250px) {
