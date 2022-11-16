@@ -140,4 +140,8 @@ def full_brands(request, slug):
     # Retrives the slug from the Brand object then applies it to each brand
     full_brand = get_object_or_404(queryset, slug=slug)
 
-    return render(request, 'brands/full_brands.html')
+    context = {
+        'full_brand': full_brand,
+    }
+
+    return render(request, 'brands/full_brands.html', context)
