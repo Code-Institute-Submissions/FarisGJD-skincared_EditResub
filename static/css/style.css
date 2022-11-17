@@ -660,7 +660,7 @@ footer ul {
 
 .brand-image-text-container {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .brand-image-text-inner-container {
@@ -898,6 +898,24 @@ footer ul {
         height: 55px; 
         width: 55px; 
     }
+
+    .brand-image {
+        width: 580px;
+        height: 180px;
+    }
+    
+    .brand-text {
+        width: 580px; 
+        height: 180px;
+    }
+
+    .full-brand-header h2 {
+        font-size: 3.5rem; 
+    }
+    
+    .full-brand-header hr {
+        width: 400px; 
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -911,6 +929,24 @@ footer ul {
     
     .hero-text a {
         font-size: 2rem; 
+    }
+
+    .brand-image {
+        width: 560px;
+        height: 160px;
+    }
+    
+    .brand-text {
+        width: 560px; 
+        height: 160px;
+    }
+
+    .full-brand-header h2 {
+        font-size: 3rem; 
+    }
+    
+    .full-brand-header hr {
+        width: 350px; 
     }
 }
 
@@ -988,6 +1024,25 @@ footer ul {
     .brand a {
         font-size: 1.5rem;
     }
+
+    .brand-image {
+        width: 400px;
+        height: 130px;
+    }
+    
+    .brand-text {
+        width: 400px; 
+        height: 130px;
+        font-size: 1.2rem;
+    }
+
+    .full-brand-header h2 {
+        font-size: 2.5rem; 
+    }
+    
+    .full-brand-header hr {
+        width: 200px; 
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -1027,7 +1082,24 @@ footer ul {
     .brand-a-z a {
         font-size: 1.2rem;
     }
+
+    .brand-image {
+        width: 300px;
+        height: 100px;
+    }
     
+    .brand-text {
+        width: 300px; 
+        height: 100px;
+    }
+
+    .full-brand-header h2 {
+        font-size: 2rem; 
+    }
+    
+    .full-brand-header hr {
+        width: 150px; 
+    } 
 }
 
 @media only screen and (max-width: 400px) {
@@ -1102,4 +1174,22 @@ footer ul {
         height: 35px; 
         width: 35px; 
     }
+
+    .brand-image {
+        width: 250px;
+        height: 100px;
+    }
+    
+    .brand-text {
+        width: 250px; 
+        height: 100px;
+    }
+
+    .full-brand-header h2 {
+        font-size: 1.5rem; 
+    }
+    
+    .full-brand-header hr {
+        width: 100px; 
+    } 
 }
