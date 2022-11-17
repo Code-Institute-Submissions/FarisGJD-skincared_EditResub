@@ -654,22 +654,34 @@ footer ul {
 
 .brand-image-text-container {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     margin-top: 40px;
 }
 
-.brand-image {
-    margin-top: 5px;
+.brand-image-text-inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+.brand-image-container {
+    margin: 5px 20px 10px 0;
+}
+
+.brand-image {
+    width: 600px;
+    height: 200px;
+}
 
 .brand-text {
     width: 600px; 
     height: 200px; 
     font-size: 1.5rem;
-    overflow: scroll;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.about-text {
+    padding-right: 12px;
 }
 
 .full-brand-header h2 {
@@ -697,6 +709,24 @@ footer ul {
     
     .hero-text a {
         font-size: 3rem; 
+    }
+
+    .brand-image {
+        width: 550px;
+        height: 150px
+    }
+
+    .brand-text {
+        width: 550px; 
+        height: 150px; 
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .brand-image-text-inner-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
