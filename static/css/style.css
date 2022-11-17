@@ -62,6 +62,12 @@ button:focus{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
 }
 
+.no-image {
+    width: 250px; 
+    height: 250px; 
+}
+
+
 /* Header: Logo, Serach Bar, User Profile & Shopping Bag   */
 
 header {

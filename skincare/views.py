@@ -18,8 +18,6 @@ def all_brands(request):
             brand_letters.append(letters)
 
     # Filters and renders brands by starting character
-    # Needs refactoring, maybe by using the brand_letters varaible as a
-    # filter value?
 
     brand_a = brands.filter(
         friendly_name__istartswith="a")
