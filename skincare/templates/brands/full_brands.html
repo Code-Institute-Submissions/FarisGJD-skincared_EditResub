@@ -13,10 +13,15 @@
 
 <div class="brand-image-text-container">
     <div class="brand-image-text-inner-container">
+        {% if full_brand.image %}
         <div class="brand-image-container">
-            <img class="brand-image" id="no-brand-image" src="/media/noimage.png" alt="{{full_brand.friendly_name}}">
+            <img class="brand-image" src="{{ full_brand.image.url}}"  alt="{{full_brand.friendly_name}}">
         </div>
-
+        {% else %}
+        <div class="brand-image-container">
+            <img class="brand-image no-brand-image" src="{{MEDIA_URL}}noimage.png" alt="{{full_brand.friendly_name}}">
+        </div>
+        {% endif %}
         <div class="brand-text">
             <p class="about-text">
                 {{full_brand.about}}
