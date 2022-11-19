@@ -62,12 +62,6 @@ button:focus{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
 }
 
-.no-image {
-    width: 250px; 
-    height: 250px; 
-}
-
-
 /* Header: Logo, Serach Bar, User Profile & Shopping Bag   */
 
 header {
@@ -702,6 +696,12 @@ footer ul {
     margin: auto;
 }
 
+#no-brand-image {
+    width: 250px; 
+    height: 250px; 
+}
+
+
 /* Media Queries */ 
 
 @media only screen and (max-width: 1250px) {
@@ -916,6 +916,11 @@ footer ul {
     .full-brand-header hr {
         width: 400px; 
     }
+
+    #no-brand-image {
+        width: 200px; 
+        height: 200px; 
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -947,6 +952,11 @@ footer ul {
     
     .full-brand-header hr {
         width: 350px; 
+    }
+
+    #no-brand-image {
+        width: 150px; 
+        height: 150px; 
     }
 }
 
