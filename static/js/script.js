@@ -82,17 +82,19 @@ searchIcon.addEventListener("click", () =>{
     search.classList.toggle("search-active");
 })
 
-// Carousel 
+//Carousel 
 // let i = 0; 
 // let slides = []; 
 // let slideFade = 6000; 
 
-// Slide Images 
-// slides[0] = "media/hero_image_1.jpg";
-// slides[1] = "media/the_ordinary_slide.webp"; 
-// slides[2] = "media/sunscreen_slide.webp"
+//Slide Images 
+// slides[0] = "media/ample_n.webp"; 
+// slides[1] = "media/banila_co.webp"; 
+// slides[2] = "media/beauty_of_joseon.webp";
+// slides[3] = "media/benton.jpeg";
+// slides[4] = "media/by_wishtrend.webp"; 
 
-// Slide Fade 
+//Slide Fade 
 // function slideChange() {
 //     document.slide.src = slides[i]; 
 //     if(i < slides.length - 1) {

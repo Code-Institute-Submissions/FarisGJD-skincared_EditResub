@@ -565,14 +565,22 @@ footer ul {
     }
   }
 
-  /* .carousel-advertisment-container {
-    max-width: 100vw;
+
+/* Home Page Image Carousel */
+
+  /* .carousel-container {
+    width: 100%; 
+    height: 150px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 20px 0 20px;
 }
-.slide-container {
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+
+.slide-container img {
+    width: 100px;
+    height: 50px;
 } */
 
 /* Brands Page */
