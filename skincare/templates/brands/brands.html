@@ -7,7 +7,6 @@
     <hr>
     <hr>
 
-    {% block brandnav %}
     <div class="brand-a-z">
         {% for letter in brand_letters %}
         <a href="#{{letter}}">
@@ -15,7 +14,6 @@
         </a>
         {% endfor %}
     </div>
-    {% endblock %}
 </div>
 
 <div class="brand-outer-contianer">
@@ -30,7 +28,7 @@
                 <div class="brand"> 
                     {% for brand in brand_a %}
                         {% if letter == "a"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="a">
                             {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -38,7 +36,7 @@
 
                     {% for brand in brand_b %}
                         {% if letter == "b"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="b">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -46,7 +44,7 @@
 
                     {% for brand in brand_c %}
                         {% if letter == "c"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="c">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -54,7 +52,7 @@
 
                     {% for brand in brand_d %}
                         {% if letter == "d"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="d">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -62,7 +60,7 @@
 
                     {% for brand in brand_e %}
                         {% if letter == "e"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="e">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -70,7 +68,7 @@
 
                     {% for brand in brand_f %}
                         {% if letter == "f"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="f">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -78,7 +76,7 @@
 
                     {% for brand in brand_g %}
                         {% if letter == "g"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="g">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -86,7 +84,7 @@
 
                     {% for brand in brand_h %}
                         {% if letter == "h"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="h">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -94,7 +92,7 @@
 
                     {% for brand in brand_i %}
                         {% if letter == "i"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="i">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -102,7 +100,7 @@
 
                     {% for brand in brand_j %}
                         {% if letter == "j"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="j">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -110,7 +108,7 @@
 
                     {% for brand in brand_k %}
                         {% if letter == "k"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="k">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -118,7 +116,7 @@
 
                     {% for brand in brand_l %}
                         {% if letter == "l"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="l">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -126,7 +124,7 @@
 
                     {% for brand in brand_m %}
                         {% if letter == "m"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="m">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -134,7 +132,7 @@
 
                     {% for brand in brand_n %}
                         {% if letter == "n"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="n">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -142,7 +140,7 @@
 
                     {% for brand in brand_o %}
                         {% if letter == "o"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="o">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -150,7 +148,7 @@
 
                     {% for brand in brand_p %}
                         {% if letter == "p"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="p">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -158,7 +156,7 @@
 
                     {% for brand in brand_q %}
                         {% if letter == "q"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="q">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -166,7 +164,7 @@
 
                     {% for brand in brand_r %}
                         {% if letter == "r"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="r">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -174,7 +172,7 @@
 
                     {% for brand in brand_s %}
                         {% if letter == "s"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="s">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -182,7 +180,7 @@
 
                     {% for brand in brand_t %}
                         {% if letter == "t"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="t">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -190,7 +188,7 @@
 
                     {% for brand in brand_u %}
                         {% if letter == "u"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="u">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -198,7 +196,7 @@
                     
                     {% for brand in brand_v %}
                         {% if letter == "v"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="v">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -206,7 +204,7 @@
 
                     {% for brand in brand_w %}
                         {% if letter == "w"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="w">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -214,7 +212,7 @@
 
                     {% for brand in brand_x %}
                         {% if letter == "x"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="x">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -222,7 +220,7 @@
 
                     {% for brand in brand_y %}
                         {% if letter == "y"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="y">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -230,7 +228,7 @@
 
                     {% for brand in brand_z %}
                         {% if letter == "z"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
+                        <a href="{% url 'full_brands' brand.slug %}" id="z">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}

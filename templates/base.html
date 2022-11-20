@@ -81,7 +81,7 @@
                         </a>
 
                         <div class="user-profile-drop-down-menu">
-                            {% if request.useris_authenticated %}
+                            {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
                                 <a href="">PRODUCT MANAGEMENT</a>
                                 {% endif %}

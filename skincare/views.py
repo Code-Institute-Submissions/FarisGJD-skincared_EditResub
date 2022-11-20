@@ -3,7 +3,7 @@ from .models import Brand
 
 
 def all_brands(request):
-    """ A view to render all products aswell as sorting and seraching """
+    """ A view to render all brands and organize them alphabetically """
 
     # Retrieves brand object
     brands = Brand.objects.all()
@@ -131,6 +131,9 @@ def all_brands(request):
 
 
 def full_brands(request, slug):
+
+    """ A view to use the slug field to take user to the correct brand and
+    relevant information """
 
     # Retrives Brand object
     queryset = Brand.objects.all()
