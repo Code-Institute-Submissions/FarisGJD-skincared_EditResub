@@ -307,10 +307,27 @@ footer ul {
 
 .nav-letters-container {
     margin: 10px 20px 0 0;
+    text-align: center;
 }
 
 .navigation-options a:hover {
     color: #EE4B2B;
+}
+
+.featured-brands-images-container {
+    display: flex;
+    flex-wrap: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-brands-images-container img {
+    padding: 5px; 
+}
+
+.featured-brands-heading{
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
 }
 
 /* Mobile Header: Burger Menu, Serach Icon, Logo, User Profile & Shopping Bag */
@@ -743,7 +760,10 @@ footer ul {
         width: 200px; 
         height: 200px;
     }
-    
+
+    .featured-brands-heading {
+        margin-top: 30px;
+    }
 }
 
 @media only screen and (max-width: 1150px) {
@@ -758,7 +778,10 @@ footer ul {
         height: 200px;
         margin-bottom: -30px;
     }
-}
+
+    .featured-brands-heading {
+        margin-top: 0;
+    }
 
 @media only screen and (max-width: 1100px) {
     .hero-text h1 {
@@ -1226,5 +1249,5 @@ footer ul {
     
     .full-brand-header hr {
         width: 100px; 
-    } 
+    }
 }
