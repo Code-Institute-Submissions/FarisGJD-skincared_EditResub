@@ -306,7 +306,7 @@ footer ul {
 }
 
 .nav-letters-container {
-    margin: 10px 20px 0 0;
+    margin: 5px 20px 0 0;
     text-align: center;
 }
 
@@ -678,29 +678,45 @@ footer ul {
     margin-right: 20px;
 }
 
+.brand-image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.brand-image {
+    width: 100px;
+    height: 40px;
+    border: 0.5px #000000 double;
+    margin: 5px; 
+}
+
+
 /* Full Brands Page */ 
 
-.brand-image-text-container {
+.full-brand-image-text-container {
     width: 100%;
     margin-top: 20px;
 }
 
-.brand-image-text-inner-container {
+.full-brand-image-text-inner-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.brand-image-container {
+.full-brand-image-container {
     margin: 5px 20px 10px 0;
 }
 
-.brand-image {
+.full-brand-image {
     width: 600px;
     height: 200px;
 }
 
-.brand-text {
+.full-brand-text {
     width: 600px; 
     height: 200px; 
     font-size: 1.5rem;
@@ -708,7 +724,7 @@ footer ul {
     text-align: center;
 }
 
-.about-text {
+.full-about-text {
     padding-right: 12px;
 }
 
@@ -724,7 +740,7 @@ footer ul {
     margin: auto;
 }
 
-#no-brand-image {
+#full-no-brand-image {
     width: 250px; 
     height: 250px;
     margin-bottom: 20px;
@@ -746,17 +762,17 @@ footer ul {
         font-size: 3rem; 
     }
 
-    .brand-image {
+    .full-brand-image {
         width: 550px;
         height: 150px
     }
 
-    .brand-text {
+    .full-brand-text {
         width: 550px; 
         height: 150px; 
     }
 
-    #no-brand-image {
+    #full-no-brand-image {
         width: 200px; 
         height: 200px;
     }
@@ -767,13 +783,13 @@ footer ul {
 }
 
 @media only screen and (max-width: 1150px) {
-    .brand-image-text-inner-container {
+    .full-brand-image-text-inner-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    #no-brand-image {
+    #full-no-brand-image {
         width: 200px; 
         height: 200px;
         margin-bottom: -30px;
@@ -782,6 +798,7 @@ footer ul {
     .featured-brands-heading {
         margin-top: 0;
     }
+}
 
 @media only screen and (max-width: 1100px) {
     .hero-text h1 {
@@ -946,12 +963,12 @@ footer ul {
         width: 55px; 
     }
 
-    .brand-image {
+    .full-brand-image {
         width: 580px;
         height: 180px;
     }
     
-    .brand-text {
+    .full-brand-text {
         width: 580px; 
         height: 180px;
     }
@@ -964,7 +981,7 @@ footer ul {
         width: 400px; 
     }
 
-    #no-brand-image {
+    #full-no-brand-image {
         width: 150px; 
         height: 150px;
         margin-bottom: 0;
@@ -984,12 +1001,12 @@ footer ul {
         font-size: 2rem; 
     }
 
-    .brand-image {
+    .full-brand-image {
         width: 560px;
         height: 160px;
     }
     
-    .brand-text {
+    .full-brand-text {
         width: 560px; 
         height: 160px;
     }
@@ -1002,7 +1019,7 @@ footer ul {
         width: 350px; 
     }
 
-    #no-brand-image {
+    #full-no-brand-image {
         width: 150px; 
         height: 150px; 
     }
@@ -1083,12 +1100,12 @@ footer ul {
         font-size: 1.5rem;
     }
 
-    .brand-image {
+    .full-brand-image {
         width: 400px;
         height: 130px;
     }
     
-    .brand-text {
+    .full-brand-text {
         width: 400px; 
         height: 130px;
         font-size: 1.2rem;
@@ -1141,12 +1158,12 @@ footer ul {
         font-size: 1.2rem;
     }
 
-    .brand-image {
+    .full-brand-image {
         width: 300px;
         height: 100px;
     }
     
-    .brand-text {
+    .full-brand-text {
         width: 300px; 
         height: 100px;
     }
@@ -1233,12 +1250,12 @@ footer ul {
         width: 35px; 
     }
 
-    .brand-image {
+    .full-brand-image {
         width: 250px;
         height: 100px;
     }
     
-    .brand-text {
+    .full-brand-text {
         width: 250px; 
         height: 100px;
     }

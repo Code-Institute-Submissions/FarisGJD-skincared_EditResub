@@ -11,19 +11,19 @@
     <hr>
 </div>
 
-<div class="brand-image-text-container">
-    <div class="brand-image-text-inner-container">
+<div class="full-brand-image-text-container">
+    <div class="full-brand-image-text-inner-container">
         {% if full_brand.image %}
-        <div class="brand-image-container">
-            <img class="brand-image" src="{{ full_brand.image.url}}"  alt="{{full_brand.friendly_name}}">
+        <div class="full-brand-image-container">
+            <img class="full-brand-image" src="{{ full_brand.image.url}}"  alt="{{full_brand.friendly_name}}">
         </div>
         {% else %}
-        <div class="brand-image-container">
-            <img class="brand-image no-brand-image" src="{{MEDIA_URL}}noimage.png" alt="{{full_brand.friendly_name}}">
+        <div class="full-brand-image-container">
+            <img class="full-brand-image full-no-brand-image" src="{{MEDIA_URL}}noimage.png" alt="{{full_brand.friendly_name}}">
         </div>
         {% endif %}
-        <div class="brand-text">
-            <p class="about-text">
+        <div class="full-brand-text">
+            <p class="full-about-text">
                 {{full_brand.about}}
             </p>
         </div>

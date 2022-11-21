@@ -98,6 +98,7 @@ def all_brands(request):
         friendly_name__istartswith="z")
 
     context = {
+        'brands': brands,
         'brand_letters': brand_letters,
         "brand_a": brand_a,
         "brand_b": brand_b,
