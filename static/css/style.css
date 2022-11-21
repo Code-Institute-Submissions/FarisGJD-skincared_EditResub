@@ -46,7 +46,7 @@ hr {
     font-size: 1.5rem;
 }
 
-.logo-mobile-container, .fa-bars, .hero-text a, .brand-letter-container  {
+.logo-mobile-container, .fa-bars, .hero-text a {
     box-shadow: -0.5px -0.5px #ffffff, -1px -1px #353935, 0.5px 0.5px #ffffff, 1px 1px #353935, -1.5px -1.5px #ffffff, -2.5px -2.5px #353935,1.5px 1.5px #ffffff, 2.5px 2.5px #353935,  -3px -3px #ffffff, -4px -4px #353935, 3px 3px #ffffff, 4px 4px #353935, -3.5px -3.5px #ffffff, -4.5px -4.5px #353935, 3.5px 3.5px #ffffff, 4.5px 4.5px #353935, -4px -4px #ffffff, -5px -5px #000000;
 }
 
@@ -644,14 +644,15 @@ footer ul {
 .brand-letter {
     scroll-margin-top: 220px;
     margin-left: 20px;
-    color: #ffffff;
     margin-top: 15px;
+    color: #ffffff
 }
 
 .brand-letter-container {
     height: 60px; 
     width: 60px; 
-    background-color: black;
+    border: dotted 2px #ffffff;
+    background-color: #000000;
     text-align: center;
     margin-top: 10px;
 }
