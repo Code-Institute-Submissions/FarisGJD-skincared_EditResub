@@ -20,6 +20,9 @@ def all_brands(request):
     # Filters and renders brands by starting character
 
     # Ask Mentor For Help
+
+    # brand_letter_startswith = brands.order_by('friendly_name')
+
     # brand_letter_startswith = brands.values_list('friendly_name', flat=True)
 
     brand_a = brands.filter(
@@ -35,7 +38,7 @@ def all_brands(request):
         friendly_name__istartswith="d")
 
     brand_e = brands.filter(
-        friendly_name__istartswith="e") 
+        friendly_name__istartswith="e")
 
     brand_f = brands.filter(
         friendly_name__istartswith="f")
@@ -102,8 +105,8 @@ def all_brands(request):
 
     context = {
         'brands': brands,
-        # 'brand_letter_startswith': brand_letter_startswith,
         'brand_letters': brand_letters,
+        'brand_letter_startswith': brand_letter_startswith,
         "brand_a": brand_a,
         "brand_b": brand_b,
         "brand_c": brand_c,
@@ -133,6 +136,7 @@ def all_brands(request):
     }
 
     return render(request, 'brands/brands.html', context)
+
 
 def full_brands(request, slug):
 
