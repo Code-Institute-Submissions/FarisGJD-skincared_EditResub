@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
+<!-- Brands Header & Alphabetic Navigation -->
 <div class="brand-header">
     <h2>BRANDS</h2>
     <hr>
@@ -15,13 +16,7 @@
     </div>
 </div>
 
-<!-- Ask Mentor For Help -->
-<!-- {% for b in brand_letter_startswith %}
-<a href="{% url 'full_brands' brand.slug %}">
-    {{b.friendly_name}}
-</a>
-{% endfor %} -->
-
+<!-- Full List Of Brands Images -->
 <div class="brand-image-container">
     {% for brand in brands %}
      {% if brand.image %}
@@ -37,7 +32,6 @@
         {% endif %}
 
     {% endfor %}
-
 </div>
 
 <div class="brand-outer-contianer">
@@ -252,7 +246,7 @@
 
                     {% for brand in brand_z %}
                         {% if letter == "z"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="z">
+                        <a href="{% url 'full_brands' brand.slug %}">
                         {{brand.friendly_name}}
                         </a>
                         {% endif %}
@@ -266,4 +260,236 @@
         {% endfor %}
     </div>
 </div>
+
+<!-- Ask Mentor For Help -->
+<!-- <div class="brand-outer-container">
+    <div class="brand-container">
+        {% for letter in brand_letters %}
+        <div class="brand-inner-container">
+            <div id="{{letter}}"class="brand-letter">
+                <div class="brand-letter-container">
+                    {{letter}}
+                </div>
+
+                <div class="brand">
+                    {% for b in brand_letter_startswith %}
+                        {% if letter == "a"%}
+                            {% if b|first == "A" or b|first == "a" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "b" %}
+                            {% if b|first == "B" or b|first == "b" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "c" %}
+                            {% if b|first == "C" or b|first == "c" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "d" %}
+                            {% if b|first == "D" or b|first == "d" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "e" %}
+                            {% if b|first == "E" or b|first == "e" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "f" %}
+                            {% if b|first == "F" or b|first == "f" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "g" %}
+                            {% if b|first == "G" or b|first == "g" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "h" %}
+                            {% if b|first == "H" or b|first == "h" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "i" %}
+                            {% if b|first == "I" or b|first == "i" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "j" %}
+                            {% if b|first == "J" or b|first == "j" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "k" %}
+                            {% if b|first == "K" or b|first == "k" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "l" %}
+                            {% if b|first == "L" or b|first == "l" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "m" %}
+                            {% if b|first == "M" or b|first == "m" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "n" %}
+                            {% if b|first == "N" or b|first == "n" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "o" %}
+                            {% if b|first == "O" or b|first == "o" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "p" %}
+                            {% if b|first == "P" or b|first == "p" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "q" %}
+                            {% if b|first == "Q" or b|first == "q" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "r" %}
+                            {% if b|first == "R" or b|first == "r" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "s" %}
+                            {% if b|first == "S" or b|first == "s" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "t" %}
+                            {% if b|first == "T" or b|first == "t" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "u" %}
+                            {% if b|first == "U" or b|first == "u" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "v" %}
+                            {% if b|first == "V" or b|first == "v" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "w" %}
+                            {% if b|first == "W" or b|first == "w" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "x" %}
+                            {% if b|first == "X" or b|first == "x" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "y" %}
+                            {% if b|first == "Y" or b|first == "y" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+
+                        {% if letter == "z" %}
+                            {% if b|first == "Z" or b|first == "z" %}
+                            <a href="#">
+                                {{b}}
+                            </a>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <hr>
+        <hr>
+        <hr>
+        {% endfor %}
+    </div>
+</div> -->
+
+
 {% endblock %}

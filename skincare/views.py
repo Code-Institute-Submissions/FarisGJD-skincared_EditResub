@@ -134,7 +134,6 @@ def all_brands(request):
 
     return render(request, 'brands/brands.html', context)
 
-
 def full_brands(request, slug):
 
     """ A view to use the slug field to take user to the correct brand and
