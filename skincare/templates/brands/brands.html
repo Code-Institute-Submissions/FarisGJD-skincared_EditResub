@@ -34,222 +34,226 @@
     {% endfor %}
 </div>
 
-<div class="brand-outer-contianer">
+<!-- List Of Brands  -->
+<div class="brand-outer-container">
     <div class="brand-container">
         {% for letter in brand_letters %}
         <div class="brand-inner-container">
-            <div id="{{letter}}" class="brand-letter">
+            <div id="{{letter}}"class="brand-letter">
                 <div class="brand-letter-container">
                     {{letter}}
                 </div>
 
-                <div class="brand"> 
-                    {% for brand in brand_a %}
-                        {% if letter == "a"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="a">
-                            {{brand.friendly_name}}
-                        </a>
+                <div class="brand">
+                    {% for brands in brand_letter_startswith %}
+                        {% if letter == "a" %}
+                            {% if brands.friendly_name|first == "A" or brands.friendly_name|first == "a" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_b %}
-                        {% if letter == "b"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="b">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "b" %}
+                            {% if brands.friendly_name|first == "B" or brands.friendly_name|first == "b" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_c %}
-                        {% if letter == "c"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="c">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "c" %}
+                            {% if brands.friendly_name|first == "C" or brands.friendly_name|first == "c" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_d %}
-                        {% if letter == "d"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="d">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "d" %}
+                            {% if brands.friendly_name|first == "D" or brands.friendly_name|first == "d" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_e %}
-                        {% if letter == "e"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="e">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "e" %}
+                            {% if brands.friendly_name|first == "E" or brands.friendly_name|first == "e" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_f %}
-                        {% if letter == "f"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="f">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "f" %}
+                            {% if brands.friendly_name|first == "F" or brands.friendly_name|first == "f" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_g %}
-                        {% if letter == "g"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="g">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "g" %}
+                            {% if brands.friendly_name|first == "G" or brands.friendly_name|first == "g" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_h %}
-                        {% if letter == "h"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="h">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "h" %}
+                            {% if brands.friendly_name|first == "H" or brands.friendly_name|first == "h" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_i %}
-                        {% if letter == "i"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="i">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "i" %}
+                            {% if brands.friendly_name|first == "I" or brands.friendly_name|first == "i" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_j %}
-                        {% if letter == "j"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="j">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "j" %}
+                            {% if brands.friendly_name|first == "J" or brands.friendly_name|first == "j" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_k %}
-                        {% if letter == "k"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="k">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "k" %}
+                            {% if brands.friendly_name|first == "K" or brands.friendly_name|first == "k" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_l %}
-                        {% if letter == "l"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="l">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "l" %}
+                            {% if brands.friendly_name|first == "L" or brands.friendly_name|first == "l" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_m %}
-                        {% if letter == "m"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="m">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "m" %}
+                            {% if brands.friendly_name|first == "M" or brands.friendly_name|first == "m" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_n %}
-                        {% if letter == "n"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="n">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "n" %}
+                            {% if brands.friendly_name|first == "N" or brands.friendly_name|first == "n" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_o %}
-                        {% if letter == "o"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="o">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "o" %}
+                            {% if brands.friendly_name|first == "O" or brands.friendly_name|first == "o" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_p %}
-                        {% if letter == "p"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="p">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "p" %}
+                            {% if brands.friendly_name|first == "P" or brands.friendly_name|first == "p" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_q %}
-                        {% if letter == "q"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="q">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "q" %}
+                            {% if brands.friendly_name|first == "Q" or brands.friendly_name|first == "q" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_r %}
-                        {% if letter == "r"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="r">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "r" %}
+                            {% if brands.friendly_name|first == "R" or brands.friendly_name|first == "r" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_s %}
-                        {% if letter == "s"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="s">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "s" %}
+                            {% if brands.friendly_name|first == "S" or brands.friendly_name|first == "s" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_t %}
-                        {% if letter == "t"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="t">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "t" %}
+                            {% if brands.friendly_name|first == "T" or brands.friendly_name|first == "t" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_u %}
-                        {% if letter == "u"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="u">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "u" %}
+                            {% if brands.friendly_name|first == "U" or brands.friendly_name|first == "u" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
-                    
-                    {% for brand in brand_v %}
-                        {% if letter == "v"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="v">
-                        {{brand.friendly_name}}
-                        </a>
-                        {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_w %}
-                        {% if letter == "w"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="w">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "v" %}
+                            {% if brands.friendly_name|first == "V" or brands.friendly_name|first == "v" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_x %}
-                        {% if letter == "x"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="x">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "w" %}
+                            {% if brands.friendly_name|first == "W" or brands.friendly_name|first == "w" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_y %}
-                        {% if letter == "y"%}
-                        <a href="{% url 'full_brands' brand.slug %}" id="y">
-                        {{brand.friendly_name}}
-                        </a>
+                        {% if letter == "x" %}
+                            {% if brands.friendly_name|first == "X" or brands.friendly_name|first == "x" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
-                    {% endfor %}
 
-                    {% for brand in brand_z %}
+                        {% if letter == "y" %}
+                            {% if brands.friendly_name|first == "Y" or brands.friendly_name|first == "y" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
+                        {% endif %}
+
                         {% if letter == "z"%}
-                        <a href="{% url 'full_brands' brand.slug %}">
-                        {{brand.friendly_name}}
-                        </a>
+                            {% if brands.friendly_name|first == "Z" or brands.friendly_name|first == "z" %}
+                            <a href="{% url 'full_brands' brands.slug %}">
+                                {{brands.friendly_name}}
+                            </a>
+                            {% endif %}                    
                         {% endif %}
+
                     {% endfor %}
                 </div>
             </div>
@@ -260,236 +264,4 @@
         {% endfor %}
     </div>
 </div>
-
-<!-- Ask Mentor For Help -->
-<!-- <div class="brand-outer-container">
-    <div class="brand-container">
-        {% for letter in brand_letters %}
-        <div class="brand-inner-container">
-            <div id="{{letter}}"class="brand-letter">
-                <div class="brand-letter-container">
-                    {{letter}}
-                </div>
-
-                <div class="brand">
-                    {% for b in brand_letter_startswith %}
-                        {% if letter == "a"%}
-                            {% if b|first == "A" or b|first == "a" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "b" %}
-                            {% if b|first == "B" or b|first == "b" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "c" %}
-                            {% if b|first == "C" or b|first == "c" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "d" %}
-                            {% if b|first == "D" or b|first == "d" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "e" %}
-                            {% if b|first == "E" or b|first == "e" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "f" %}
-                            {% if b|first == "F" or b|first == "f" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "g" %}
-                            {% if b|first == "G" or b|first == "g" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "h" %}
-                            {% if b|first == "H" or b|first == "h" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "i" %}
-                            {% if b|first == "I" or b|first == "i" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "j" %}
-                            {% if b|first == "J" or b|first == "j" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "k" %}
-                            {% if b|first == "K" or b|first == "k" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "l" %}
-                            {% if b|first == "L" or b|first == "l" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "m" %}
-                            {% if b|first == "M" or b|first == "m" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "n" %}
-                            {% if b|first == "N" or b|first == "n" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "o" %}
-                            {% if b|first == "O" or b|first == "o" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "p" %}
-                            {% if b|first == "P" or b|first == "p" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "q" %}
-                            {% if b|first == "Q" or b|first == "q" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "r" %}
-                            {% if b|first == "R" or b|first == "r" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "s" %}
-                            {% if b|first == "S" or b|first == "s" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "t" %}
-                            {% if b|first == "T" or b|first == "t" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "u" %}
-                            {% if b|first == "U" or b|first == "u" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "v" %}
-                            {% if b|first == "V" or b|first == "v" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "w" %}
-                            {% if b|first == "W" or b|first == "w" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "x" %}
-                            {% if b|first == "X" or b|first == "x" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "y" %}
-                            {% if b|first == "Y" or b|first == "y" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-
-                        {% if letter == "z" %}
-                            {% if b|first == "Z" or b|first == "z" %}
-                            <a href="#">
-                                {{b}}
-                            </a>
-                            {% endif %}
-                        {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-        <hr>
-        <hr>
-        <hr>
-        {% endfor %}
-    </div>
-</div> -->
-
-
 {% endblock %}
