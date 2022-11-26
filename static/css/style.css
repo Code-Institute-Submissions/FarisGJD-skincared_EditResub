@@ -239,7 +239,7 @@ footer ul {
 }
 
 .navigation-bar-container {
-    margin-top: 25px;
+    margin-top: 40px;
     background-color: #f5f5f5;
     letter-spacing: 1px;
 }
@@ -319,10 +319,11 @@ footer ul {
     flex-wrap: row;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .featured-brands-images-container img {
-    padding: 5px; 
+    padding: 5px;
 }
 
 .featured-brands-heading{

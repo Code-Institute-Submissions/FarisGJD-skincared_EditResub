@@ -3,6 +3,7 @@ from .models import Brand
 
 
 def all_brands(request):
+
     """ A view to render all brands and organize them alphabetically """
 
     # Retrieves Brand Object
@@ -17,7 +18,7 @@ def all_brands(request):
         if letters not in brand_letters:
             brand_letters.append(letters)
 
-    # Renders & Orders Brands By Friendly Name 
+    # Renders & Orders Brands By Friendly Name
     brand_letter_startswith = brands.order_by('friendly_name').values
 
     context = {
