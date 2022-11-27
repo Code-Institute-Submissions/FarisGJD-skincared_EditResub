@@ -24,14 +24,10 @@ class ProductTypeAdmin(admin.ModelAdmin):
 
 
 class SkinTypeAdmin(admin.ModelAdmin):
-    """ Customise Skin Type Admin """
+    """ Customise Skin Type Admin Panel """
 
     list_display = (
-        'skin_type_1',
-        'skin_type_2',
-        'skin_type_3',
-        'skin_type_4',
-        'skin_type_5'
+        'name',
     )
 
 
