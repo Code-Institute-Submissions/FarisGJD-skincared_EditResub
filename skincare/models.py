@@ -35,7 +35,7 @@ class ProductType(models.Model):
     """ Product Type Model """
 
     class Meta:
-        verbose_name_plural = 'Product Type'
+        verbose_name = 'Product Type'
 
     name = models.CharField(max_length=200)
     friendly_name = models.CharField(max_length=200, null=True, blank=True)
@@ -53,3 +53,19 @@ class ProductType(models.Model):
         """ Returns Product Type User Friendly Name """
 
         return self.friendly_name
+
+
+class SkinType(models.Model):
+    """ Skin Type Model """
+
+    class Meta:
+        verbose_name = 'Skin Type'
+
+    normal = models.CharField(max_length=20)
+    dry = models.CharField(max_length=20)
+    oily = models.CharField(max_length=20)
+    combination = models.CharField(max_length=20)
+    sensitive = models.CharField(max_length=20)
+
+    def __str__(self):
+        return self.name
