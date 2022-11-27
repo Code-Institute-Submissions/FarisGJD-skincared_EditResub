@@ -293,7 +293,6 @@ footer ul {
 
 .navigation-options h3 {
     font-size: 1.8rem;
-    margin-left: 20px;
     text-shadow: 0.5px 0.5px 0.5px #000000;
 }
 
@@ -371,10 +370,6 @@ footer ul {
 
 .navigation-item-mobile hr {
     border-bottom: 0.8px solid #ffffff; 
-}
-
-.navigation-item-mobile h3 {
-    margin-left: 10px;
 }
 
 .search-bar-mobile {
