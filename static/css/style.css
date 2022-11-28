@@ -266,7 +266,13 @@ footer ul {
 .navigation-item-only-header {
     font-size: 1.6rem;
     cursor: pointer;
+    margin-top: 5px;
 }
+
+.navigation-item-only-header:hover {
+    border-bottom: 0.5px solid #000000;
+}
+
 
 .navigation-options-contianer {
     margin: auto;
@@ -420,12 +426,13 @@ footer ul {
 .mobile-navigation-container a {
     margin: 5px 0 0 10px;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
-.navigation-item-only-header {
+.navigation-item-only-header-mobile {
     font-size: 1.5rem;
     margin: 5px 0 0 10px;
+    padding-bottom: 5px;
     cursor: pointer;
 }
 
