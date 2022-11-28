@@ -46,3 +46,8 @@ def full_brands(request, slug):
     }
 
     return render(request, 'brands/full_brands.html', context)
+
+
+def skin_type(request):
+    """ Returns Home Page """
+    return render(request, 'skin_type/skin_type.html')
