@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Brand, ProductType, SkinType
+from .models import Brand, ProductType, SkinType, SkinConcern, Skincare
 
 
 class BrandAdmin(admin.ModelAdmin):
@@ -31,6 +31,36 @@ class SkinTypeAdmin(admin.ModelAdmin):
     )
 
 
+class SkinConcernAdmin(admin.ModelAdmin):
+    """ Customise Skin Type Admin Panel """
+
+    list_display = (
+        'concern',
+    )
+
+
+class SkincareAdmin(admin.ModelAdmin):
+    """ Customise Skincare Admin Panel """
+
+    list_display = (
+        'name',
+        'brand',
+        'usage',
+        'price',
+        'sku',
+        'product_type',
+        'skin_type',
+        'skin_concern',
+        'crultey_free',
+        'vegan',
+        'alchol_free',
+        'fragrance_free',
+        'rating'
+    )
+
+
 admin.site.register(Brand, BrandAdmin)
 admin.site.register(ProductType, ProductTypeAdmin)
 admin.site.register(SkinType, SkinTypeAdmin)
+admin.site.register(SkinConcern, SkinConcernAdmin)
+admin.site.register(Skincare, SkincareAdmin)

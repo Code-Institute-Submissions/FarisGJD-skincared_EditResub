@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils.text import slugify
+from django.contrib.postgres.fields import ArrayField
 
 
 class Brand(models.Model):
@@ -86,3 +87,49 @@ class SkinConcern(models.Model):
 
     def __str__(self):
         return self.type
+
+
+class Skincare(models.Model):
+    """ Skincare Products Model """
+
+    class Meta:
+        verbose_name = 'Skincare'
+
+    brand = models.ForeignKey(
+        'Brand', null=True, blank=True, on_delete=models.SET_NULL
+        )
+    about = models.TextField()
+    name = models.CharField(max_length=300)
+    usage = models.CharField(max_length=100, null=True, blank=True)
+    quantity = models.DecimalField(max_digits=6, decimal_places=2)
+    price = models.DecimalField(max_digits=6, decimal_places=2)
+    image = models.ImageField(null=True, blank=True)
+    description = models.TextField()
+    directions = models.TextField()
+    ingredients = models.TextField()
+    product_type = models.ForeignKey(
+        'ProductType', null=True, blank=True, on_delete=models.SET_NULL
+        )
+    product_subtype = models.CharField(max_length=300, null=True, blank=True)
+    product_subtype_friendly_name = models.CharField(
+        max_length=300, null=True, blank=True)
+    star_ingredient = ArrayField(
+        models.CharField(max_length=200, blank=True, null=True),
+    )
+    skin_type = models.ForeignKey(
+        'SkinType', null=True, blank=True, on_delete=models.SET_NULL
+        )
+    skin_concern = models.ForeignKey(
+        'SkinConcern', null=True, blank=True, on_delete=models.SET_NULL
+        )
+    crultey_free = models.CharField(max_length=10)
+    vegan = models.CharField(max_length=10)
+    alchol_free = models.CharField(max_length=10)
+    fragrance_free = models.CharField(max_length=10)
+    sku = models.CharField(max_length=200, null=True, blank=True)
+    rating = models.DecimalField(
+        max_digits=6, decimal_places=2, null=True, blank=True
+        )
+
+    def __str__(self):
+        return self.name
