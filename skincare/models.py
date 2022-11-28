@@ -38,9 +38,6 @@ class Brand(models.Model):
 class ProductType(models.Model):
     """ Product Type Model """
 
-    class Meta:
-        verbose_name = 'Product Type'
-
     name = models.CharField(max_length=200)
     friendly_name = models.CharField(max_length=200, null=True, blank=True)
     about = models.TextField()
@@ -49,6 +46,7 @@ class ProductType(models.Model):
     class Meta:
         """ Orders Product Types Alphabetically """
 
+        verbose_name = 'Product Type'
         ordering = ['name']
 
     def __str__(self):
@@ -68,6 +66,7 @@ class SkinType(models.Model):
 
     type = models.CharField(max_length=20, null=True, blank=True)
     description = models.TextField()
+    image = models.ImageField(null=True, blank=True)
 
     def __str__(self):
         return self.type
@@ -84,6 +83,7 @@ class SkinConcern(models.Model):
         max_length=50, null=True, blank=True
         )
     description = models.TextField()
+    image = models.ImageField(null=True, blank=True)
 
     def __str__(self):
         return self.type
@@ -91,9 +91,6 @@ class SkinConcern(models.Model):
 
 class Skincare(models.Model):
     """ Skincare Products Model """
-
-    class Meta:
-        verbose_name = 'Skincare'
 
     brand = models.ForeignKey(
         'Brand', null=True, blank=True, on_delete=models.SET_NULL
@@ -130,6 +127,12 @@ class Skincare(models.Model):
     rating = models.DecimalField(
         max_digits=6, decimal_places=2, null=True, blank=True
         )
+
+    class Meta:
+        """ Orders Product Types Alphabetically """
+
+        ordering = ['rating']
+        verbose_name = 'Skincare'
 
     def __str__(self):
         return self.name
