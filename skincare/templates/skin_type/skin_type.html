@@ -2,5 +2,11 @@
 {% load static %}
 {% block content %}
 
-<h1>HELLO</h1>
+{% for type in skin_type %}
+{% if type.type == "Normal" %}
+{{type.type}}
+{{type.description}}
+{{type.image}}
+{% endif %}
+{% endfor %}
 {% endblock %}
