@@ -27,7 +27,7 @@ class SkinTypeAdmin(admin.ModelAdmin):
     """ Customise Skin Type Admin Panel """
 
     list_display = (
-        'name',
+        'type',
     )
 
 
