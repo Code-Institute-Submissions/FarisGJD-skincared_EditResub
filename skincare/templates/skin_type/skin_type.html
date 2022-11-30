@@ -3,10 +3,8 @@
 {% block content %}
 
 {% for type in skin_type %}
-{% if type.type == "Normal" %}
 {{type.type}}
 {{type.description}}
 {{type.image}}
-{% endif %}
 {% endfor %}
 {% endblock %}
