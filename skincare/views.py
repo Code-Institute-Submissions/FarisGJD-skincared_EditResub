@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Brand, SkinType
+from .models import Brand, SkinType, SkinConcern
 
 
 def all_brands(request):
@@ -58,3 +58,15 @@ def skin_type(request):
     }
 
     return render(request, 'skin_type/skin_type.html', context)
+
+
+def skin_concern(request):
+    """ Returns Home Page """
+
+    skin_concern = SkinConcern.objects.all()
+
+    context = {
+        'skin_concern': skin_concern,
+    }
+
+    return render(request, 'skin_concern/skin_concern.html', context)
