@@ -29,8 +29,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-# DEBUG = 'DEVELOPMENT' in os.environ
-DEBUG = 'TRUE'
+DEBUG = 'DEVELOPMENT' in os.environ
+# DEBUG = 'TRUE'
 
 
 ALLOWED_HOSTS = ['skincared.herokuapp.com', 'localhost']
@@ -111,13 +111,6 @@ WSGI_APPLICATION = 'skincared.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
