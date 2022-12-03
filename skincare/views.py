@@ -2,6 +2,18 @@ from django.shortcuts import render, get_object_or_404
 from .models import Brand, SkinType, SkinConcern
 
 
+def all_products(request):
+    """ A View To Render All Products  """
+
+    return render(request, 'products/all_products.html')
+
+
+def product_details(request):
+    """ A View To Render A Single Detailed Product """
+
+    return render(request, 'products/product_details.html')
+
+
 def all_brands(request):
 
     """ A view to render all brands and organize them alphabetically """
@@ -49,19 +61,19 @@ def full_brands(request, slug):
 
 
 def skin_type(request):
-    """ Returns Home Page """
+    """ A View To Render & Filer For Skin Types  """
 
     skin_type = SkinType.objects.all()
 
     context = {
-        'skin_type': skin_type, 
+        'skin_type': skin_type,
     }
 
     return render(request, 'skin_type/skin_type.html', context)
 
 
 def skin_concern(request):
-    """ Returns Home Page """
+    """ A View To Render & Filer For Skin Concerns  """
 
     skin_concern = SkinConcern.objects.all()
 

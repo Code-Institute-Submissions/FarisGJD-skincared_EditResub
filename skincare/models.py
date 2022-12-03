@@ -46,7 +46,7 @@ class ProductType(models.Model):
     class Meta:
         """ Orders Product Types Alphabetically """
 
-        verbose_name = 'Product Type'
+        verbose_name = "Product Type"
         ordering = ['name']
 
     def __str__(self):
@@ -62,7 +62,7 @@ class SkinType(models.Model):
     """ Skin Type Model """
 
     class Meta:
-        verbose_name = 'Skin Type'
+        verbose_name = "Skin Type"
 
     type = models.CharField(max_length=20, null=True, blank=True)
     description = models.TextField()
@@ -76,7 +76,7 @@ class SkinConcern(models.Model):
     """ Skin Concern Model """
 
     class Meta:
-        verbose_name = 'Skin Concern'
+        verbose_name = "Skin Concern"
 
     concern = models.CharField(max_length=50, null=True, blank=True)
     concern_friendly_name = models.CharField(
@@ -132,7 +132,7 @@ class Skincare(models.Model):
         """ Orders Product Types Alphabetically """
 
         ordering = ['rating']
-        verbose_name = 'Skincare'
+        verbose_name = 'Skincare Product'
 
     def __str__(self):
         return self.name
