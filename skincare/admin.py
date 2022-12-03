@@ -26,6 +26,7 @@ class ProductTypeAdmin(admin.ModelAdmin):
 class SkinTypeAdmin(admin.ModelAdmin):
     """ Customise Skin Type Admin Panel """
 
+    prepopulated_fields = {'slug': ('type',)}
     list_display = (
         'type',
     )

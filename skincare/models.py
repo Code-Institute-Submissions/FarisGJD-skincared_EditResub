@@ -67,6 +67,12 @@ class SkinType(models.Model):
     type = models.CharField(max_length=20, null=True, blank=True)
     description = models.TextField()
     image = models.ImageField(null=True, blank=True)
+    slug = models.SlugField(max_length=200, null=True)
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = slugify(self.type)
+        super(SkinType, self).save(*args, **kwargs)
 
     def __str__(self):
         return self.type

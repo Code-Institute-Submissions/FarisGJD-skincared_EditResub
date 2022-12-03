@@ -63,8 +63,9 @@ def full_brands(request, slug):
 def skin_type(request):
     """ A View To Render & Filer For Skin Types  """
 
+    # Retrives Skin Type Object
     skin_type = SkinType.objects.all()
-
+    
     context = {
         'skin_type': skin_type,
     }
