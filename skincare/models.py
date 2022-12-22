@@ -119,15 +119,11 @@ class Skincare(models.Model):
     star_ingredient = ArrayField(
         models.CharField(max_length=200, blank=True, null=True),
     )
-    skin_type = models.ForeignKey(
-        'SkinType', null=True, blank=True, on_delete=models.SET_NULL
-        )
-    skin_concern = models.ForeignKey(
-        'SkinConcern', null=True, blank=True, on_delete=models.SET_NULL
-        )
-    crultey_free = models.CharField(max_length=10)
+    skin_type = models.ManyToManyField(SkinType)
+    skin_concern = models.ManyToManyField(SkinConcern)
+    cruelty_free = models.CharField(max_length=10)
     vegan = models.CharField(max_length=10)
-    alchol_free = models.CharField(max_length=10)
+    alcohol_free = models.CharField(max_length=10)
     fragrance_free = models.CharField(max_length=10)
     sku = models.CharField(max_length=200, null=True, blank=True)
     rating = models.DecimalField(
@@ -137,7 +133,7 @@ class Skincare(models.Model):
     class Meta:
         """ Orders Product Types Alphabetically """
 
-        ordering = ['rating']
+        ordering = ['usage']
         verbose_name = 'Skincare Product'
 
     def __str__(self):
