@@ -45,8 +45,8 @@ class SkincareAdmin(admin.ModelAdmin):
     """ Customise Skincare Admin Panel """
 
     list_display = (
-        'usage',
         'name',
+        'usage',
         'brand',
         'price',
         'sku',
