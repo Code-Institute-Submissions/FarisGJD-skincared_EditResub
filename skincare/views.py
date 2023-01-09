@@ -1,11 +1,18 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Brand, SkinType, SkinConcern
+from .models import Brand, SkinType, SkinConcern, Skincare
 
 
 def all_products(request):
     """ A View To Render All Products  """
 
-    return render(request, 'products/all_products.html')
+    # Retrives Skincare Object 
+    skincare = Skincare.objects.all()
+
+    context = {
+        'skincare': skincare,
+    }
+
+    return render(request, 'products/all_products.html', context)
 
 
 def product_details(request):
