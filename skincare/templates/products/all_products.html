@@ -2,6 +2,13 @@
 {% load static %}
 {% block content %}
 
+<div class="full-products-header">
+    <h2>SKINCARE</h2>
+    <hr>
+    <hr>
+    <hr>
+</div>
+
 <div class="full-skincare-products-container">
     {% for product in skincare %}
     <div class="skincare-product">
@@ -16,6 +23,9 @@
             </a>
             {% endif %}
         </div>
+        <div class="product-brand">
+            <p>{{ product.brand.friendly_name }}</p>
+        </div>
         <div class="product-name">
             <p>{{ product.name }}</p>
         </div>
@@ -25,9 +35,9 @@
         </div>
         <div class="product-rating">
         {% if product.rating %}
-            <span class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</span>
+            <span><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</span>
         {% else %}
-            <span class="text-muted">No Rating</span>
+            <span>No Rating</span>
         {% endif %}
 
         </div>
