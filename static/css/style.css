@@ -618,7 +618,7 @@ footer ul {
 
 .full-products-header {
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin-top: 20px;
     font-size: 40rem;
 }
 
@@ -649,7 +649,6 @@ footer ul {
 }
 
 .product-image-container {
-    border: 0.5px  dotted #000000;
 }
 
 .product-image {
