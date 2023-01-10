@@ -5,7 +5,7 @@ from .models import Brand, SkinType, SkinConcern, Skincare
 def all_products(request):
     """ A View To Render All Products  """
 
-    # Retrives Skincare Object 
+    # Retrives Skincare Object
     skincare = Skincare.objects.all()
 
     context = {
@@ -15,10 +15,17 @@ def all_products(request):
     return render(request, 'products/all_products.html', context)
 
 
-def product_details(request):
-    """ A View To Render A Single Detailed Product """
+def product_details(request, product_id):
+    """ A View To Render A Single Product & Its Details """
 
-    return render(request, 'products/product_details.html')
+    # Retrives A Single Skincare Object By Using Its ID
+    product = get_object_or_404(Skincare, pk=product_id)
+
+    context = {
+        'product': product,
+    }
+
+    return render(request, 'products/product_details.html', context)
 
 
 def all_brands(request):
@@ -72,7 +79,7 @@ def skin_type(request):
 
     # Retrives Skin Type Object
     skin_type = SkinType.objects.all()
-    
+
     context = {
         'skin_type': skin_type,
     }

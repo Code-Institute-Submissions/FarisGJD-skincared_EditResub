@@ -2,6 +2,7 @@
 {% load static %}
 {% block content %}
 
+<!-- All Products Header -->
 <div class="full-products-header">
     <h2>SKINCARE</h2>
     <hr>
@@ -9,16 +10,18 @@
     <hr>
 </div>
 
+<!-- All Products Images & Meta Data -->
+
 <div class="full-skincare-products-container">
     {% for product in skincare %}
     <div class="skincare-product">
         <div class="product-image-container">
             {% if product.image %}
-            <a href="">
+            <a href="{% url 'product_details' product.id %}">
                 <img class="product-image" src="{{ product.image.url }}" alt="{{ product.name }}">
             </a>
             {% else %}
-            <a href="">
+            <a href="{% url 'product_details' product.id %}">
                 <img class="product-image" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
             </a>
             {% endif %}
