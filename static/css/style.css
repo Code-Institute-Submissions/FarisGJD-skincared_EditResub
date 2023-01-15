@@ -672,6 +672,50 @@ footer ul {
     margin-top: 5px;
 }
 
+/* Single Product Details Page */
+
+.product-detail_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.product-details-meta-data {
+    bottom: 0; 
+}
+
+.product-detail-image-container img {
+    width: 400px;
+    height: 400px; 
+}
+
+.product-detail-brand-name {
+    font-size: 3rem;
+}
+
+.product-details-meta-data a {
+    color: inherit;
+}
+
+.product-details-meta-data a:hover {
+    color: #EE4B2B; 
+}
+
+
+
+.product-detail-name {
+    font-size: 2.8rem;
+}
+
+.product-detail-quantity {
+    font-size: 2rem;
+}
+
+.product-detail-price {
+    font-size: 2.5rem;
+}
+
 /* Brands Page */
 
 .brand-header {

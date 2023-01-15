@@ -104,7 +104,7 @@ class Skincare(models.Model):
     about = models.TextField()
     name = models.CharField(max_length=300)
     usage = models.CharField(max_length=100, null=True, blank=True)
-    quantity = models.DecimalField(max_digits=6, decimal_places=2)
+    quantity = models.DecimalField(max_digits=6, decimal_places=0)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     image = models.ImageField(null=True, blank=True)
     description = models.TextField()
