@@ -3,7 +3,7 @@
 {% block content %}
 
 
-<div class="product-detail_container">
+<div class="product-detail-container">
     <div class="product-detail">
         <div class="product-detail-image-container">
             {% if product.image %}
@@ -26,6 +26,46 @@
         <p class="product-detail-quantity">{{product.quantity}}ml</p>
         <p class="product-detail-price">£{{product.price}}</p>
 
+        <div class="product-details-extra-meta-data">
+            <p>Cruelty Free: {{product.cruelty_free}}</p>
+            <p>Vegan: {{product.vegan}}</p>
+            <p>Alcohol Free: {{product.alcohol_free}}</p>
+            <p class="sku">Sku: {{product.sku}}</p>
+        </div>
+      
+    </div>
+</div>
+
+<!-- <hr class="product-details-seperator"> -->
+
+
+<div class="product-details-information-header">
+
+    <h3>ABOUT</h3>
+    
+    <h3>DESCRIPTION</h3>
+
+    <h3>DIRECTIONS</h3>
+
+    <h3>INGREDIENTS</h3>
+</div>
+
+<div class="product-details-information">
+
+    <div>
+        <p>{{product.about}}</p>
+    </div>
+
+    <div>
+        <p>{{product.description}}</p>
+    </div>
+
+    <div>
+        <p>{{product.directions}}</p>
+    </div>
+
+    <div>
+        <p>{{product.ingredients}}</p>
     </div>
 </div>
 
