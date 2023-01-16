@@ -36,37 +36,49 @@
     </div>
 </div>
 
-<!-- <hr class="product-details-seperator"> -->
-
+<hr class="product-details-seperator">
 
 <div class="product-details-information-header">
 
-    <h3>ABOUT</h3>
+    <h3 class="product-details-about">ABOUT</h3>
     
-    <h3>DESCRIPTION</h3>
+    <h3 class="product-details-description">DESCRIPTION</h3>
 
-    <h3>DIRECTIONS</h3>
+    <h3 class="product-details-directions">DIRECTIONS</h3>
 
-    <h3>INGREDIENTS</h3>
+    <h3 class="product-details-ingredients">INGREDIENTS</h3>
+
+    <h3 class="product-details-details">DETAILS</h3>
 </div>
 
-<div class="product-details-information">
+<div class="product-details-information-container">
 
-    <div>
+    <div class="product-details-information product-details-about product-about">
         <p>{{product.about}}</p>
     </div>
 
-    <div>
+    <div class="product-details-information product-description">
         <p>{{product.description}}</p>
     </div>
 
-    <div>
+    <div class="product-details-information product-directions">
         <p>{{product.directions}}</p>
     </div>
 
-    <div>
+    <div class="product-details-information product-ingredients">
         <p>{{product.ingredients}}</p>
     </div>
+
+    <div class="product-details-information product-details">
+        <p>Product Type: {{product.product_subtype_friendly_name}}</p>
+        <p>Star Ingredients: {{product.star_ingredient}}</p>
+        <p>Skin Type: {{product.skin_type}}</p>
+        <p>Skin Concern: {{product.skin_concern}}</p>
+
+    </div>
 </div>
+
+
+<hr class="product-details-seperator">
 
 {% endblock %}

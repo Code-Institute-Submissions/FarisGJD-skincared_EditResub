@@ -704,6 +704,7 @@ footer ul {
 
 .product-detail-name {
     font-size: 2.8rem;
+    width: 90%; 
 }
 
 .product-detail-quantity {
@@ -723,9 +724,7 @@ footer ul {
 }
 
 .product-details-seperator {
-    /* border-bottom: #000000 solid 0.5px; */
-    width: 70%;
-    margin: auto;
+    border-bottom: #000000 solid 0px;
 }
 
 .product-details-information-header {
@@ -733,15 +732,27 @@ footer ul {
     flex-direction: row;
     justify-content: space-around;
     cursor: pointer;
+    margin: 20px 0 20px 0; 
 }
 
-.product-details-information-header h3:hover {
-    color: #EE4B2B; 
+.product-details-information-container {
+    font-size: 1.3rem;
+    margin: 0 40px 0 40px; 
+    text-align: center;
 }
 
+.product-details-information {
+    display: none;
+}
 
+.product-details-js {
+    display: block;
+}
 
-
+.product-details-js-active {
+    color: #EE4B2B;
+    border-bottom: solid 0.5px #000000;
+}
 
 /* Brands Page */
 
