@@ -647,6 +647,7 @@ footer ul {
     flex-direction: column;
     align-items: center;
     background-color: #ffffff;
+    box-shadow: 0 2px 1px -1px #d6d4d4;
 }
 
 .product-image {
@@ -732,7 +733,7 @@ footer ul {
     flex-direction: row;
     justify-content: space-around;
     cursor: pointer;
-    margin: 20px 0 20px 0; 
+    margin: 10px 0 10px 0;
 }
 
 .product-details-information-container {
@@ -746,6 +747,10 @@ footer ul {
 }
 
 .product-details-js {
+    display: block;
+}
+
+#about-display {
     display: block;
 }
 
