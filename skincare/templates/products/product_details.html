@@ -36,19 +36,31 @@
     </div>
 </div>
 
-<hr class="product-details-seperator">
+<div class="product-details-seperator-container">
+    <hr class="product-details-seperator">
+</div>
+
 
 <div class="product-details-information-header">
 
-    <h3 class="product-details-about">ABOUT</h3>
+    <h3 class="product-details-about">ABOUT THE BRAND</h3>
+    <p>{{product.about}}</p>
     
     <h3 class="product-details-description">DESCRIPTION</h3>
+    <p>{{product.description}}</p>
 
     <h3 class="product-details-directions">DIRECTIONS</h3>
+    <p>{{product.directions}}</p>
+
 
     <h3 class="product-details-ingredients">INGREDIENTS</h3>
+    <p>{{product.ingredients}}</p>
 
     <h3 class="product-details-details">DETAILS</h3>
+    <p>Product Type: {{product.product_subtype_friendly_name}}</p>
+    <p>Star Ingredients: {{product.star_ingredient}}</p>
+    <p>Skin Type: {{product.skin_type}}</p>
+    <p>Skin Concern: {{product.skin_concern}}</p>
 </div>
 
 <div class="product-details-information-container">
@@ -74,11 +86,8 @@
         <p>Star Ingredients: {{product.star_ingredient}}</p>
         <p>Skin Type: {{product.skin_type}}</p>
         <p>Skin Concern: {{product.skin_concern}}</p>
-
     </div>
+    
 </div>
-
-
-<hr class="product-details-seperator">
 
 {% endblock %}
