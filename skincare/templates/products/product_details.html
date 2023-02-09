@@ -41,25 +41,38 @@
 </div>
 
 
+
+
 <div class="product-details-information">
-    <h3 class="product-details-about">ABOUT THE BRAND</h3>
-    <p>{{product.about}}</p>
-    
-    <h3 class="product-details-description">DESCRIPTION</h3>
-    <p>{{product.description}}</p>
 
-    <h3 class="product-details-directions">DIRECTIONS</h3>
-    <p>{{product.directions}}</p>
+    <h3>ABOUT THE BRAND</h3>
+    <div class="product-detail-text-container">
+        <p class="product-detail-text">{{product.about}}</p>
+    </div>  
 
+    <h3>DESCRIPTION</h3>
+    <div class="product-detail-text-container">
+        <p class="product-detail-text">{{product.description}}</p>
+    </div>  
 
-    <h3 class="product-details-ingredients">INGREDIENTS</h3>
-    <p>{{product.ingredients}}</p>
+    <h3>DIRECTIONS</h3>
+    <div class="product-detail-text-container">
+        <p class="product-detail-text">{{product.directions}}</p>
+    </div>  
 
-    <h3 class="product-details-details">DETAILS</h3>
-    <p>Product Type: {{product.product_subtype_friendly_name}}</p>
-    <p>Star Ingredients: {{product.star_ingredient}}</p>
-    <p>Skin Type: {{product.skin_type}}</p>
-    <p>Skin Concern: {{product.skin_concern}}</p>
+    <h3>INGREDIENTS</h3>
+    <div class="product-detail-text-container">
+        <p class="product-detail-text">{{product.ingredients}}</p>
+    </div>  
+
+    <h3>DETAILS</h3>
+    <div class="product-detail-text-container">
+        <p class="product-detail-text">Product Type: {{product.product_subtype_friendly_name}}</p>
+        <p class="product-detail-text">Star Ingredients: {{product.star_ingredient}}</p>
+        <p class="product-detail-text">Skin Type: {{product.skin_type}}</p>
+        <p class="product-detail-text">Skin Concern: {{product.skin_concern}}</p>  
+    </div>  
+  
 </div>
 </div>
 
