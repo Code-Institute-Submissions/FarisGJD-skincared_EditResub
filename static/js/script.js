@@ -82,54 +82,6 @@ searchIcon.addEventListener("click", () =>{
     search.classList.toggle("search-active");
 })
 
-// Product Details Information 
-
-const productDetailsAboutHeader = document.querySelector(".product-details-about");
-const productDetailsAbout = document.querySelector(".product-about");
-
-productDetailsAboutHeader.addEventListener("click", () => {
-    productDetailsAbout.classList.toggle("product-details-js");
-    productDetailsAboutHeader.classList.toggle("product-details-js-active");
-})
-
-window.addEventListener("mouseout", () => {
-    productDetailsAbout.classList.remove("product-details-js");
-    productDetailsAboutHeader.classList.remove("product-details-js-active");
-    
-})
-
-const productDetailsDescriptionHeader = document.querySelector(".product-details-description");
-const productDetailsDescription = document.querySelector(".product-description");
-
-productDetailsDescriptionHeader.addEventListener("click", () => {
-    productDetailsDescription.classList.toggle("product-details-js");
-    productDetailsDescriptionHeader.classList.toggle("product-details-js-active");
-})
-
-const productDetailsDirectionsHeader = document.querySelector(".product-details-directions");
-const productDetailsDirections = document.querySelector(".product-directions");
-
-productDetailsDirectionsHeader.addEventListener("click", () => {
-    productDetailsDirections.classList.toggle("product-details-js");
-    productDetailsDirectionsHeader.classList.toggle("product-details-js-active");
-})
-
-const productDetailsIngredientsnHeader = document.querySelector(".product-details-ingredients");
-const productDetailsIngredients = document.querySelector(".product-ingredients");
-
-productDetailsIngredientsnHeader.addEventListener("click", () => {
-    productDetailsIngredients.classList.toggle("product-details-js");
-    productDetailsIngredientsnHeader.classList.toggle("product-details-js-active");
-})
-
-const productDetailsDetailsHeader = document.querySelector(".product-details-details");
-const productDetailsDetails = document.querySelector(".product-details");
-
-productDetailsDetailsHeader.addEventListener("click", () => {
-    productDetailsDetails.classList.toggle("product-details-js");
-    productDetailsDetailsHeader.classList.toggle("product-details-js-active");
-})
-
 //Carousel 
 // let i = 0; 
 // let slides = []; 

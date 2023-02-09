@@ -736,9 +736,10 @@ footer ul {
     margin-top: -10px;
 }
 
-.product-details-information-header {
+.product-details-information {
     display: flex;
     flex-direction: column;
+    justify-content: ceneter;
     cursor: pointer;
 }
 
@@ -746,23 +747,6 @@ footer ul {
     font-size: 1.3rem;
     margin: 0 40px 0 40px; 
     text-align: center;
-}
-
-.product-details-information {
-    display: none;
-}
-
-.product-details-js {
-    display: block;
-}
-
-#about-display {
-    display: block;
-}
-
-.product-details-js-active {
-    color: #EE4B2B;
-    border-bottom: solid 0.5px #000000;
 }
 
 /* Brands Page */
