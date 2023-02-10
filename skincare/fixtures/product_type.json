@@ -6,7 +6,7 @@
             "name": "cleanser",
             "friendly_name": "Cleanser", 
             "about": "A key part of every skincare regime is a good cleanser. Facial cleansers are the first step of your regime and work to remove make-up, impurities and debris from the skin, creating a clean canvas that is perfectly primed for the rest of the products in your routine. Choosing a cleanser will depend on your skin type and condition. For example, dry skin will prefer a milk or cream cleanser while oily skin prefers gel or foaming formulas. You should also pay attention to the ingredients to make sure your chosen cleanser contains ingredients to support and balance your skin type.", 
-            "image": "cleanser.webp"
+            "image": "cleanser.jpeg"
         }
     },
     {
@@ -16,7 +16,7 @@
             "name": "exfoliator",
             "friendly_name": "Exfoliator", 
             "about": "Our skin grows and sheds millions of cells every day. This means that dead skin cells are loosened from the skin's surface so that new cells can grow - a.k.a natural exfoliation. This process becomes slower with age which is why we need a little help along the way with an exfoliating product that removes dead skin cells, clears blocked pores and evens out the skin. There are two types of exfoliating products that you can use on the skin; physical and chemical. Physical exfoliators use scrubbing beads, grains or particles to buff away dead skin cells while chemical exfoliators use acids like Glycolic Acid to dissolve the glue holding these dead cells onto the skin so that they can be easily removed. The one you choose will depend on the condition of your skin and how it copes with being exfoliated. Sensitive skin’s benefit more from a gentle exfoliator that uses softer beads to remove dead cells while tougher skin types can cope with a more abrasive scrub.", 
-            "image": "exfoliator.webp"
+            "image": "exfoliator.jpeg"
         }
     },
     {
@@ -46,7 +46,7 @@
             "name": "mist",
             "friendly_name": "Mist", 
             "about": "A mist is a facial water in a bottle that is sprayed over the face to add instant moisture, antioxidants and possibly even to cool flushed skin. Each mist will have different properties and suit different skin types, for example, for mattifying an oily skin type or giving greater lustre to dry skin. You can apply the mist as a toner directly after cleaning, but it is also easy to carry in your bag or put on your desk at work to moisturise and refresh the skin throughout the day.", 
-            "image": "mist.webp"
+            "image": "mist.jpeg"
         }
     },
     {
@@ -76,7 +76,7 @@
             "name": "eye_care",
             "friendly_name": "Eye Care", 
             "about": "Your eyes are often one of the first areas of your face that shows the signs of ageing and as the skin here is very delicate, you need special products to combat concerns such as fine lines, puffiness and dark circles. The eye area contains fewer sebaceous glands than the rest of the face which means it has less natural protection. This means it is often more dry and sensitive, as well as more susceptible to the elements. Facial movements also cause wrinkles to appear around the eyes but with the right care you can prevent signs of tiredness and ageing. Do not forget to protect this thin layer against the sun's damaging UV rays in order to help maintain the skin's elasticity and prevent hyperpigmentation.", 
-            "image": "eye_care.webp"
+            "image": "eye_care.jpeg"
         }
     },
     {
@@ -86,7 +86,7 @@
             "name": "lip_care",
             "friendly_name": "Lip Care", 
             "about": "The skin on your lips is incredibly delicate and thin which makes them prone to damage from the sun and environment. In order to keep them healthy it is important that you exfoliate, hydrate and protect them on a regular basis. Dry, cracked skin on and around the lips is more common during the Winter (as there is less moisture in the air) and with age, as the body can’t retain moisture as well as it used to. To replenish dehydrated skin and add a natural shine, always keep a moisturising lip balm on hand that you can apply it to the lips throughout the day. Another way to prevent your lips from drying out is to use a lip product that contains an SPF, as your lips are prone to sun burn and UV-induced dehydration.", 
-            "image": "lip_care.webp"
+            "image": "lip_care.jpeg"
         }
     },
     {
@@ -96,7 +96,7 @@
             "name": "treatment",
             "friendly_name": "Treatment", 
             "about": "Our range of targeted treatments focus on specific areas of the face and body. If you suffer from a particular skin condition such as breakouts or hyperpigmentation, and are looking for a product to target this condition then a treatment is the perfect solution. Examples of ingredients in many spot treatment products are Salicylic Acid, which dissolves clogged pores, suppresses inflammation and treats pimples. Another example is Vitamin C, which brightens up dark spots and improves skin structure.", 
-            "image": "treatment.webp"
+            "image": "treatment.jpeg"
         }
     },
     {
@@ -116,7 +116,7 @@
             "name": "sunscreen",
             "friendly_name": "Sunscreen", 
             "about": "If you’re heading out you might be worried that your face sunscreen won’t work with makeup. However, with our facial sunscreen you don’t have to worry. By using one of these specifically formulated types of face sun protection, rather than a traditional all body sunscreen, you’ll be able to wear makeup with confidence.", 
-            "image": "sunscreen.webp"
+            "image": "sunscreen.jpeg"
         }
     },
     {
@@ -136,7 +136,7 @@
             "name": "body_moisturiser",
             "friendly_name": "Body Moisturiser", 
             "about": "Skin conditions like acne, hyperpigmentation, ageing and dry patches are not just restricted to the skin on your face, they can appear on other parts of the body too. Body moisturisers vary in consistency and are easily absorbed by the skin, which means you can apply them quickly and get on with your day without having to wait for the product to sink in. Keeping the skin hydrated is a simple yet effective way to ensure that it always looks its best. By preventing the skin from drying out you will prevent a number of issues developing or becoming worse, especially when you commit to applying a body moisturiser daily. This is particularly important when you are looking to try and correct imperfections, as only using a targeted body lotion once a week won’t provide you with any noticeable results.", 
-            "image": "body_moisturiser.webp"
+            "image": "body_moisturiser.jpeg"
         }
     },
     {
@@ -146,7 +146,7 @@
             "name": "hand_care",
             "friendly_name": "Hand Care", 
             "about": "Your hands are subjected to a lot of damaging factors on a daily basis and need plenty of care in order to keep them soft, smooth and supple. They can become dry and sore very quickly, especially during the colder months, and are one of the prime locations for conditions such as eczema and contact dermatitis. A good hand cream will help to reduce these symptoms and will also keep the skin hydrated. Rich textures will give your hands a lot of moisture but they need to be easily absorbed by the skin so that there is no slippery or sticky residue left behind once it has been applied. If you have particularly dry hands you can apply a hand cream throughout the day to keep them soft and prevent painful skin cracking. For an even more intensive treatment, apply a thick amount to the hands and cover them with cotton gloves before bed. These will seal in the hand cream and it will act like a moisturising mask while you sleep.", 
-            "image": "hand_care.webp"
+            "image": "hand_care.jpeg"
         }
     },
     {
@@ -156,7 +156,7 @@
             "name": "foot_care",
             "friendly_name": "Foot Care", 
             "about": "We demand a lot from our feet. On a daily basis, we expect them to withstand hours walking, standing, driving and running, while essentially assuming that they will take care of themselves. But without proper care, the muscles can become tired and sore, and the heels can be blighted by dry and painfully cracked skin. This is why it is so important to give your feet a rest and pamper them with the right products on a regular basis. Intensely moisturising creams are a great way to repair and nourish damaged skin, gradually erasing dry patches and leaving your tootsies feeling silky soft in a matter of days. Look for rich conditioning agents like Shea Butter, Vitamin E, Urea and botanical oils, which hydrate the skin deep down. For stubbornly dry, cracked skin on the feet, add an exfoliating cream or lotion into your routine for a sure-fire way to break the hard skin cycle. You can buff away dead skin with a scrub or rely on exfoliating AHAs like Glycolic and Lactic Acids, which effectively eat away at the bonds holding dead skin onto the feet to reveal a noticeably smoother, softer skin texture that is also more receptive to any moisturiser you apply afterwards. These acids also help to combat the appearance of sun damage and dark spots on the feet, which can develop with advancing age.", 
-            "image": "body_moisturiser.webp"
+            "image": "body_moisturiser.jpeg"
         }
     }
 ]
