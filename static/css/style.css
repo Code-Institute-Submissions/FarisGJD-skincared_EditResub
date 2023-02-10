@@ -431,7 +431,7 @@ footer ul {
 }
 
 .navigation-item-only-header-mobile {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin: 5px 0 0 10px;
     padding-bottom: 5px;
     cursor: pointer;
@@ -1292,6 +1292,10 @@ footer ul {
         font-size: 1.2rem;
     }
 
+    .navigation-item-only-header-mobile {
+        font-size: 1.2rem;
+    }
+
     .mobile-navigation-container a {
         font-size: 1.3rem;
     }
@@ -1391,7 +1395,7 @@ footer ul {
     
     .full-brand-header hr {
         width: 150px; 
-    } 
+    }
 }
 
 @media only screen and (max-width: 400px) {
