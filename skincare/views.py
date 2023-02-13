@@ -1,4 +1,6 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.contrib import messages
+from django.db.models import Q
 from .models import Brand, SkinType, SkinConcern, Skincare
 
 
@@ -7,9 +9,25 @@ def all_products(request):
 
     # Retrives Skincare Object
     skincare = Skincare.objects.all()
+    query = None
+
+    if request.GET:
+        if 'q' in request.GET:
+            query = request.GET['q']
+            if not query:
+                messages.error(
+                    request, "You did not eneter any serach criterira!"
+                    )
+                return redirect(reverse('all_products'))
+
+            queries = Q(
+                name__contains=query) | Q(
+                    description__icontains=query)
+            skincare = skincare.filter(queries)
 
     context = {
         'skincare': skincare,
+        'serach_term': query,
     }
 
     return render(request, 'products/all_products.html', context)
