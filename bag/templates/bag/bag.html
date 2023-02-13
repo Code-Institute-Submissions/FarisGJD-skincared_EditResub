@@ -2,6 +2,25 @@
 {% load static %}
 
 {% block content %}
-HELLOOOOO
+<div class="shopping-bag-header-container">
+    <h2>SHOPPING BAG</h2>
+    <hr>
+    <hr>
+    <hr>
+</div>
+
+<div class="shopping-bag-container">
+    <div class="shopping-bag">
+        {% if bag_items %}
+        <div class="active-shopping-bag">
+
+        </div>
+        {% else %}
+        <div class="empty-shopping-bag">
+            <h2>YOUR SHOPPING BAG IS CURRENTLY EMPTY</h2>
+            <a href="{% 'home'%}"></a>
+        </div>
+    </div>
+</div>
 
 {% endblock %}

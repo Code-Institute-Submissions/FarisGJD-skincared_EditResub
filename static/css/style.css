@@ -969,6 +969,21 @@ footer ul {
     text-align: center;
 }
 
+
+/* Shopping Bag */ 
+
+.shopping-bag-header-container h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.shopping-bag-header-container hr {
+    margin: auto;
+    width: 50%; 
+}
+
+
 /* Media Queries */ 
 
 @media only screen and (max-width: 1250px) {
