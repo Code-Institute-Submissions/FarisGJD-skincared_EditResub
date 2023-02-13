@@ -26,7 +26,7 @@ def all_products(request):
             query = request.GET['q']
             if not query:
                 messages.error(
-                    request, "You did not eneter any serach criterira!"
+                    request, "Invalid serach criterira!"
                     )
                 return redirect(reverse('all_products'))
 
@@ -62,7 +62,7 @@ def all_brands(request):
 
     # Retrieves Brand Object
     brands = Brand.objects.all()
-
+    
     # Renders Brand Starting Letters & Ommits Duplicate Values
     brand_letters_query = brands.values_list(
         'character_identifier', flat=True
@@ -125,3 +125,4 @@ def skin_concern(request):
     }
 
     return render(request, 'skin_concern/skin_concern.html', context)
+

@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     # Skincared apps
     'home',
     'skincare',
+    'bag',
     # Other
     'storages', 
 ]

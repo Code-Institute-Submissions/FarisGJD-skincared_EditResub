@@ -48,7 +48,7 @@
                     {% for brands in brand_letter_startswith %}
                         {% if letter == "a" %}
                             {% if brands.friendly_name|first == "A" or brands.friendly_name|first == "a" %}
-                            <a href="{% url 'full_brands' brands.slug %}">
+                            <a href="{% url 'full_brands' brands.slug%}">
                                 {{brands.friendly_name}}
                             </a>
                             {% endif %}                    

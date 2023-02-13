@@ -187,7 +187,6 @@ header {
 .footer-wrapper {
     margin-top: auto;
     background-color: #f5f5f5;
-    margin-top: 80px;
 }
 
 .footer-container {
@@ -638,6 +637,7 @@ footer ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .skincare-product {
