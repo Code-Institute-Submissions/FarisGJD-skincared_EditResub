@@ -10,15 +10,20 @@
 </div>
 
 <div class="shopping-bag-container">
-    <div class="shopping-bag">
+    <div class="shopping-bag-checkout">
         {% if bag_items %}
         <div class="active-shopping-bag">
 
         </div>
         {% else %}
         <div class="empty-shopping-bag">
-            <h2>YOUR SHOPPING BAG IS CURRENTLY EMPTY</h2>
-            <a href="{% 'home'%}"></a>
+            <a href="{% url 'home'%}">
+                <h2>YOUR SHOPPING BAG IS CURRENTLY EMPTY</h2>
+                <p>
+                <span class="material-symbols-outlined home">home</span>
+                HEAD BACK TO HOME PAGE TO FIND THE BEST DEALS</p>
+            </a>
+        {% endif %}
         </div>
     </div>
 </div>

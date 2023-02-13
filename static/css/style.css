@@ -983,6 +983,25 @@ footer ul {
     width: 50%; 
 }
 
+.shopping-bag-checkout {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.shopping-bag-checkout a {
+    color: black;
+}
+
+.shopping-bag-checkout h2 {
+    font-size: 3rem;
+}
+
+.shopping-bag-checkout p {
+    font-size: 2rem;
+}
 
 /* Media Queries */ 
 
