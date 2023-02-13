@@ -643,17 +643,22 @@ footer ul {
 .skincare-product {
     width: 200px;
     height: 200px;
-    margin: 75px;
+    margin: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #ffffff;
-    box-shadow: 0 2px 1px -1px #d6d4d4;    
 }
 
 .product-image {
     width: 200px;
     height: 200px;
+
+}
+
+.full-product-seperator {
+    border-bottom: solid 0.5px #d6d4d4;
+    margin-top: 5px;
 }
 
 #noimage {
@@ -693,7 +698,7 @@ footer ul {
 
 .product-detail-image-container img {
     width: 400px;
-    height: 400px; 
+    height: 400px;
 }
 
 .product-detail-brand-name {

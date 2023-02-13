@@ -20,10 +20,12 @@
             <a href="{% url 'product_details' product.id %}">
                 <img class="product-image" src="{{ product.image.url }}" alt="{{ product.name }}">
             </a>
+            <hr class="full-product-seperator">
             {% else %}
             <a href="{% url 'product_details' product.id %}">
                 <img class="product-image" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
             </a>
+            <hr class="full-product-seperator">
             {% endif %}
         </div>
         <div class="product-brand">
@@ -42,7 +44,6 @@
         {% else %}
             <span>No Rating</span>
         {% endif %}
-
         </div>
     </div>
     {% endfor %}
