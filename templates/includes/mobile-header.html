@@ -99,37 +99,36 @@
                 <a href="{% url 'all_products' %}"><strong>SKINCARE</strong></a>
             </h2>
             <div class="navigation-options-mobile mobile-dropdown">
-                <a href="#">
+                <a href="{% url 'all_products' %}?usage=Face">
                     <h3><strong>FACE</strong></h3>
                 </a>
-                
-                <a href=""><strong>Cleanser</strong></a>
-                <a href=""><strong>Exfoliator</strong></a>
-                <a href=""><strong>Toner</strong>,<strong>Essence</strong>&<strong>Mist</strong></a>
-                <a href=""><strong>Serum</strong>&<strong>Ampoule</strong></a>
-                <a href=""><strong>Eye Care</strong>&<strong>Lip Care</strong></a>
-                <a href=""><strong>Skin Treatment</strong></a>
-                <a href=""><strong>Moisturiser</strong></a>
-                <a href=""><strong>Sunscreen</strong></a>
+                <a href="{% url 'all_products' %}?product_type=cleanser"><strong>Cleanser</strong></a>
+                <a href="{% url 'all_products' %}?product_type=exfoliator"><strong>Exfoliator</strong></a>
+                <a href="{% url 'all_products' %}?product_type=toner,essence,mist"><strong>Toner</strong>,<strong>Essence</strong>&<strong>Mist</strong></a>
+                <a href="{% url 'all_products' %}?product_type=serum,ampoule"><strong>Serum</strong>&<strong>Ampoule</strong></a>
+                <a href="{% url 'all_products' %}?product_type=eye_care,lip_care"><strong>Eye Care</strong>&<strong>Lip Care</strong></a>
+                <a href="{% url 'all_products' %}?product_type=treatment"><strong>Skin Treatment</strong></a>
+                <a href="{% url 'all_products' %}?product_type=moisturiser"><strong>Moisturiser</strong></a>
+                <a href="{% url 'all_products' %}?product_type=sunscreen"><strong>Sunscreen</strong></a>
                 <br>
-                <a href="#">
-                    <h3><strong>BODY</strong></h3>
+
+                <a href="{% url 'all_products' %}?usage=Body">
+                    <h3><strong>BODY</strong></h3> 
                 </a>
-                
-                <a href=""><strong>Body Cleanser</strong></a>
-                <a href=""><strong>Body Moisturiser</strong></a>
+                <a href="{% url 'all_products' %}?product_type=body_cleanser"><strong>Body Cleanser</strong></a>
+                <a href="{% url 'all_products' %}?product_type=body_moisturiser"><strong>Body Moisturiser</strong></a>
                 <br>
-                <a href="#">
+
+                <a href="{% url 'all_products' %}?usage=Hands">
                     <h3><strong>HANDS</strong></h3>
-                </a>
-                
-                <a href=""><strong>Hand Moisturiser</strong></a>
+                </a>                
+                <a href="{% url 'all_products' %}?product_type=hand_care"><strong>Hand Care</strong></a>
                 <br>
-                <a href="#">
+
+                <a href="{% url 'all_products' %}?usage=Feet">
                     <h3><strong>FEET</strong></h3>
                 </a>
-                
-                <a href=""><strong>Foot Care</strong></a>
+                <a href="{% url 'all_products' %}?product_type=foot_care"><strong>Foot Care</strong></a>
                 <br>
             </div>
         </li>
