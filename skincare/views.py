@@ -10,8 +10,18 @@ def all_products(request):
     # Retrives Skincare Object
     skincare = Skincare.objects.all()
     query = None
+    usage = None
+    product_type = None
 
     if request.GET:
+        if 'usage' in request.GET:
+            usages = request.GET['usage'].split(',')
+            skincare = skincare.filter(usage__in=usages)
+
+        if 'product_type' in request.GET:
+            product_types = request.GET['product_type'].split(',')
+            skincare = skincare.filter(product_type__name__in=product_types)
+
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
