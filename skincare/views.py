@@ -30,9 +30,9 @@ def all_products(request):
                     )
                 return redirect(reverse('all_products'))
 
-            queries = Q(
-                name__contains=query) | Q(
-                    description__icontains=query)
+            queries = Q(name__contains=query) | Q(
+                description__icontains=query) | Q(
+                about__icontains=query)
             skincare = skincare.filter(queries)
 
     context = {
