@@ -1123,7 +1123,12 @@ footer ul {
     color: #ffffff;
     margin-bottom: 5px;
     text-align: center;
-    width: 50%;
+    width: 100%;
+}
+
+.checkout-shopmore-buttons a:hover {
+    background-color: #ffffff;
+    color: #000000; 
 }
 
 .checkout-shopmore-buttons p {

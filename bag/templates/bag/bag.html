@@ -50,9 +50,9 @@
                 </table>
 
                 <div class="grand-total-delivery">
-                    <h4>BAG TOTAL: £{{ total|floatformat:2}}</h4>
-                    <h4>DELIVERY: £{{ delivery|floatformat:2 }}</h4>
-                    <h3>GRAND TOTAL: £{{ grand_total|floatformat:2}}</h3>
+                    <h3>BAG TOTAL: £{{ total|floatformat:2}}</h3>
+                    <h3>DELIVERY: £{{ delivery|floatformat:2 }}</h3>
+                    <h2>GRAND TOTAL: £{{ grand_total|floatformat:2}}</h2git >
                     {% if free_delivery_delta > 0 %}
                     <p>
                         You could get free delivery by spending just <strong>${{ free_delivery_delta }}</strong> more!
@@ -67,12 +67,8 @@
 
                     <a class="secure-checkout" href="">
                         <p>SECURE CHECKOUT</p>
-
                     </a>
-
                 </div>
-
-
             </div>
 
             {% else %}
