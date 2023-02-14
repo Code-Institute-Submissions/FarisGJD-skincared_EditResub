@@ -33,9 +33,12 @@
                 <p class="sku">Sku: {{product.sku}}</p>
             </div>
     
-            <form action="" method="POST">
+            <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                 {% csrf_token %}
-                <div class="add-to-bag-container">
+                <div class="quantity-container">
+                    <input class="quantity-input" type="number" name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
+                </div>
+                <div>
                     <input class="add-to-bag-button" type="submit" value="ADD TO BAG">
                 </div>
                 <input type="hidden" name="redirect_url" value="{{ request.path }}">
