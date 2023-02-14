@@ -62,7 +62,7 @@ def all_brands(request):
 
     # Retrieves Brand Object
     brands = Brand.objects.all()
-        
+
     # Renders Brand Starting Letters & Ommits Duplicate Values
     brand_letters_query = brands.values_list(
         'character_identifier', flat=True
@@ -110,9 +110,11 @@ def skin_type(request):
 
     # Retrives Skin Type Object
     skin_type = SkinType.objects.all()
+    skincare = Skincare.objects.all()
 
     context = {
         'skin_type': skin_type,
+        'skincare': skincare,
     }
 
     return render(request, 'skin_type/skin_type.html', context)
@@ -128,4 +130,3 @@ def skin_concern(request):
     }
 
     return render(request, 'skin_concern/skin_concern.html', context)
-
