@@ -14,7 +14,40 @@
         <div class="shopping-bag-checkout">
             {% if bag_items %}
             <div class="active-shopping-bag">
-    
+                <table>
+                    <thead>
+                        <tr class="checkout-headings">
+                            <th>PRODUCT INFO</th>
+                            <th></th>
+                            <th>PRICE</th>
+                            <th>QUANTITY</th>
+                            <th>SUBTOTAL</th>
+                        </tr>
+                    </thead>
+                    {% for item in bag_items %}
+                    <tr>
+                        <td class="">
+                            <div class="checkout-image-container">
+                                <img class="checkout-image" src="{{ item.product.image.url }}">
+                            </div>
+                        </td>
+                        <td class="checkout-product-info">
+                            <p>{{ item.product.name }}</p>
+                            <p>SIZE: {{ item.product.quantity}} ML</p>
+                            <p class="checkout-sku">SKU: {{ item.product.sku|upper }}</p>
+                        </td>
+                        <td class="checkout-meta-sales">
+                            <p class="checkout-price">£{{ item.product.price }}</p>
+                        </td>
+                        <td class="checkout-meta-sales">
+                            <p class="checkout-quantity">X{{ item.quantity }}</p>
+                        </td>
+                        <td class="checkout-meta-sales">
+                            <p class="checkout-subtotal">£{{ item.product.price }}</p>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </table>
             </div>
             {% else %}
             <div class="empty-shopping-bag">
