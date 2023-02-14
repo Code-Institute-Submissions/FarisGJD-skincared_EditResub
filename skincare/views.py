@@ -62,7 +62,7 @@ def all_brands(request):
 
     # Retrieves Brand Object
     brands = Brand.objects.all()
-    
+        
     # Renders Brand Starting Letters & Ommits Duplicate Values
     brand_letters_query = brands.values_list(
         'character_identifier', flat=True
@@ -91,12 +91,15 @@ def full_brands(request, slug):
 
     # Retrives Brand object
     queryset = Brand.objects.all()
+    # Retrives Skincare Object
+    skincare = Skincare.objects.all()
 
     # Retrives the slug from the Brand object then applies it to each brand
     full_brand = get_object_or_404(queryset, slug=slug)
 
     context = {
         'full_brand': full_brand,
+        'skincare': skincare,
     }
 
     return render(request, 'brands/full_brands.html', context)
