@@ -524,7 +524,7 @@ footer ul {
 #hero-image {
     width: 100%;
     background: url("/media/hero_image.jpg") center center no-repeat;
-    min-height: 82vh;
+    min-height: 72vh;
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -747,6 +747,32 @@ footer ul {
 .sku {
     letter-spacing: 0.5px;
 }
+
+.extra-meta-button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.add-to-bag-container {
+    margin: 70px 0 0 50px;
+}
+
+.add-to-bag-button {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.5rem;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+.add-to-bag-button:hover {
+    background-color: #ffffff;
+    color: #000000; 
+}
+
+
 
 .product-details-seperator-container{
     display: flex;

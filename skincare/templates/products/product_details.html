@@ -25,13 +25,22 @@
         <p class="product-detail-quantity">{{product.quantity}}ml</p>
         <p class="product-detail-price">£{{product.price}}</p>
 
-        <div class="product-details-extra-meta-data">
-            <p>Cruelty Free: {{product.cruelty_free}}</p>
-            <p>Vegan: {{product.vegan}}</p>
-            <p>Alcohol Free: {{product.alcohol_free}}</p>
-            <p class="sku">Sku: {{product.sku}}</p>
+        <div class="extra-meta-button-container">
+            <div class="product-details-extra-meta-data">
+                <p>Cruelty Free: {{product.cruelty_free}}</p>
+                <p>Vegan: {{product.vegan}}</p>
+                <p>Alcohol Free: {{product.alcohol_free}}</p>
+                <p class="sku">Sku: {{product.sku}}</p>
+            </div>
+    
+            <form action="" method="POST">
+                {% csrf_token %}
+                <div class="add-to-bag-container">
+                    <input class="add-to-bag-button" type="submit" value="ADD TO BAG">
+                </div>
+                <input type="hidden" name="redirect_url" value="{{ request.path }}">
+            </form>
         </div>
-      
     </div>
 </div>
 
