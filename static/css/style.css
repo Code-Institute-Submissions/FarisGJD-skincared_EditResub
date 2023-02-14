@@ -64,15 +64,19 @@ button:focus{
 
 /* Header: Logo, Serach Bar, User Profile & Shopping Bag   */
 
-/* .free-delivery-container {
-    font-size: 2rem;
+.free-delivery-container {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
     display: flex;
     justify-content: center;
     justify-items: center;
-} */
+}
+
+.free-delivery-container h3 {
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
 
 header {
     display: flex;
