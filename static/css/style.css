@@ -64,6 +64,16 @@ button:focus{
 
 /* Header: Logo, Serach Bar, User Profile & Shopping Bag   */
 
+/* .free-delivery-container {
+    font-size: 2rem;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+} */
+
 header {
     display: flex;
     flex-direction: row;
@@ -972,15 +982,22 @@ footer ul {
 
 /* Shopping Bag */ 
 
+.shopping-bag-checkout-container {
+    background-color: #000000;
+    height: 74vh;
+}
+
 .shopping-bag-header-container h2 {
     font-size: 4rem;
     text-align: center;
     margin-top: 40px;
+    color: #ffffff;
 }
 
 .shopping-bag-header-container hr {
     margin: auto;
-    width: 50%; 
+    width: 50%;
+    background-color: #ffffff;
 }
 
 .shopping-bag-checkout {
@@ -992,7 +1009,7 @@ footer ul {
 
 
 .shopping-bag-checkout a {
-    color: black;
+    color: #ffffff;
 }
 
 .shopping-bag-checkout h2 {
