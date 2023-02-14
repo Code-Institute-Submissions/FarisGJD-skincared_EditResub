@@ -1026,6 +1026,10 @@ footer ul {
 
 /* Shopping Bag */ 
 
+.shopping-bag-container {
+    width: 100%;
+}
+
 .shopping-bag-header-container h2 {
     font-size: 4rem;
     text-align: center;
@@ -1041,8 +1045,11 @@ footer ul {
 .shopping-bag-checkout {
     display: flex;
     justify-content: center;
-    width: 100%; 
-    margin-top: 40px;
+    margin-top: 60px;
+}
+
+.active-shopping-bag {
+    margin-bottom: 40px;
 }
 
 
@@ -1089,6 +1096,40 @@ footer ul {
     font-size: 1.5rem;
     text-align: center;
     width: 150px
+}
+
+.grand-total-delivery {
+    float: right;
+    text-align: right;
+}
+
+.checkout-shopmore-buttons  {
+    width: 300px; 
+    height: 100px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.keep-shopping {
+    background-color: #000000;
+}
+
+.secure-checkout {
+    background-color: #000000;
+
+}
+
+.checkout-shopmore-buttons a {
+    color: #ffffff;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+.checkout-shopmore-buttons p {
+    font-size: 1.5rem;
+    padding-top: 10px;
+
 }
 
 
