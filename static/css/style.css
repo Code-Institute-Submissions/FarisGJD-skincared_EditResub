@@ -71,6 +71,7 @@ button:focus{
     display: flex;
     justify-content: center;
     justify-items: center;
+    letter-spacing: 1.5px;
 }
 
 .free-delivery-container h3 {
@@ -1108,6 +1109,7 @@ footer ul {
     height: 100px; 
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .keep-shopping {
