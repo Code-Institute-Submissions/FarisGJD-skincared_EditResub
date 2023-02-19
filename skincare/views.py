@@ -79,7 +79,6 @@ def all_brands(request):
         'brands': brands,
         'brand_letters': brand_letters,
         'brand_letter_startswith': brand_letter_startswith,
-        'brand_product': brand_product,
     }
 
     return render(request, 'brands/brands.html', context)

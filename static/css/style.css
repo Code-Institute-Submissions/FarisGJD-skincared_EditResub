@@ -1049,7 +1049,7 @@ footer ul {
     margin-top: 60px;
 }
 
-.active-shopping-bag {
+.active-shopping-bag { 
     margin-bottom: 40px;
 }
 
@@ -1074,8 +1074,8 @@ footer ul {
 }
 
 .checkout-image {
-    height: 140px; 
-    width: 140px;
+    height: 155px; 
+    width: 155px;
     margin-bottom: 40px;
 }
 
@@ -1096,10 +1096,12 @@ footer ul {
 .checkout-headings th {
     font-size: 1.5rem;
     text-align: center;
-    width: 150px
+    width: 150px;
+    padding-bottom: 15px;
 }
 
 .grand-total-delivery {
+    margin-top: 40px;
     float: right;
     text-align: right;
 }
@@ -1109,7 +1111,7 @@ footer ul {
     height: 100px; 
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .keep-shopping {
