@@ -779,15 +779,19 @@ footer ul {
 .quantity-container {
     font-size: 2rem;
     margin-top: 10px;
-    width: 65px;
+}
+
+.plus-minus-icon {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 10px;
 }
 
 .quantity-container input {
     text-align: center;
     border: 1px solid #000000;
 }
-
-
 
 .product-details-seperator-container{
     display: flex;
@@ -818,6 +822,14 @@ footer ul {
 .product-detail-text {
     text-align: center;
     font-size: 1.5rem;
+}
+
+.bottom-arrow {
+    content: '';
+    margin: 0 auto;
+    border-top: 25px solid #000000;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
 }
 
 /* Brands Page */
@@ -1097,7 +1109,7 @@ footer ul {
     font-size: 1.5rem;
     text-align: center;
     width: 150px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 .grand-total-delivery {

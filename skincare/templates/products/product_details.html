@@ -36,7 +36,31 @@
             <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                 {% csrf_token %}
                 <div class="quantity-container">
-                    <input class="quantity-input" type="number" name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
+                    <div class="input-group">
+                        
+                        <div class="input-group-prepend">
+                            <button class="decrement-qty btn" 
+                                data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
+                                <span class="plus-minus-icon">
+                                    <i class="fas fa-minus"></i>
+                                </span>
+                            </button>
+                        </div>
+
+                        <input class="quantity-input qty_input" type="number" 
+                            name="quantity" value="1" min="1" max="99" 
+                            data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
+                            
+                            <div class="input-group-append">
+                                <button class="increment-qty btn"
+                                    data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
+                                    <span class="plus-minus-icon">
+                                        <i class="fas fa-plus"></i>
+                                    </span>
+                                </button>
+                            </div>
+                            
+                    </div>
                 </div>
                 <div>
                     <input class="add-to-bag-button" type="submit" value="ADD TO BAG">
@@ -53,26 +77,41 @@
 
 <div class="product-details-information">
     <h3>ABOUT THE BRAND</h3>
+    <div class="bottom-arrow">
+        
+    </div>
     <div class="product-detail-text-container">
         <p class="product-detail-text">{{product.about}}</p>
     </div>  
 
     <h3>DESCRIPTION</h3>
+    <div class="bottom-arrow">
+        
+    </div>
     <div class="product-detail-text-container">
         <p class="product-detail-text">{{product.description}}</p>
     </div>  
 
     <h3>DIRECTIONS</h3>
+    <div class="bottom-arrow">
+        
+    </div>
     <div class="product-detail-text-container">
         <p class="product-detail-text">{{product.directions}}</p>
     </div>  
 
     <h3>INGREDIENTS</h3>
+    <div class="bottom-arrow">
+        
+    </div>
     <div class="product-detail-text-container">
         <p class="product-detail-text">{{product.ingredients}}</p>
     </div>  
 
     <h3>DETAILS</h3>
+    <div class="bottom-arrow">
+        
+    </div>
     <div class="product-detail-text-container">
         <p class="product-detail-text">Product Type: {{product.product_subtype_friendly_name}}</p>
         <p class="product-detail-text">Star Ingredients: {{product.star_ingredient}}</p>
@@ -81,5 +120,9 @@
     </div>  
 </div>
 
+{% endblock %}
 
+{% block postloadjs %}
+{{ block.super }}
+{% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}
