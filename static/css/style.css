@@ -1184,6 +1184,22 @@ footer ul {
     margin: auto;
 }
 
+.empty-shopping-bag {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.empty-shopping-bag a {
+    color: #000000;
+}
+
+.shopping-bag-redirect-home {
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+}
+
 
 
 /* Media Queries */ 
