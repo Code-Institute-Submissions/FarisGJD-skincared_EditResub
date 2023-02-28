@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load bag_tools %}
 
 {% block content %}
 <div class="shopping-bag-checkout-container">
@@ -75,7 +76,7 @@
                             </div>
                         </td>
                         <td class="checkout-meta-sales">
-                            <p class="checkout-subtotal">£{{ item.product.price }}</p>
+                            <p class="checkout-subtotal">£{{ item.product.price | calc_subtotal:item.quantity }}</p>
                         </td>
                     </tr>
                 {% endfor %}
