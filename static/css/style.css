@@ -1204,8 +1204,8 @@ footer ul {
 
 .message-container {
     position: fixed;
-    top: 72px; 
-    right: 15px;
+    top: 130px; 
+    right: 150px;
     z-index: 999999999999;
 }
 
@@ -1214,7 +1214,7 @@ footer ul {
 }
 
 .toast-capper {
-    height: 2px;
+    height: 3px;
 }
 
 
