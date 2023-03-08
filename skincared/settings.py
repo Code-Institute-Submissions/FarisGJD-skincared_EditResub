@@ -54,8 +54,9 @@ INSTALLED_APPS = [
     'home',
     'skincare',
     'bag',
+    'checkout',
     # Other
-    'storages', 
+    'storages',
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
