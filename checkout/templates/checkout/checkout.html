@@ -15,20 +15,22 @@
         <h2>SECURE CHECKOUT</h2>
     </div>
 
+    <div class="content-seperator"></div>
+
     <div class="checkout-form">
+        <h3 class="text-muted">ORDER SUMMARY (X{{ product_count }})</h3>
         <div class="checkout-order-summary">
-            <div class="col-12 col-lg-6 order-lg-last mb-5">
-                <h3 class="text-muted">Order Summary ({{ product_count }})</h3>
+            <div class="col-12 col-lg-8 order-lg-last mb-5">
                 <div class="row">
                     <div class="col-7 offset-2">
-                        <p class="mb-1 mt-0 small text-muted">Item</p>
+                        <p class="mb-1 mt-0 text-muted">Item</p>
                     </div>
                     <div class="col-3 text-right">
-                        <p class="mb-1 mt-0 small text-muted">Subtotal</p>
+                        <p class="mb-1 mt-0 text-muted">Subtotal</p>
                     </div>
                 </div>
                 {% for item in bag_items %}
-                    <div class="row">
+                    <div class="row summary-bottom">
                         <div class="col-2 mb-1">
                             <a href="{% url 'product_details' item.product.id %}">
                                 {% if item.product.image %}
@@ -39,33 +41,36 @@
                             </a>
                         </div>
                         <div class="col-7">
-                            <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                            <p class="my-0 small">SIZE: {{ item.product.quantity}} ML</p>
-                            <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
+                            <p><strong>{{ item.product.brand.friendly_name }}
+                            <br>{{ item.product.name }}</p></strong>
+                            <p>SIZE: {{ item.product.quantity}} ML</p>
+                            <p>Qty: {{ item.quantity }}</p>
                         </div>
                         <div class="col-3 text-right">
-                            <p class="my-0 small text-muted">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                            <p class="my-0 text-muted">£{{ item.product.price | calc_subtotal:item.quantity }}</p>
                         </div>
                     </div>
                 {% endfor %}
                 <hr class="my-0">
-                <div class="row text-black text-right">
+                <div class="row text-black text-right summary-total">
                     <div class="col-7 offset-2">
                         <p class="my-0">Order Total:</p>
                         <p class="my-0">Delivery:</p>
                         <p class="my-0">Grand Total:</p>
                     </div>
                     <div class="col-3">
-                        <p class="my-0">${{ total | floatformat:2 }}</p>
-                        <p class="my-0">${{ delivery | floatformat:2 }}</p>
-                        <p class="my-0"><strong>${{ grand_total | floatformat:2 }}</strong></p>
+                        <p class="my-0">£{{ total | floatformat:2 }}</p>
+                        <p class="my-0">£{{ delivery | floatformat:2 }}</p>
+                        <p class="my-0"><strong>£{{ grand_total | floatformat:2 }}</strong></p>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="content-seperator"></div>
+
         <div class="checkout-form-header">
-            <h4>To Complete Your Order Please Fill Out The Form Below</h4>
+            <h4>TO COMPLETE YOUR ORDER PLEASE FILL OUT THE FORM BELOW</h4>
             <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                 {% csrf_token %}
                 <fieldset>
@@ -84,48 +89,53 @@
                     {{ order_form.county | as_crispy_field }}
                     <div class="form-check form-check-inline float-right mr-0">
                         {% if user.is_authenticated %}
-                            <label class="form-check-label" for="id-save-info">Save Delivery Information To Accouunt</label>
+                            <label class="form-check-label" for="id-save-info">SAVE DELIVERY INFORMATION TO ACCOUNT</label>
                             <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info" checked>
                         {% else %}
                             <label class="form-check-label" for="id-save-info">
-                                <a class="text-info" href="{% url 'account_signup' %}">Create Account</a> Or 
-                                <a class="text-info" href="{% url 'account_login' %}">Login</a> To Save This Information
+                                <a class="text-info" href="{% url 'account_signup' %}">CREATE AN ACCOUNT</a> OR
+                                <a class="text-info" href="{% url 'account_login' %}">LOGIN</a> TO SAVE YOUR INFORMATION
                             </label>
                         {% endif %}
                     </div>
                 </fieldset>
                 <fieldset>
                     <legend class="text-muted">PAYMENT:</legend>
-                    <!-- Stripe -->
                     <div class="mb-3" id="card-element"></div>
-
-                    <!-- Errors -->
                     <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
                 </fieldset>
 
-                <div class="submit-button text-right mt-5 mb-2">                    
-                    <a href="{% url 'view_bag' %}" class="btn btn-outline-black rounded-0">
+                <div class="text-right mt-5 mb-2">                    
+                    <a href="{% url 'view_bag' %}" class="btn checkout-buttons adjust-bag">
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>
                         </span>
                         <span class="font-weight-bold">Adjust Bag</span>
                     </a>
-                    <button id="submit-button" class="btn btn-black rounded-0">
+                    <button id="submit-button" class="btn checkout-buttons complete-order">
                         <span class="font-weight-bold">Complete Order</span>
                         <span class="icon">
                             <i class="fas fa-lock"></i>
                         </span>
                     </button>
-                    <p class="small text-danger my-0">
+                    <p class="small text-danger my-0 checkout-charge-warning">
                         <span class="icon">
                             <i class="fas fa-exclamation-circle"></i>
                         </span>
-                        <span>Your Card Will Be Charged <strong>${{ grand_total|floatformat:2 }}</strong></span>
+                        <spanå>YOUR CARD WILL BE CHARGED <strong>${{ grand_total|floatformat:2 }}</strong></span>
                     </p>
                 </div>
             </form>
         </div>
     </div>
+</div>
+
+<div id="stripe-loading-overlay">
+    <h1 class="text-light logo-font stripe-loading-spinner">
+        <span class="icon">
+            <i class="fas fa-2x fa-thin fa-spinner fa-spin"></i>
+        </span>
+    </h1>
 </div>
 {% endblock %}
 

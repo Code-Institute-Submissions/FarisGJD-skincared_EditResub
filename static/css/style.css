@@ -26,12 +26,6 @@ a:hover {
     text-decoration: none;
 }
 
-
-hr {
-    border-bottom: 0.8px solid #000000;
-    margin: 0; 
-}
-
 ::placeholder  {
     font-size: 1.1rem;
     text-transform: uppercase; 
@@ -60,6 +54,17 @@ button:focus{
 
 .navigation-bar-container, #mobile-header-container, .user-profile-drop-down-menu {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+}
+
+.content-seperator {
+    width: 100%;
+    border-bottom: 0.5px solid #000000;
+    margin: 30px 0 30px 0;
+}
+
+hr {
+    border-bottom: 0.8px solid #000000;
+    margin: 0; 
 }
 
 /* Header: Logo, Serach Bar, User Profile & Shopping Bag   */
@@ -1240,6 +1245,7 @@ footer ul {
     width: 80%;
     margin: auto;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .checkout-header h2 {
@@ -1252,15 +1258,80 @@ footer ul {
     flex-direction: column;
 }
 
+.checkout-form h3{
+    text-align: center;
+    font-size: 2rem;
+    margin: 10px 0 30px 0; 
+}
+
 .checkout-order-summary {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+}
+
+.checkout-order-summary p {
+    font-size: 1.1rem;
+}
+
+.summary-total {
+    margin-top: 20px; 
+}
+
+.summary-bottom {
+    margin-bottom: 20px;
 }
 
 .checkout-form-header h4 {
     font-size: 2rem;
     text-align: center;
+    margin: 20px 0 30px 0; 
+}
+
+.checkout-buttons {
+    background-color: #000000;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.adjust-bag {
+    background-color: #ffffff;
+    border: 0.5px solid #000000;
+    color: #000000;  
+}
+
+.adjust-bag:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.complete-order:hover {
+    background-color: #ffffff;
+    color: #000000; 
+}
+
+.checkout-charge-warning {
+    font-size: 1.1rem;
+}
+
+/* Checkout Sucess */ 
+
+.checkout-success-header h2 {
+    font-size: 4rem;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.checkout-sucess-extra {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.checkout-success-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /* Media Queries */ 
