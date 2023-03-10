@@ -111,7 +111,7 @@
                 </div>
 
                 <li class="header-right-icons shopping-bag">
-                    <a href="{% url 'view_bag' %}">
+                    <a class="{% if grand_total %}text-danger{% else %}text-black{% endif %}" href="{% url 'view_bag' %}">
                         <span class="material-symbols-outlined">shopping_bag</span>
                         <p>SHOPPING BAG
                             <br>
