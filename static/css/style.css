@@ -1334,6 +1334,12 @@ footer ul {
     justify-content: center;
 }
 
+
+.checkout-success-container .row {
+    margin-bottom: 3px;
+    padding: 2px; 
+}
+
 /* Media Queries */ 
 
 @media only screen and (max-width: 1250px) {
