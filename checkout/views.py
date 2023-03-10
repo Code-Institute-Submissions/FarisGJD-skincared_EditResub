@@ -1,4 +1,5 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
 
@@ -59,7 +60,7 @@ def checkout(request):
                             quantity=item_data,
                         )
                         order_line_item.save()
-                except Product.DoesNotExist:
+                except Skincare.DoesNotExist:
                     messages.error(request, (
                         "One of the products in your bag wasn't found in our database. "
                         "Please call or email us for assistance!")
@@ -76,7 +77,7 @@ def checkout(request):
         bag = request.session.get('bag', {})
         if not bag:
             messages.error(request, "There's nothing in your bag at the moment")
-            return redirect(reverse('products'))
+            return redirect(reverse('all_products'))
 
         current_bag = bag_contents(request)
         total = current_bag['grand_total']
