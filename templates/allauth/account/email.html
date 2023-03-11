@@ -5,9 +5,10 @@
 {% block head_title %}{% trans "Account" %}{% endblock %}
 
 {% block content %}
-    <h1>{% trans "E-mail Addresses" %}</h1>
+<h2 class="allauth-headers">{% trans "EMAIL ADDRESSES" %}</h2>
+<div class="content-seperator"></div>
 {% if user.emailaddress_set.all %}
-<p>{% trans 'The following e-mail addresses are associated with your account:' %}</p>
+<p>{% trans 'THE FOLLOWING EMAIL ADDRESSES ARE ASSOCIATED WITH YOUR ACCOUNT:' %}</p>
 
 <form action="{% url 'account_email' %}" class="email_list" method="post">
 {% csrf_token %}
@@ -21,36 +22,36 @@
 
 {{ emailaddress.email }}
     {% if emailaddress.verified %}
-    <span class="verified">{% trans "Verified" %}</span>
+    <span class="verified">{% trans "VERIFIED" %}</span>
     {% else %}
-    <span class="unverified">{% trans "Unverified" %}</span>
+    <span class="unverified">{% trans "UNVERIFIED" %}</span>
     {% endif %}
-      {% if emailaddress.primary %}<span class="primary">{% trans "Primary" %}</span>{% endif %}
+      {% if emailaddress.primary %}<span class="primary">{% trans "PRIMARY" %}</span>{% endif %}
 </label>
 </div>
   {% endfor %}
 
 <div class="buttonHolder">
-      <button class="secondaryAction" type="submit" name="action_primary" >{% trans 'Make Primary' %}</button>
-      <button class="secondaryAction" type="submit" name="action_send" >{% trans 'Re-send Verification' %}</button>
-      <button class="primaryAction" type="submit" name="action_remove" >{% trans 'Remove' %}</button>
+      <button class="secondaryAction" type="submit" name="action_primary" >{% trans 'MAKE PRIMARY' %}</button>
+      <button class="secondaryAction" type="submit" name="action_send" >{% trans 'RE-SEND VERIFICATION' %}</button>
+      <button class="primaryAction" type="submit" name="action_remove" >{% trans 'REMOVE' %}</button>
 </div>
 
 </fieldset>
 </form>
 
 {% else %}
-<p><strong>{% trans 'Warning:'%}</strong> {% trans "You currently do not have any e-mail address set up. You should really add an e-mail address so you can receive notifications, reset your password, etc." %}</p>
-
+<p><strong>{% trans 'WARNING:'%}</strong> {% trans "YOU CURRENTLY DO NOT HAVE ANY EMAIL ADDRESS SET UP.
+YOU SHOULD ADD ONE SO YOU CAN RECEIVE NOTIFICATIONS, REST YOUR PASSWORD AND OTHER BENEFITS." %}</p>
 {% endif %}
 
 
-    <h2>{% trans "Add E-mail Address" %}</h2>
+    <h2>{% trans "ADD EMAIL ADDRESS" %}</h2>
 
     <form method="post" action="{% url 'account_email' %}" class="add_email">
         {% csrf_token %}
-        {{ form.as_p }}
-        <button name="action_add" type="submit">{% trans "Add E-mail" %}</button>
+        {{ form|crispy }}
+        <button name="action_add" type="submit">{% trans "Add EMAIL" %}</button>
     </form>
 
 {% endblock %}
@@ -59,7 +60,7 @@
 {% block extra_body %}
 <script type="text/javascript">
 (function() {
-  var message = "{% trans 'Do you really want to remove the selected e-mail address?' %}";
+  var message = "{% trans 'DO YOU REALLY WANT TO REMOVE THE SELECTED EMAIL ADDRESS?' %}";
   var actions = document.getElementsByName('action_remove');
   if (actions.length) {
     actions[0].addEventListener("click", function(e) {
