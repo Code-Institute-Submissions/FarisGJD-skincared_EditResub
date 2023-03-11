@@ -4,20 +4,22 @@
 
 {% block head_title %}{% trans "Verify Your E-mail Address" %}{% endblock %}
 
-{% block content %}
-<h1>{% trans "Verify Your E-mail Address" %}</h1>
+{% block inner_content %}
+<h2 class="allauth-headers">{% trans "VERIFY YOUR EMAIL ADDRESS" %}</h2>
+<div class="content-seperator"></div>
+
 
 {% url 'account_email' as email_url %}
 
-<p>{% blocktrans %}This part of the site requires us to verify that
-you are who you claim to be. For this purpose, we require that you
-verify ownership of your e-mail address. {% endblocktrans %}</p>
+<p>{% blocktrans %}THIS PART OF THE SITE REQUIRES US TO VERIFY YOUR IDENTITY. 
+    FOR THIS PURPOSE, WE ASK THAT YOU VERIFY OWNERSHIP OF YOUR EMAIL ADDRESS.
+    {% endblocktrans %}</p>
 
-<p>{% blocktrans %}We have sent an e-mail to you for
-verification. Please click on the link inside this e-mail. Please
-contact us if you do not receive it within a few minutes.{% endblocktrans %}</p>
+<p>{% blocktrans %}WE HAVE SENT AN EMAIL TO YOU FOR VERIFICATION. 
+    PLEASE CLICK ON THE LINK ATTACHED TO THIS EMAIL. 
+    PLEASE CONTACT US IF YOU DO NOT RECEIVE IT.{% endblocktrans %}</p>
 
-<p>{% blocktrans %}<strong>Note:</strong> you can still <a href="{{ email_url }}">change your e-mail address</a>.{% endblocktrans %}</p>
+<p>{% blocktrans %}<strong>NOTE:</strong> YOU CAN STILL <a href="{{ email_url }}">CHANGE YOUR EMAIL ADDRESS</a>.{% endblocktrans %}</p>
 
 
 {% endblock %}
