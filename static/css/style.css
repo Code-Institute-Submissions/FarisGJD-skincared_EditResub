@@ -527,7 +527,7 @@ footer ul {
 #hero-image {
     width: 100%;
     background: url("/media/hero_image.jpg") center center no-repeat;
-    min-height: 72vh;
+    min-height: 73.5vh;
     background-size: cover;
     display: flex;
     flex-direction: row;
