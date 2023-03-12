@@ -17,8 +17,8 @@
   {% if redirect_field_value %}
   <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
   {% endif %}
-  <a class="btn allauth-buttons" href="{% url 'account_login' %}">BACK TO LOGIN</a>
-  <button type="submit">{% trans "SIGN UP" %}</button>
+  <a class="btn allauth-buttons allauth-black-button" href="{% url 'account_login' %}">BACK TO LOGIN</a>
+  <button class="btn allauth-buttons  allauth-white-button" type="submit">{% trans "SIGN UP" %}</button>
 </form>
 
 {% endblock %}

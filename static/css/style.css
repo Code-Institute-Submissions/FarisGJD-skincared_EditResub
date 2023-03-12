@@ -252,7 +252,6 @@ footer ul {
 .nav-container {
     position: sticky;
     top: 135px;
-    z-index: 999999999;
 }
 
 .navigation-bar-container {
@@ -1354,6 +1353,13 @@ footer ul {
     margin: auto;
 }
 
+.allauth-headers {
+    margin-top: 40px;
+    font-size: 4rem;
+    text-align: center;
+}
+
+
 .allauth-buttons {
     border: 0.5px solid #000000;
     background-color: #ffffff;
@@ -1361,25 +1367,19 @@ footer ul {
     font-size: 1.5rem;
 }
 
-.allauth-headers {
-    margin-top: 40px;
-    font-size: 4rem;
-    text-align: center;
-}
-
-.login-home-button {
+.allauth-black-button {
     background-color: #000000; 
     color: #ffffff;
     margin-right: 10px;
 
 }
 
-.login-home-button:hover {
+.allauth-black-button:hover {
     background-color: #ffffff;
     color: #000000;
 }
 
-.login-singin-button:hover {
+.allauth-white-button:hover {
     background-color: #000000; 
     color: #ffffff;  
 }
