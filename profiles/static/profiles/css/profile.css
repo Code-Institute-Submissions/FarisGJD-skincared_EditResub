@@ -1,0 +1,41 @@
+.user-profile-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-self: center;
+
+}
+
+.user-profile-heading-container h2 {
+    font-size: 4rem;
+    margin-top: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.user-details-order-container p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.user-profile-buttons {
+    border: 0.5px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.user-profile-white-button:hover {
+    background-color: #000000; 
+    color: #ffffff;  
+}
+
+.user-profile-delivery-container {
+    margin-bottom: 90px;
+}
+
+.user-profile-orderh-container{
+    
+}
+

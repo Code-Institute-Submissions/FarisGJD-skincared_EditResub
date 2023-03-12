@@ -6,12 +6,28 @@
 {% endblock %}
 
 {% block content %}
-    <div>
-        <div>
-            <div>
-                <h2 class="logo-font mb-4">MY PROFILE</h2>
-            </div>
+    <div class="user-profile-container">
+        <div class="user-profile-heading-container">
+            <h2 class="logo-font mb-4">WELCOME <strong class="text-danger">{{profile}}</strong> TO YOUR PROFILE</h2>
         </div>
 
-        {{profile}}
+        <div class="content-seperator"></div>
+
+        <div class="user-details-order-container">
+            <div class="user-profile-delivery-container">
+                <p>DEFAULT DELIVERY INFORMATION</p>
+                <form class="mt-3" action="{% url 'profile' %}" method="POST" id="profile-update-form">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <button class="btn user-profile-buttons user-profile-white-button float-right">UPDATE INFORMATION</button>
+                </form>
+            </div>
+            <div class="content-seperator"></div>
+
+            <div class="user-profile-orderh-container">
+                <p>ORDER HISTORY</p>
+                {{ orders }}
+            </div>
+        </div>
+    </div>
 {% endblock %}
