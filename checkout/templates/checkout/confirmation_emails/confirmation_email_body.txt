@@ -1,0 +1,22 @@
+Hello {{ order.full_name }}, 
+
+This is a confirmation email in regards to your order placed at SkinCared:
+
+ORDER NUMBER: {{ order.order_number }}
+ORDER DATE: {{ order.date }}
+
+ORDER TOTAL: £{{ order.order_total }}
+DELIVERY: £{{ order.delivery_cost }}
+GRAND TOTATL: £{{ order.grand_total }}
+
+The above order will be shipped to {{ order.street_address1 }}, {{ order.town_or_city }},  {{ order.country }}. 
+
+If we need to contact you we have your number on file as {{ order.phone_number }}.
+
+If there any discrepancies above or you need help, feel free to contact us at {{ contact_email }}.
+
+Thank you for your order. 
+
+Regards, 
+
+SkinCared 
