@@ -1625,6 +1625,10 @@ footer ul {
         height: 150px;
         margin-bottom: 0;
     }
+    .allauth-background-image{
+        min-height: 85vh;
+    }
+    
 }
 
 @media only screen and (max-width: 650px) {
