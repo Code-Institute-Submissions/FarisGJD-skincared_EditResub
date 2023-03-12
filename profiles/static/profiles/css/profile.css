@@ -35,9 +35,7 @@
     margin-bottom: 90px;
 }
 
-/* .user-profile-orderh-container{
 
-} */
 
 #profile-update-form input::placeholder {
     color: #aab7c4;
@@ -54,4 +52,13 @@
 
 #id_default_country option:first-child {
     color: #aab7c4;
+}
+
+/* .user-profile-orderh-container{
+
+} */
+
+.order-history {
+    max-height: 416px; /* height of profile form + submit button */
+    overflow-y: auto;
 }
