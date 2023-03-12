@@ -26,7 +26,7 @@
 
             <div class="user-profile-orderh-container">
                 <p>ORDER HISTORY</p>
-                <div class="order-history table-responsive">
+                <div class="table-responsive">
                     <table class="table table-sm table-borderless">
                         <thead>
                             <tr>
@@ -50,12 +50,12 @@
                                         <ul class="list-unstyled">
                                             {% for item in order.lineitems.all %}
                                                 <li class="small">
-                                                    {{ item.product.name }} X{{ item.quantity }}
+                                                   <strong>{{ item.product.brand.friendly_name }}:</strong> {{ item.product.name }} X{{ item.quantity }}
                                                 </li>
                                             {% endfor %}
                                         </ul>
                                     </td>
-                                    <td>${{ order.grand_total }}</td>
+                                    <td><strong>£{{ order.grand_total }}</strong></td>
                                 </tr>
                             {% endfor %}
                         </tbody>
