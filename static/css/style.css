@@ -252,7 +252,7 @@ footer ul {
 .nav-container {
     position: sticky;
     top: 135px;
-    z-index: 999999;
+    z-index: 999999999;
 }
 
 .navigation-bar-container {
@@ -1341,6 +1341,7 @@ footer ul {
 
 .allauth-background-image{
     width: 100%;
+    background-color: #e7e2e7;
     background: url("/media/hero_image.jpg") center center no-repeat;
     min-height: 73vh;
     background-size: cover;
@@ -1564,6 +1565,7 @@ footer ul {
 
     .nav-container {
         top: 0;
+        z-index: 999999999;    
     }
 
     .hero-text h1 {

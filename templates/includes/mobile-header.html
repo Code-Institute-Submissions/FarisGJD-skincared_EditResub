@@ -38,16 +38,10 @@
                             {% if request.user.is_superuser %}
                             <a href="">PRODUCT MANAGEMENT</a>
                             {% endif %}
-                            <a href="">PROFILE</a>
-                            <hr>
-                            <hr>
-                            <hr>
+                            <a href="{% url 'profile' %}">PROFILE</a>
                             <a href="{% url 'account_logout' %}">LOGOUT</a>
                         {% else %}
                             <a href="{% url 'account_signup' %}">REGISTER</a>
-                            <hr>
-                            <hr>
-                            <hr>
                             <a href="{% url 'account_login' %}">LOGIN</a>
                         {% endif %}
                     </div>
@@ -55,14 +49,14 @@
             </div>
             <li class="shopping-bag">
                 <br>
-                <a href="{% url 'view_bag' %}">
+                <a class="{% if grand_total %}text-danger{% else %}text-black{% endif %}"  href="{% url 'view_bag' %}">
                     <span class="material-symbols-outlined">shopping_bag</span>
                     <p>SHOPPING BAG
                         <br>
                         {% if grand_total %}
-                        ${{ grand_total|floatformat:2 }}
+                        £{{ grand_total|floatformat:2 }}
                     {% else %}
-                        $0.00
+                        £0.00
                     </p>
                  
                 {% endif %}
