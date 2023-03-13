@@ -92,7 +92,7 @@
                         <div class="user-profile-drop-down-menu">
                             {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
-                                <a href="">PRODUCT MANAGEMENT</a>
+                                <a href="{% url 'add_product' %}">PRODUCT MANAGEMENT</a>
                                 {% endif %}
                                 <a href="{% url 'profile' %}">PROFILE</a>
                                 <a href="{% url 'account_logout' %}">LOGOUT</a>

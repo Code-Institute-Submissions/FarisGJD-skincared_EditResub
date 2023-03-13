@@ -67,6 +67,25 @@ hr {
     margin: 0; 
 }
 
+.page-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.header-container h2 {
+    font-size: 4rem;
+    margin-top: 40px;
+}
+
+.header-container h4, h5 {
+    font-size: 2rem;
+}
+
+.header-container h2, h5 {
+    text-align: center;
+}
 /* Header: Logo, Serach Bar, User Profile & Shopping Bag   */
 
 .free-delivery-container {

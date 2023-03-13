@@ -3,6 +3,8 @@ from django.contrib import messages
 from django.db.models import Q
 from .models import Brand, SkinType, SkinConcern, Skincare
 
+from .forms import ProductForm
+
 
 def all_products(request):
     """ A View To Render All Products  """
@@ -130,3 +132,14 @@ def skin_concern(request):
     }
 
     return render(request, 'skin_concern/skin_concern.html', context)
+
+
+def add_product(request):
+    """ Add a product to the store """
+    form = ProductForm()
+    template = 'products/add_product.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
