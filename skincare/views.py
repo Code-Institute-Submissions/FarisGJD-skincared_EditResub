@@ -146,13 +146,14 @@ def add_product(request):
             messages.error(request, 'Failed to add product. Please ensure the form is valid.')
     else:
         form = ProductForm()
-        
+  
     template = 'products/add_product.html'
     context = {
         'form': form,
     }
 
     return render(request, template, context)
+
 
 def edit_product(request, product_id):
     """ Edit a product in the store """
@@ -184,3 +185,4 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('all_products'))
+

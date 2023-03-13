@@ -16,7 +16,6 @@
             {% endif %}
         </div>
     </div>
-
     <div class="product-details-meta-data">
         <a href="">
             <h2 class="product-detail-brand-name"><strong>{{product.brand.friendly_name}}</strong></h2>
@@ -31,11 +30,10 @@
                 <p>Vegan: {{product.vegan}}</p>
                 <p>Alcohol Free: {{product.alcohol_free}}</p>
                 <p class="sku">Sku: {{product.sku}}</p>
+
                 {% if request.user.is_superuser %}
-                <small>
-                    <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+                    <a class="text-info" href="{% url 'edit_product' product.id %}">Edit</a> | 
                     <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
-                </small>
                 {% endif %}
             </div>
     
@@ -64,9 +62,9 @@
                                     </span>
                                 </button>
                             </div>
-                            
                     </div>
                 </div>
+
                 <div>
                     <input class="add-to-bag-button" type="submit" value="ADD TO BAG">
                 </div>
@@ -75,6 +73,7 @@
         </div>
     </div>
 </div>
+
 
 <div class="product-details-seperator-container">
     <hr class="product-details-seperator">
