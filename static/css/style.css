@@ -72,11 +72,11 @@ hr {
     display: flex;
     flex-direction: column;
     align-self: center;
+    margin: 40px 0 40px 0; 
 }
 
 .header-container h2 {
     font-size: 4rem;
-    margin-top: 40px;
 }
 
 .header-container h4, h5 {
