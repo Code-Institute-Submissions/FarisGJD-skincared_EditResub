@@ -1403,6 +1403,35 @@ footer ul {
     color: #ffffff;  
 }
 
+/* Product Management Form */
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    font-size: 1rem;
+}
+
+.btn-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0;
+    border-color: #EE4B2B;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #EE4B2B;
+    border-color: #EE4B2B;
+    border-radius: 0;
+}
+
 
 /* Media Queries */ 
 
