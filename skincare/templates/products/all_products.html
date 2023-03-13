@@ -43,8 +43,14 @@
             <span><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</span>
         {% else %}
             <span>No Rating</span>
-        {% endif %}
+        {% endif %}    
         </div>
+        {% if request.user.is_superuser %}
+        <small>
+            <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+            <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+        </small>
+        {% endif %}
     </div>
     {% endfor %}
 </div>
