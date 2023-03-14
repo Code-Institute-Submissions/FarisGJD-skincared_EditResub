@@ -112,7 +112,12 @@ hr {
 }
 
 .page-error-conainter {
-    margin: auto; 
+    width: 100%;
+    background-color: #e7e2e7;
+    background: url("/media/hero_image.jpg") center center no-repeat;
+    min-height: 73vh;
+    background-size: cover;
+    margin: auto;
 }
 
 /* Header: Logo, Serach Bar, User Profile & Shopping Bag   */
