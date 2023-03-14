@@ -111,6 +111,10 @@ hr {
     color: #ffffff;  
 }
 
+.page-error-conainter {
+    margin: auto; 
+}
+
 /* Header: Logo, Serach Bar, User Profile & Shopping Bag   */
 
 .free-delivery-container {
