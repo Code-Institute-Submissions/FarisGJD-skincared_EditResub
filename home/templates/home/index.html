@@ -1,21 +1,20 @@
 {% extends "base.html" %}
 {% load static %}
-
 {% block content %}
-<div id="home-page-container">
-    <!-- Landing Page -->
-    <div id="hero-image">
-        <div class="hero-text">
-            <div class="hero-text-main">
-                <h1>Welcome to <strong>Skin</strong><strong>Care</strong>d</h1>
-            </div>
-            <div class="hero-text-sub">
-                <p><strong>where we source the finest in science based cosmetics from around the world</strong></p>
-            </div>
-            <div class="hero-text-button">
-                <a class="btn site-buttons  site-white-button" href="{% url 'all_products' %}">Shop Now</a>
-            </div>
-        </div>
-    </div>
-</div>
+<main id="home-page-container">
+   <!-- Landing Page -->
+   <div id="hero-image">
+      <div class="hero-text">
+         <div class="hero-text-main">
+            <h1>Welcome to <strong>Skin</strong><strong>Care</strong>d</h1>
+         </div>
+         <div class="hero-text-sub">
+            <h2><strong>Where We Source The Best In Skincare, Beauty & Cosmetic Products From Around The World</strong></h2>
+         </div>
+         <div class="hero-text-button">
+            <a class="btn site-buttons  site-white-button" href="{% url 'all_products' %}">Shop Now</a>
+         </div>
+      </div>
+   </div>
+</main>
 {% endblock %}

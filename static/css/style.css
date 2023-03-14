@@ -591,7 +591,7 @@ footer ul {
 .hero-text {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-size: 2.35rem;
+    font-size: 2rem;
     width: 100%; 
     height: auto;
     margin: 0 auto;
@@ -637,11 +637,11 @@ footer ul {
     margin: auto;
 } 
 
-/* .hero-text-button {
+.hero-text-button {
     animation: opacityActive 5s normal forwards;
     animation-delay: 3s;
     opacity: 0;
-} */
+}
 
 @keyframes opacityActive  {
     100% {
@@ -1454,10 +1454,6 @@ footer ul {
         font-size: 6.5rem;
     }
 
-    .hero-text {
-        font-size: 2.25rem;
-    }
-    
     .hero-text a {
         font-size: 3rem; 
     }
@@ -1506,9 +1502,9 @@ footer ul {
     }
 
     .hero-text {
-        font-size: 2.1rem;
+        font-size: 1.8rem;
     }
-    
+
     .hero-text a {
         font-size: 2.8rem; 
     }
@@ -1521,9 +1517,9 @@ footer ul {
     }
 
     .hero-text {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
-    
+
     .hero-text a {
         font-size: 2.6rem; 
     }
@@ -1536,7 +1532,7 @@ footer ul {
     }
 
     .hero-text {
-        font-size: 1.55rem;
+        font-size: 1.4rem;
     }
     
     .hero-text a {
@@ -1635,7 +1631,7 @@ footer ul {
     }
 
     .hero-text {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     
     .hero-text a {
@@ -1698,10 +1694,6 @@ footer ul {
         font-size: 3rem;
     }
 
-    .hero-text {
-        font-size: 1.3rem;
-    }
-    
     .hero-text a {
         font-size: 2rem; 
     }
@@ -1826,6 +1818,13 @@ footer ul {
     
     .full-brand-header hr {
         width: 200px; 
+    }
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text {
+        font-size: 0.8rem;
     }
 }
 
