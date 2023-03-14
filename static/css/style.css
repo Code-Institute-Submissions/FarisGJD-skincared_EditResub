@@ -112,9 +112,12 @@ hr {
 }
 
 #page-error-button {
+    text-align: center;
+}
+
+.page-error-button-container {
     border: none;
     background-color: transparent;
-    text-align: center;
 }
 
 /* Header: Logo, Serach Bar, User Profile & Shopping Bag   */
