@@ -1,58 +1,51 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
-
 <!-- All Products Header -->
-<div class="full-products-header">
-    <h2>SKINCARE</h2>
-    <hr>
-    <hr>
-    <hr>
+<div class="header-container full-skincare-header">
+   <h2>SKINCARE</h2>
 </div>
-
+<div class="content-seperator product-details-seperator"></div>
 <!-- All Products Images & Meta Data -->
-
 <div class="full-skincare-products-container">
-    {% for product in skincare %}
-    <div class="skincare-product">
-        <div class="product-image-container">
-            {% if product.image %}
-            <a href="{% url 'product_details' product.id %}">
-                <img class="product-image" src="{{ product.image.url }}" alt="{{ product.name }}">
-            </a>
-            <hr class="full-product-seperator">
-            {% else %}
-            <a href="{% url 'product_details' product.id %}">
-                <img class="product-image" src="{{ MEDIA_URL }}noimage.jpeg" alt="{{ product.name }}">
-            </a>
-            <hr class="full-product-seperator">
-            {% endif %}
-        </div>
-        <div class="product-brand">
-            <p>{{ product.brand.friendly_name }}</p>
-        </div>
-        <div class="product-name">
-            <p>{{ product.name }}</p>
-        </div>
-        <div class="product-price">
-            <span>£{{ product.price }}</span>
-
-        </div>
-        <div class="product-rating">
-        {% if product.rating %}
-            <span><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</span>
-        {% else %}
-            <span>No Rating</span>
-        {% endif %}    
-        </div>
-        {% if request.user.is_superuser %}
-        <small>
-            <a class="text-info" href="{% url 'edit_product' product.id %}">Edit</a> | 
-            <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
-        </small>
-        {% endif %}
-    </div>
-    {% endfor %}
+   {% for product in skincare %}
+   <div class="skincare-product">
+      <div class="product-image-container">
+         {% if product.image %}
+         <a href="{% url 'product_details' product.id %}">
+         <img class="product-image" src="{{ product.image.url }}" alt="{{ product.name }}">
+         </a>
+         <hr class="full-product-seperator">
+         {% else %}
+         <a href="{% url 'product_details' product.id %}">
+         <img class="product-image" src="{{ MEDIA_URL }}noimage.jpeg" alt="{{ product.name }}">
+         </a>
+         <hr class="full-product-seperator">
+         {% endif %}
+      </div>
+      <div class="product-brand">
+         <p>{{ product.brand.friendly_name }}</p>
+      </div>
+      <div class="product-name">
+         <p>{{ product.name }}</p>
+      </div>
+      <div class="product-price">
+         <span>£{{ product.price }}</span>
+      </div>
+      <div class="product-rating">
+         {% if product.rating %}
+         <span><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</span>
+         {% else %}
+         <span>No Rating</span>
+         {% endif %}    
+      </div>
+      {% if request.user.is_superuser %}
+      <small>
+      <a class="text-info" href="{% url 'edit_product' product.id %}">Edit</a> | 
+      <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+      </small>
+      {% endif %}
+   </div>
+   {% endfor %}
 </div>
-
 {% endblock %}

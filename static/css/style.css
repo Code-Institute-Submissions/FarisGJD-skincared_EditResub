@@ -656,19 +656,8 @@ footer ul {
 
 /* Full Skincare Products Page */
 
-.full-products-header {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 40rem;
-}
-
-.full-products-header h2 {
-    font-size: 4rem;
-}
-
-.full-products-header hr {
-    width: 20%;
-    margin: auto;
+.full-skincare-header {
+    margin: 40px 0 35px 0;
 }
 
 .full-skincare-products-container {
@@ -677,13 +666,13 @@ footer ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 }
 
 .skincare-product {
     width: 200px;
     height: 200px;
-    margin: 80px;
+    margin: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -813,16 +802,17 @@ footer ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px 0 40px 0;
 }
 
 .product-details-information h3 {
     font-size: 2.1rem;
+    margin: 40px 0 25px 0;
 }
 
 .product-detail-text-container {
-    width: 50%;
-    margin-top: 10px;
+    width: 80%;
+    margin-bottom: 40px;
 }
 .product-detail-text {
     text-align: center;
@@ -1775,7 +1765,13 @@ footer ul {
     .quantity-container {
         display: flex;
         flex-direction: row;
-        margin-left: 40px;
+        margin-left: 90px;
+    }
+
+
+    .product-detail-image-container img {
+        width: 280px;
+        height: 280px;
     }
 
     .add-to-bag-button {
@@ -1789,6 +1785,38 @@ footer ul {
     .quantity-container input {
         width: 20px;
         height: 20px;
+    }
+
+    .product-details-information h3 {
+        font-size: 1.8rem;
+    }
+
+    .product-detail-text {
+        font-size: 1.2rem;
+    }
+
+    .product-detail-brand-name {
+        font-size: 2rem;
+    }
+
+    .product-detail-name {
+        font-size: 1.2rem;
+    }
+
+    .product-detail-quantity {
+        font-size: 1rem;
+    }
+
+    .product-detail-price {
+        font-size: 1.5rem;
+    }
+
+    .header-container h2 {
+        font-size: 3.5rem;
+    }
+
+    .full-skincare-header {
+        margin-bottom: 20px;
     }
     
 }
@@ -2008,7 +2036,14 @@ footer ul {
     .hero-text-button {
         margin-top: 9px;
     }
-    
+
+    .header-container h2 {
+        font-size: 3rem;
+    }
+
+    .full-skincare-header {
+        margin-bottom: 15px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -2145,7 +2180,7 @@ footer ul {
     }
 
     .product-detail-image-container img {
-        width: 280px;
-        height: 280px;
+        width: 250px;
+        height: 250px;
     }
 }
