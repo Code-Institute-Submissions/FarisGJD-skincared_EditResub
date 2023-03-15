@@ -111,15 +111,6 @@ hr {
     color: #ffffff;  
 }
 
-#page-error-button {
-    text-align: center;
-}
-
-.page-error-button-container {
-    border: none;
-    background-color: transparent;
-}
-
 /* Header: Logo, Serach Bar, User Profile & Shopping Bag   */
 
 .free-delivery-container {
@@ -1444,6 +1435,28 @@ footer ul {
     border-color: #EE4B2B;
     border-radius: 0;
 }
+
+
+/* 404 Page */
+
+#page-error-button {
+    text-align: center;
+}
+
+.page-error-button-container {
+    border: none;
+    background-color: transparent;
+}
+
+/* Mail Chimp */
+
+#mc_embed_signup{
+    background:#fff;
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif;  
+    width:400px;
+}
+
 
 
 /* Media Queries */ 
