@@ -572,14 +572,11 @@ footer ul {
 
 /* Home Page */
 
-#home-page-container {
-    background-color: #eeebee;
-}
-
 #hero-image {
     width: 100%;
+    background-color: #eeebee;
     background: url("/media/hero_image.jpg") center center no-repeat;
-    min-height: 73vh;
+    height: 85vh;
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -591,7 +588,6 @@ footer ul {
 .hero-text {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-size: 2rem;
     width: 100%; 
     height: auto;
     margin: 0 auto;
@@ -601,16 +597,18 @@ footer ul {
 
 .hero-text h1 {
     font-size: 7rem;
+    text-shadow: 0.5px 0.5px #ffffff;
 }
 
-.hero-text-sub{
+.hero-text-sub h2 {
     background-color: black;
+    font-size: 1.85rem;
     color: white;
 }
 
 .hero-text-main {
     position: relative;
-    letter-spacing: 10px;
+    letter-spacing: 7px;
     animation: mainText 3s;
 }
 
@@ -633,7 +631,7 @@ footer ul {
 }
 
 .hero-text a {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: auto;
 } 
 
@@ -641,6 +639,7 @@ footer ul {
     animation: opacityActive 5s normal forwards;
     animation-delay: 3s;
     opacity: 0;
+    margin-top: 15px;
 }
 
 @keyframes opacityActive  {
@@ -1451,7 +1450,7 @@ footer ul {
 
 @media only screen and (max-width: 1250px) {
     .hero-text h1 {
-        font-size: 6.5rem;
+        font-size: 6.8rem;
     }
 
     .hero-text a {
@@ -1498,10 +1497,10 @@ footer ul {
 
 @media only screen and (max-width: 1100px) {
     .hero-text h1 {
-        font-size: 6rem;
+        font-size: 6.5rem;
     }
 
-    .hero-text {
+    .hero-text-sub h2 {
         font-size: 1.8rem;
     }
 
@@ -1513,11 +1512,11 @@ footer ul {
 @media only screen and (max-width: 1000px) {
 
     .hero-text h1 {
-        font-size: 5rem;
+        font-size: 5.4rem;
     }
 
-    .hero-text {
-        font-size: 1.6rem;
+    .hero-text-sub h2 {
+        font-size: 1.5rem;
     }
 
     .hero-text a {
@@ -1528,15 +1527,20 @@ footer ul {
 @media only screen and (max-width: 850px) {
 
     .hero-text h1 {
-        font-size: 4.1rem;
+        font-size: 4.7rem;
     }
 
-    .hero-text {
+    .hero-text-sub h2 {
         font-size: 1.4rem;
     }
     
     .hero-text a {
         font-size: 2.3rem; 
+    }
+
+    .hero-text a {
+        font-size: 1.8rem;
+        margin: auto;
     } 
 }
 
@@ -1626,21 +1630,21 @@ footer ul {
         z-index: 999999999;    
     }
 
-    .hero-text h1 {
-        font-size: 3.2rem;
+    #hero-image {
+        height: 88vh;
     }
 
-    .hero-text {
+    .hero-text h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero-text-sub h2 {
         font-size: 1.1rem;
     }
     
     .hero-text a {
         font-size: 2.1rem; 
     } 
-
-    #hero-image {
-        min-height: 84.5vh;
-    }
 
     .profile-active {
         margin-left: -15px;
@@ -1691,7 +1695,7 @@ footer ul {
 
 @media only screen and (max-width: 650px) {
     .hero-text h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     .hero-text a {
@@ -1819,13 +1823,18 @@ footer ul {
     .full-brand-header hr {
         width: 200px; 
     }
+
     .hero-text h1 {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
 
-    .hero-text {
-        font-size: 0.8rem;
+    .hero-text-sub h2 {
+        font-size: 0.82rem;
     }
+
+    .hero-text a {
+        font-size: 1.5rem;
+    } 
 }
 
 @media only screen and (max-width: 500px) {
@@ -1883,6 +1892,23 @@ footer ul {
     .full-brand-header hr {
         width: 150px; 
     }
+    
+    .hero-text h1 {
+        font-size: 1.9rem;
+    }
+
+    .hero-text-sub h2 {
+        font-size: 0.7rem;
+    }
+
+    .hero-text a {
+        font-size: 1.5rem;
+    } 
+    
+    .hero-text-button {
+        margin-top: 9px;
+    }
+    
 }
 
 @media only screen and (max-width: 400px) {
@@ -1908,6 +1934,22 @@ footer ul {
 
     .brand a {
         font-size: 1.2rem;
+    }
+
+    .hero-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-text-sub h2 {
+        font-size: 0.63rem;
+    }
+
+    .hero-text a {
+        font-size: 1.2rem;
+    }
+      
+    .hero-text-button {
+        margin-top: 7px;
     }
 }
 
@@ -1975,5 +2017,21 @@ footer ul {
     .full-brand-header hr {
         width: 100px; 
     }
-}
 
+
+    .hero-text h1 {
+        font-size: 1.4rem;
+    }
+
+    .hero-text-sub h2 {
+        display: none;
+    }
+
+    .hero-text a {
+        font-size: 1rem;
+    }
+      
+    .hero-text-button {
+        margin-top: 5px;
+    }
+}
