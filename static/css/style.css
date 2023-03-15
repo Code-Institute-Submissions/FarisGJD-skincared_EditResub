@@ -729,16 +729,16 @@ footer ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 40px;
+    margin: 40px 0 40px 0;
 }
 
 .product-details-meta-data {
-    bottom: 0; 
+    margin-top: 20px;
 }
 
 .product-detail-image-container img {
-    width: 400px;
-    height: 400px;
+    width: 360px;
+    height: 360px;
 }
 
 .product-detail-brand-name {
@@ -757,7 +757,8 @@ footer ul {
     font-size: 2.5rem;
 }
 
-.product-details-extra-meta-data p {
+.admin-delete-update-links {
+    margin-top: 15px;
     font-size: 1.5rem;
 }
 
@@ -767,46 +768,27 @@ footer ul {
 
 .extra-meta-button-container {
     display: flex;
-    flex-direction: row;
-}
-
-.add-to-bag-button {
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 1.5rem;
-    width: 250px;
-    height: 50px;
-    cursor: pointer;
-    border: 1px solid #000000; 
-}
-
-.add-to-bag-button:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.form {
-    display: flex;
-    flex-direction: row;
-    margin: 70px 0 0 50px;
-    font-size: 1.5rem;
+    flex-direction: column;
 }
 
 .quantity-container {
-    font-size: 2rem;
-    margin-top: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
 }
 
 .plus-minus-icon {
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 1.5rem;
-    padding: 10px;
+    font-size: 0.5rem;
+    padding: 5px;
+}
+
+.input-group {
+    width: 50%;
 }
 
 .quantity-container input {
     text-align: center;
-    border: 1px solid #000000;
+    width: 25px;
+    height: 25px;
 }
 
 .product-details-seperator {
@@ -1556,7 +1538,63 @@ footer ul {
     .hero-text a {
         font-size: 1.8rem;
         margin: auto;
-    } 
+    }
+
+    .product-detail-image-container img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .product-detail-brand-name {
+        font-size: 2.5rem;
+    }
+
+    .product-detail-name {
+        font-size: 1.5rem;
+    }
+
+    .product-detail-quantity {
+        font-size: 1.2rem;
+    }
+
+    .product-detail-price {
+        font-size: 2rem;
+    }
+
+    .admin-delete-update-links {
+        margin-top: 15px;
+        font-size: 1.5rem;
+    }
+
+    .product-detail-image-container img {
+        width: 340px;
+        height: 340px;
+    }
+    
+    .product-detail-brand-name {
+        font-size: 2.5rem;
+    }
+    
+    .product-detail-name {
+        font-size: 1.7rem;
+    }
+    
+    .product-detail-quantity {
+        font-size: 1.4rem;
+    }
+    
+    .product-detail-price {
+        font-size: 1.8rem;
+    }
+    
+    .admin-delete-update-links {
+        margin-top: 15px;
+        font-size: 0.8rem;
+    }
+
+    .add-to-bag-button {
+        font-size: 1rem;
+    }
 }
 
 
