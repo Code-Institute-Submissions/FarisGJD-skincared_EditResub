@@ -82,26 +82,15 @@ searchIcon.addEventListener("click", () =>{
     search.classList.toggle("search-active");
 })
 
-//Carousel 
-// let i = 0; 
-// let slides = []; 
-// let slideFade = 6000; 
+// Signup Form 
 
-//Slide Images 
-// slides[0] = "media/ample_n.webp"; 
-// slides[1] = "media/banila_co.webp"; 
-// slides[2] = "media/beauty_of_joseon.webp";
-// slides[3] = "media/benton.jpeg";
-// slides[4] = "media/by_wishtrend.webp"; 
+const signupFormButton = document.querySelector(".signup-form-button"); 
+const signupForm = document.querySelector(".signup-form");
 
-//Slide Fade 
-// function slideChange() {
-//     document.slide.src = slides[i]; 
-//     if(i < slides.length - 1) {
-//         i++; 
-//     }else{
-//         i = 0; 
-//     }
-//     setTimeout("slideChange()", slideFade);
-// }
-// window.onload = slideChange; 
+console.log(signupFormButton)
+console.log(signupForm)
+
+signupFormButton.addEventListener("click", () => {
+    signupForm.classList.toggle("signup-form-active");
+})
+

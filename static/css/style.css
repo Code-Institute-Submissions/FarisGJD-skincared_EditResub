@@ -134,7 +134,7 @@ header {
     margin-top: 20px;
     position: sticky;
     top: 0;
-    z-index: 999999;
+    z-index: 99999999;
 }
 
 /* Logo */
@@ -296,6 +296,7 @@ footer ul {
 .nav-container {
     position: sticky;
     top: 135px;
+    z-index: 99999;
 }
 
 .navigation-bar-container {
@@ -1451,13 +1452,29 @@ footer ul {
 /* Mail Chimp */
 
 #mc_embed_signup{
-    background:#fff;
-    clear:left; 
-    font:14px Helvetica,Arial,sans-serif;  
-    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
 }
 
+#mc_embed_signup p {
+    text-align: center;
+    font-size: 1.2rem;
+}
 
+.signup-form-button {
+    cursor: pointer;
+}
+
+.signup-form {
+    display: none;
+}
+
+.signup-form-active {
+    display: block;
+}
 
 /* Media Queries */ 
 
@@ -1964,6 +1981,15 @@ footer ul {
     .hero-text-button {
         margin-top: 7px;
     }
+
+    #mc_embed_signup{
+        width: 30%;
+    }
+
+    #mc_embed_signup p {
+        font-size: 1rem;
+    }
+    
 }
 
 @media only screen and (max-width: 350px) {
