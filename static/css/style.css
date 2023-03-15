@@ -1771,6 +1771,12 @@ footer ul {
         align-items: center;
         text-align: center;
     }
+    
+    .quantity-container {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+    }
 
     .add-to-bag-button {
         font-size: 1.25rem;
@@ -2136,5 +2142,10 @@ footer ul {
       
     .hero-text-button {
         margin-top: 5px;
+    }
+
+    .product-detail-image-container img {
+        width: 280px;
+        height: 280px;
     }
 }
