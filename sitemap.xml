@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://skincared.herokuapp.com/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/accounts/login/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/bag/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/brands/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/skin_type</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?usage=Face</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?product_type=cleanser</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?product_type=exfoliator</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?product_type=toner,essence,mist</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?product_type=serum,ampoule</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?product_type=eye_care,lip_care</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?product_type=treatment</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?product_type=moisturiser</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?product_type=sunscreen</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?usage=Body</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?product_type=body_cleanser</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?product_type=body_moisturiser</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?usage=Hands</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?product_type=hand_care</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?usage=Feet</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/all_products/?product_type=foot_care</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/skin_concern</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/122/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/121/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/118/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/119/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/120/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/123/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/124/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/125/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/126/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/127/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/3/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/5/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/7/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/8/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/10/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/11/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/12/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/13/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/14/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/15/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/103/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/16/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/17/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/18/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/19/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/20/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/21/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/22/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/24/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/25/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/26/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/28/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/29/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/30/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/31/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/32/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/33/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/34/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/35/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/36/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/37/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/38/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/39/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/40/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/41/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/42/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/43/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/44/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/45/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/46/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/47/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/48/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/53/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/49/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/50/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/51/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/52/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/65/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/54/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/55/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/57/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/58/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/59/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/60/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/61/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/62/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/63/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/64/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/66/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/67/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/68/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/69/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/70/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/71/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/72/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/73/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/74/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/84/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/75/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/76/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/77/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/78/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/79/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/80/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/81/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/82/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/83/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/85/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/86/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/87/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/88/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/89/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/90/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/91/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/92/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/93/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/94/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/95/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/117/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/97/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/98/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/109/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/27/</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/cerave</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/cosrx</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/dear-klaris</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/deciem</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/dewytree</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/dr-ceuracle</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/drunk-elephant</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/illiyoon</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/im-from</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/innisfree</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/isntree</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/krave</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/laneige</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/la-roche-posay</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/make-prem</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/missha</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/necessaire</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/neogen-dermalogy</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/papa-recipe</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/paulas-choice</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/perricone-md</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/petitfee</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/primeria</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/purito</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/pyunkang-yul</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/rohto-mentholatum</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/rovectin</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/scinic</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/sioris</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/sk-ii</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/skin1004</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/skinceuticals</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/some-by-mi</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/the-inkey-list</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/the-lab-by-blanc-doux</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/tiam</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/tonymoly</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/tosowoong</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skincared.herokuapp.com/skincare/versed</loc>
+  <lastmod>2023-03-15T00:41:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
