@@ -46,7 +46,7 @@
                         </td>
                         <td class="checkout-meta-sales">
                             <div class="checkout-update-remove-links-container">
-                                <form class="update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
+                                <form class="update-form" min="1" method="POST" action="{% url 'adjust_bag' item.item_id %}">
                                     {% csrf_token %}
                                     <div class="input-group input-group-checkout">
                                         <div class="input-group-prepend">
@@ -108,10 +108,13 @@
             </div>
 
             {% else %}
-            <div class="empty-shopping-bag">
-                <a href="{% url 'home'%}">
-                    <h2>YOUR SHOPPING BAG IS CURRENTLY EMPTY</h2>
-                    <p class="shopping-bag-redirect-home">HEAD BACK TO THE HOME PAGE TO FIND THE BEST DEALS</p>
+            <div class="page-container empty-shopping-bag">
+                <h2>YOUR SHOPPING BAG IS CURRENTLY EMPTY</h2>
+                <a href="{% url 'home'%}" class="shopping-bag-redirect-home">
+                    <span class="icon">
+                        <i class="fas fa-chevron-left"></i>
+                    </span>
+                    <p>KEEP SHOPPING</p>
                 </a>
             {% endif %}
             </div>
@@ -128,7 +131,7 @@
     // Update quantity on click
     $('.update-link').click(function(e) {
         var form = $(this).parent().prev('.update-form');
-        form.submit();
+        form[0].requestSubmit();
     })
 
     // Remove item and reload on click

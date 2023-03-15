@@ -1180,20 +1180,24 @@ footer ul {
 }
 
 .empty-shopping-bag {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    text-align: ceneter;
 }
 
 .empty-shopping-bag a {
     color: #000000;
+    font-size: 1.2rem;
 }
 
 .shopping-bag-redirect-home {
-    border: 1px solid #000000;
-    background-color: #000000;
-    color: #ffffff;
+    display: flex;
+    flex-direction: row;
 }
+
+.shopping-bag-redirect-home p{
+    margin-left: 5px;
+  
+}
+
 
 /* Toasts */ 
 .message-container {

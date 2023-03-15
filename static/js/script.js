@@ -87,9 +87,6 @@ searchIcon.addEventListener("click", () => {
 const signupFormButton = document.querySelector(".signup-form-button");
 const signupForm = document.querySelector(".signup-form");
 
-console.log(signupFormButton)
-console.log(signupForm)
-
 signupFormButton.addEventListener("click", () => {
     signupForm.classList.toggle("signup-form-active");
 })
