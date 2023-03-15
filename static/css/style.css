@@ -729,7 +729,7 @@ footer ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .product-details-meta-data {
@@ -745,17 +745,8 @@ footer ul {
     font-size: 3rem;
 }
 
-.product-details-meta-data a {
-    color: inherit;
-}
-
-.product-details-meta-data a:hover {
-    color: #EE4B2B; 
-}
-
 .product-detail-name {
-    font-size: 2.8rem;
-    width: 90%; 
+    font-size: 2.5rem;
 }
 
 .product-detail-quantity {
@@ -818,15 +809,9 @@ footer ul {
     border: 1px solid #000000;
 }
 
-.product-details-seperator-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .product-details-seperator {
-    border-bottom:  #d6d4d4 solid 1px;
     Width: 80%;
+    margin: auto;
 }
 
 .product-details-information {
