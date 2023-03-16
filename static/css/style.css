@@ -1113,24 +1113,25 @@ footer ul {
     text-align: right;
 }
 
+.grand-total-delivery p {
+    font-size: 1.2rem;
+}
+
 .checkout-shopmore-buttons  {
-    width: 300px; 
-    height: 100px; 
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    width: 200px;
 }
 
-.keep-shopping {
-    background-color: #000000;
+.keep-shopping p {
+    color: #000000;
+    font-size: 1.5rem;
 }
 
-.secure-checkout {
-    background-color: #000000;
+.secure-checkout
 
-}
-
-.checkout-shopmore-buttons a {
+/* .checkout-shopmore-buttons a {
     color: #ffffff;
     margin-bottom: 5px;
     text-align: center;
@@ -1145,7 +1146,7 @@ footer ul {
 .checkout-shopmore-buttons p {
     font-size: 1.5rem;
     padding-top: 10px;
-}
+} */
 
 .checkout-update-remove-links-container {
     display: flex;
@@ -1155,12 +1156,12 @@ footer ul {
 
 .update-remove-links {
     margin-top: 15px;
-    width: 60%; 
+    width: 100px;
+    text-align: center;
 }
 
 .update-link, .remove-item {
     cursor: pointer;
-
 }
 
 .input-group-checkout {
@@ -1179,12 +1180,9 @@ footer ul {
     margin: auto;
 }
 
-.empty-shopping-bag {
-    text-align: ceneter;
-}
-
 .empty-shopping-bag a {
-    color: #000000;
+    width: 135px;
+    margin-top: 30px;
     font-size: 1.2rem;
 }
 
@@ -1193,11 +1191,10 @@ footer ul {
     flex-direction: row;
 }
 
-.shopping-bag-redirect-home p{
+.empty-shopping-bag p , span {
+    margin-top: 10px;
     margin-left: 5px;
-  
 }
-
 
 /* Toasts */ 
 .message-container {
@@ -1822,7 +1819,18 @@ footer ul {
     .full-skincare-header {
         margin-bottom: 20px;
     }
+
+    .checkout-headings th {
+        font-size: 1.2rem;
+    }
     
+    .checkout-product-info p {
+        font-size: 1.2rem;
+    }
+
+    .checkout-meta-sales p {
+        font-size: 1.2rem;
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -1855,6 +1863,17 @@ footer ul {
     #full-no-brand-image {
         width: 150px; 
         height: 150px; 
+    }
+    .checkout-headings th {
+        font-size: 1.1rem;
+    }
+
+    .checkout-product-info p {
+        font-size: 1.1rem;
+    }
+
+    .checkout-meta-sales p {
+        font-size: 1.1rem;
     }
 }
 
@@ -1966,7 +1985,23 @@ footer ul {
 
     .hero-text a {
         font-size: 1.5rem;
+    }
+
+    .checkout-headings th {
+        font-size: 1rem;
     } 
+
+    .checkout-product-info p {
+        font-size: 1rem;
+    }
+    
+    .checkout-product-info .checkout-sku {
+        font-size: 0.8rem;
+    }
+
+    .checkout-meta-sales p {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -2042,11 +2077,20 @@ footer ul {
     }
 
     .header-container h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .full-skincare-header {
         margin-bottom: 15px;
+    }
+
+    .empty-shopping-bag h4 {
+        font-size: 1rem;
+    }
+
+    .empty-shopping-bag a {
+        font-size: 1rem;
+        width: 120px;
     }
 }
 

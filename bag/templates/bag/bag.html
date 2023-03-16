@@ -46,7 +46,7 @@
                         </td>
                         <td class="checkout-meta-sales">
                             <div class="checkout-update-remove-links-container">
-                                <form class="update-form" min="1" method="POST" action="{% url 'adjust_bag' item.item_id %}">
+                                <form class="update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
                                     {% csrf_token %}
                                     <div class="input-group input-group-checkout">
                                         <div class="input-group-prepend">
@@ -59,8 +59,7 @@
                                         </div>
                 
                                         <input class=" checkout-input  quantity-input qty_input" type="number" 
-                                            name="quantity" value="{{ item.quantity }}" min="1" max="99" 
-                                            data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
+                                            name="quantity" value="{{ item.quantity }}" min="1" max="99" data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
                                             
                                             <div class="input-group-append">
                                                 <button class="increment-qty btn"
@@ -87,30 +86,30 @@
                 </table>
                 <hr>
                 <div class="grand-total-delivery">
-                    <h4>BAG TOTAL: £{{ total|floatformat:2}}</h4>
-                    <h4>DELIVERY: £{{ delivery|floatformat:2 }}</h4>
-                    <h3><strong>GRAND TOTAL: £{{ grand_total|floatformat:2}}</strong></h3>
+                    <p class="text-info"><b>BAG TOTAL: £{{ total|floatformat:2}}</b></p>
+                    <p><b>DELIVERY: £{{ delivery|floatformat:2 }}</b></p>
+                    <p class="text-danger"><b>GRAND TOTAL: £{{ grand_total|floatformat:2}}</b></p>
                     {% if free_delivery_delta > 0 %}
                     <p>
-                        SPEND <strong>£{{ free_delivery_delta }}</strong> MORE FOR FREE DELIVERY!
+                        <b>SPEND <strong>£{{ free_delivery_delta }}</strong> MORE FOR FREE DELIVERY !</b>
                     </p>
                     {% endif %}         
                 </div>
                 <div class="checkout-shopmore-buttons">
-                    <a class="keep-shopping" href="{% url 'all_products' %}">
+                    <a class="btn site-buttons site-white-button keep-shopping" href="{% url 'all_products' %}">
                         <p>KEEP SHOPPING</p>
                     </a>
 
-                    <a class="secure-checkout" href="{% url 'checkout' %}">
+                    <a class="btn site-buttons site-black-button secure-checkout" href="{% url 'checkout' %}">
                         <p>SECURE CHECKOUT</p>
                     </a>
                 </div>
             </div>
 
             {% else %}
-            <div class="page-container empty-shopping-bag">
-                <h2>YOUR SHOPPING BAG IS CURRENTLY EMPTY</h2>
-                <a href="{% url 'home'%}" class="shopping-bag-redirect-home">
+            <div class="empty-shopping-bag">
+                <h4>YOUR SHOPPING BAG IS CURRENTLY EMPTY</h4>
+                <a href="{% url 'home'%}" class="shopping-bag-redirect-home btn site-white-button site-buttons">
                     <span class="icon">
                         <i class="fas fa-chevron-left"></i>
                     </span>
