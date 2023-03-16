@@ -1,10 +1,10 @@
 <div class="bag-total">
     <p class="text-info"><b>BAG TOTAL: £{{ total|floatformat:2}}</b></p>
-<p><b>DELIVERY: £{{ delivery|floatformat:2 }}</b></p>
-<p class="text-danger"><b>GRAND TOTAL: £{{ grand_total|floatformat:2}}</b></p>
-{% if free_delivery_delta > 0 %}
-<p>
-    <b>SPEND <strong>£{{ free_delivery_delta }}</strong> MORE FOR FREE DELIVERY !</b>
-</p>
-{% endif %}  
-</div>
+    <p><b>DELIVERY: £{{ delivery|floatformat:2 }}</b></p>
+    <p class="text-danger"><b>GRAND TOTAL: £{{ grand_total|floatformat:2}}</b></p>
+    {% if free_delivery_delta > 0 %}
+    <p>
+       <b>SPEND <strong>£{{ free_delivery_delta }}</strong> MORE FOR FREE DELIVERY !</b>
+    </p>
+    {% endif %}  
+ </div>
