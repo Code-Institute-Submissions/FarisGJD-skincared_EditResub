@@ -1,72 +1,66 @@
 {% extends "base.html" %}
 {% load static %}
-
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
+<link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
 {% endblock %}
-
 {% block content %}
-    <div class="user-profile-container">
-        <div class="user-profile-heading-container">
-            <h2 class="logo-font mb-4">WELCOME <strong class="text-danger">{{user}}</strong> TO YOUR PROFILE</h2>
-        </div>
-
-        <div class="content-seperator"></div>
-
-        <div class="user-details-order-container">
-            <div class="user-profile-delivery-container">
-                <p>DEFAULT DELIVERY INFORMATION</p>
-                <form action="{% url 'profile' %}" method="POST" id="profile-update-form">
-                    {% csrf_token %}
-                    {{ form|crispy }}
-                    <button class="btn user-profile-buttons user-profile-white-button float-right">UPDATE INFORMATION</button>
-                </form>
-            </div>
-            <div class="content-seperator"></div>
-
-            <div class="user-profile-orderh-container">
-                <p>ORDER HISTORY</p>
-                <div class="table-responsive">
-                    <table class="table table-sm table-borderless">
-                        <thead>
-                            <tr>
-                                <th>Order Number</th>
-                                <th>Date</th>
-                                <th>Items</th>
-                                <th>Order Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for order in orders %}
-                                <tr>
-                                    <td>
-                                        <a href="{% url 'order_history' order.order_number %}"
-                                        title="{{ order.order_number }}">
-                                            {{ order.order_number|truncatechars:6 }}
-                                        </a>
-                                    </td>
-                                    <td>{{ order.date }}</td>
-                                    <td>
-                                        <ul class="list-unstyled">
-                                            {% for item in order.lineitems.all %}
-                                                <li class="small">
-                                                   <strong>{{ item.product.brand.friendly_name }}:</strong> {{ item.product.name }} X{{ item.quantity }}
-                                                </li>
-                                            {% endfor %}
-                                        </ul>
-                                    </td>
-                                    <td><strong>£{{ order.grand_total }}</strong></td>
-                                </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div> 
-            </div>
-        </div>
-    </div>
+<div class="page-container">
+   <div class="header-container">
+      <h2 class="logo-font mb-4">WELCOME <strong class="text-danger">{{user}}</strong> TO YOUR PROFILE</h2>
+   </div>
+   <div class="content-seperator"></div>
+   <div class="user-details-order-container">
+      <div class="user-profile-delivery-container">
+         <p>DEFAULT DELIVERY INFORMATION</p>
+         <form action="{% url 'profile' %}" method="POST" id="profile-update-form">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <button class="btn user-profile-buttons user-profile-white-button update-info-profile float-right">UPDATE INFORMATION</button>
+         </form>
+      </div>
+      <div class="content-seperator"></div>
+      <div class="user-profile-orderh-container">
+         <p>ORDER HISTORY</p>
+         <div class="table-responsive">
+            <table class="table table-sm table-borderless">
+               <thead>
+                  <tr>
+                     <th>Order Number</th>
+                     <th>Date</th>
+                     <th>Items</th>
+                     <th>Order Total</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  {% for order in orders %}
+                  <tr>
+                     <td>
+                        <a href="{% url 'order_history' order.order_number %}"
+                           title="{{ order.order_number }}">
+                        {{ order.order_number|truncatechars:6 }}
+                        </a>
+                     </td>
+                     <td>{{ order.date }}</td>
+                     <td>
+                        <ul class="list-unstyled">
+                           {% for item in order.lineitems.all %}
+                           <li class="small">
+                              <strong>{{ item.product.brand.friendly_name }}:</strong> {{ item.product.name }} X{{ item.quantity }}
+                           </li>
+                           {% endfor %}
+                        </ul>
+                     </td>
+                     <td><strong>£{{ order.grand_total }}</strong></td>
+                  </tr>
+                  {% endfor %}
+               </tbody>
+            </table>
+         </div>
+      </div>
+   </div>
+</div>
 {% endblock %}
-
 {% block postloadjs %}
-    {{ block.super }}
-    <script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
+{{ block.super }}
+<script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
 {% endblock %}
