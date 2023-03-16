@@ -275,7 +275,11 @@ footer a {
 }
 
 footer a:hover {
-    color: #000000; 
+    color: #EE4B2B; 
+}
+
+.signup-form-button:hover  {
+    color: #EE4B2B;
 }
 
 footer ul {
@@ -427,6 +431,7 @@ footer ul {
 .fa-bars {
     font-size: 2rem;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .mobile-nav-bar {
