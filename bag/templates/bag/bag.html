@@ -28,54 +28,18 @@
                     <tr>
                         <td>
                             <div class="checkout-image-container">
-                                {% if item.product.image %}
-                                <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
-                                {% else %}
-                                <img class="w-100" src="{{ MEDIA_URL }}noimage.jpeg" alt="{{ item.product.name }}">
-                                {% endif %}
+                                {% include "bag/product-image.html" %}
                             </div>
                         </td>
                         <td class="checkout-product-info">
-                            <p><strong>{{ item.product.brand.friendly_name }}</strong></p>
-                            <p>{{ item.product.name }}</p>
-                            <p>SIZE: {{ item.product.quantity}} ML</p>
-                            <p class="checkout-sku">SKU: {{ item.product.sku|upper }}</p>
+                            {% include "bag/product-info.html" %}
                         </td>
                         <td class="checkout-meta-sales">
                             <p class="checkout-price">£{{ item.product.price }}</p>
                         </td>
                         <td class="checkout-meta-sales">
                             <div class="checkout-update-remove-links-container">
-                                <form class="update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
-                                    {% csrf_token %}
-                                    <div class="input-group input-group-checkout">
-                                        <div class="input-group-prepend">
-                                            <button class="decrement-qty btn" 
-                                                data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
-                                                <span class="plus-minus-icon-checkout">
-                                                    <i class="fas fa-minus"></i>
-                                                </span>
-                                            </button>
-                                        </div>
-                
-                                        <input class="checkout-input  quantity-input qty_input" type="number" 
-                                            name="quantity" value="{{ item.quantity }}" min="1" max="99" data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
-                                            
-                                            <div class="input-group-append">
-                                                <button class="increment-qty btn"
-                                                    data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
-                                                    <span class="plus-minus-icon-checkout">
-                                                        <i class="fas fa-plus"></i>
-                                                    </span>
-                                                </button>
-                                            </div>    
-                                    </div>
-                                </form>
-                                <div class="update-remove-links">
-                                    <a class="update-link text-info"><small>Update</small></a>
-                                    <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"><small>Remove</small></a>
-                                </div>    
-
+                                {% include "bag/quantity-form.html" %}
                             </div>
                         </td>
                         <td class="checkout-meta-sales">
@@ -86,23 +50,10 @@
                 </table>
                 <hr>
                 <div class="grand-total-delivery">
-                    <p class="text-info"><b>BAG TOTAL: £{{ total|floatformat:2}}</b></p>
-                    <p><b>DELIVERY: £{{ delivery|floatformat:2 }}</b></p>
-                    <p class="text-danger"><b>GRAND TOTAL: £{{ grand_total|floatformat:2}}</b></p>
-                    {% if free_delivery_delta > 0 %}
-                    <p>
-                        <b>SPEND <strong>£{{ free_delivery_delta }}</strong> MORE FOR FREE DELIVERY !</b>
-                    </p>
-                    {% endif %}         
+                    {% include "bag/bag-total.html" %}       
                 </div>
-                <div class="checkout-shopmore-buttons">
-                    <a class="btn site-buttons site-white-button keep-shopping" href="{% url 'all_products' %}">
-                        <p>KEEP SHOPPING</p>
-                    </a>
-
-                    <a class="btn site-buttons site-black-button secure-checkout" href="{% url 'checkout' %}">
-                        <p>SECURE CHECKOUT</p>
-                    </a>
+                <div class="checkout-shop-more-container">
+                    {% include "bag/checkout-buttons.html" %}
                 </div>
             </div>
 

@@ -1111,7 +1111,7 @@ footer ul {
 }
 
 .grand-total-delivery {
-    margin-top: 40px;
+    margin-top: 20px;
     float: right;
     text-align: right;
 }
@@ -1120,56 +1120,46 @@ footer ul {
     font-size: 1.2rem;
 }
 
-.checkout-shopmore-buttons  {
+.checkout-shop-more-container {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    width: 200px;
+    width: 30%;
 }
 
-.keep-shopping p {
-    color: #000000;
-    font-size: 1.5rem;
+.checkout-shop-more-container p {
+    font-size: 1.4rem;
+    margin: auto;
+ 
 }
 
-.secure-checkout
-
-/* .checkout-shopmore-buttons a {
-    color: #ffffff;
-    margin-bottom: 5px;
-    text-align: center;
-    width: 100%;
+.checkout-shop-more-container a {
+    margin-top: 20px;
 }
 
-.checkout-shopmore-buttons a:hover {
-    background-color: #ffffff;
+.secure-checkout-bag p {
     color: #000000; 
 }
 
-.checkout-shopmore-buttons p {
-    font-size: 1.5rem;
-    padding-top: 10px;
-} */
+.keep-shopping {
+    margin-right: 0; 
+}
 
-/* .checkout-update-remove-links-container {
+.checkout-update-remove-links-container {
     display: flex;
     flex-direction: column;
-    background-color: red;
-} */
+}
 
-/* .update-form {
+.update-form {
     display: felx;
     flex-direction: row;
     width: 100%;
 
-} */
-
+}
 
 .update-remove-links {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: red;
 }
 
 .update-remove-links a {
@@ -1817,6 +1807,12 @@ footer ul {
         padding: 5px;
         margin: auto;
     }
+
+    .checkout-shop-more-container p {
+        font-size: 1.2rem;
+        margin: auto;
+     
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -1860,6 +1856,12 @@ footer ul {
 
     .checkout-meta-sales p {
         font-size: 1.1rem;
+    }
+
+    .checkout-shop-more-container p {
+        font-size: 1rem;
+        margin: auto;
+     
     }
 }
 
@@ -1988,6 +1990,12 @@ footer ul {
     .checkout-meta-sales p {
         font-size: 1rem;
     }
+
+    .checkout-shop-more-container p {
+        font-size: 0.8rem;
+        margin: auto;
+     
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -2108,6 +2116,10 @@ footer ul {
         font-size: 1.2rem;
     }
 
+      .checkout-shop-more-container p {
+        width: 100px;
+     
+    }
   
 }
 
