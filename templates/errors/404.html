@@ -1,21 +1,17 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-
 <div class="page-container page-error-conainter">
-    <div class="header-container">
-        <h2>THE PAGE YOU ARE LOOKING FOR IS NOT AVAILABLE</h2>
-    </div>
-    <div class="content-seperator"></div>
-
-    <div>
-        <h4 class="site-buttons page-error-button-container">
-            <a id="page-error-button" class="btn site-buttons site-black-button" href="{% url 'all_products'%}">
-                RETURN TO SHOP
-            </a>
-        </h4>
-    </div>
-
+   <div class="header-container">
+      <h2>THE PAGE YOU ARE LOOKING FOR IS NOT AVAILABLE</h2>
+   </div>
+   <div class="content-seperator"></div>
+   <div>
+      <h4 class="site-buttons page-error-button-container">
+         <a id="page-error-button" class="btn site-buttons site-black-button" href="{% url 'all_products'%}">
+         RETURN TO SHOP
+         </a>
+      </h4>
+   </div>
 </div>
-
 {% endblock %}
