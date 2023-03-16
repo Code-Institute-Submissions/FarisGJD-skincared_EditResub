@@ -113,11 +113,9 @@ def skin_type(request):
 
     # Retrives Skin Type Object
     skin_type = SkinType.objects.all()
-    skincare = Skincare.objects.all()
 
     context = {
         'skin_type': skin_type,
-        'skincare': skincare,
     }
 
     return render(request, 'skin_type/skin_type.html', context)
