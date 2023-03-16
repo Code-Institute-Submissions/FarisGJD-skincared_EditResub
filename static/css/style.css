@@ -77,13 +77,11 @@ hr {
 
 .header-container h2 {
     font-size: 4rem;
+    text-align: center;
 }
 
 .header-container h4, h5 {
     font-size: 2rem;
-}
-
-.header-container h2, h4,  h5 {
     text-align: center;
 }
 
@@ -1317,41 +1315,11 @@ footer ul {
 }
 
 .allauth-container{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
     margin: auto;
 }
 
-.allauth-headers {
+.allauth-header {
     margin-top: 40px;
-    font-size: 4rem;
-    text-align: center;
-}
-
-
-.allauth-buttons {
-    border: 0.5px solid #000000;
-    background-color: #ffffff;
-    color: #000000;
-    font-size: 1.5rem;
-}
-
-.allauth-black-button {
-    background-color: #000000; 
-    color: #ffffff;
-    margin-right: 10px;
-
-}
-
-.allauth-black-button:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.allauth-white-button:hover {
-    background-color: #000000; 
-    color: #ffffff;  
 }
 
 /* Product Management Form */
