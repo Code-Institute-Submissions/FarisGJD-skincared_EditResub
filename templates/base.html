@@ -1,196 +1,189 @@
 {% load static %}
 <!doctype html>
 <html lang="en">
-  <head>
-
-    {% block meta %}
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="SkinCared is a B2C, E-commerce web application that specialises in the procurement and selling of the worlds finest Eastern & Western skincare brands.">
-        <meta name="keywords" content="skincare, skincare products, buy skincare, skincare routine, vegan skincare, cruelty free skincare, skin health, skin wellbeing, buy skincare products, buy best skincare products,  korean skincare, best korean skincare products, eastern skincare, cosmetics, cosmetic products, best skincare brands, beauty and cosmetics, buy beauty and cosmetics, skincare products for men, skincare products for women, cleansing gel, cleansing milk, cleansing cream to foam, cleansing balm, cleansing oil, alpha hydroxy acid, aha, beta hydroxy acid, bha, poly hydroxy acid, pha, skincare toner, skincare mist, skincare essence, vitamin c serum, pigmentation serum, peptide serum, hyaluronic acid, hyaluronic acid serum, niacinamide serum, niacinemide, skincare ampoules, eye cream, lip balm, acne treatment, retinol, azelaic acid, normal skin, dry skin, oily skin, sensitive skin, combination skin, sunscreen, body wash, moisturiser, body cream, body lotion, hand cream, foot cream, ">
-        <meta name="author" content="Faris Dhoot">
-    {% endblock %}
-
-    {% block extra_meta %}
-    {% endblock %}
-
-    {% block corecss %}
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- CSS -->
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <!-- Google Material Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,-25">
-    {% endblock %}
-
-    {% block extra_css %}
-    {% endblock %}
-
-    {% block corejs %}
-    <!-- FontAwesome-->  
-    <script src="https://kit.fontawesome.com/cd2a226592.js" crossorigin="anonymous"></script>
-
-    <!-- jQuery, Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+   <head>
+      {% block meta %}
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="SkinCared is a B2C, E-commerce web application that specialises in the procurement and selling of the worlds finest Eastern & Western skincare brands">
+      <meta name="keywords" content="skincare, skincare products, buy skincare, skincare routine, vegan skincare, cruelty free skincare, 
+      skin health, skin wellbeing, buy skincare products, buy best skincare products,  
+      korean skincare, best korean skincare products, eastern skincare, cosmetics, 
+      cosmetic products, best skincare brands, beauty and cosmetics, buy beauty and cosmetics, 
+      skincare products for men, skincare products for women, cleansing gel, cleansing milk, 
+      cleansing cream to foam, cleansing balm, cleansing oil, alpha hydroxy acid, aha, 
+      beta hydroxy acid, bha, poly hydroxy acid, pha, skincare toner, skincare mist, skincare essence, vitamin c serum, 
+      pigmentation serum, peptide serum, hyaluronic acid, hyaluronic acid serum, niacinamide serum, niacinemide, 
+      skincare ampoules, eye cream, lip balm, acne treatment, retinol, azelaic acid, normal skin, dry skin, oily skin, 
+      sensitive skin, combination skin, sunscreen, body wash, moisturiser, body cream, body lotion, hand cream, foot cream, 
+      ample:n, banila co, beauty of joseon, benton, bywishtrend, cerave, cosrx, dear, klaris, deciem, dewytree, dr. ceuracle, 
+      drunk elephant, etude house, eucerin, facetheory, farmacy, haruharu wonder, hemish, illiyoon, i'm from, innisfree, 
+      isntree, krave, laneige, la roche-posay, make p:rem, missha, necessaire, neogen dermalogy, papa recipe, paula's choice, 
+      perricone md, petitfee, primeria, purito, pyunkang yul, rohoto mentholatum, rovectin, scinic, sioris, sk-ii, skin1004, ]
+      skinceuticals, some by mi, the inkey list, the lab by blanc doux, tia'm, tonymoly, tosowoong, versed ">
+      <meta name="author" content="Faris Dhoot">
+      {% endblock %}
+      {% block extra_meta %}
+      {% endblock %}
+      {% block corecss %}
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <!-- CSS -->
+      <link rel="stylesheet" href="{% static 'css/style.css' %}">
+      <!-- Google Material Icons -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,-25">
+      {% endblock %}
+      {% block extra_css %}
+      {% endblock %}
+      {% block corejs %}
+      <!-- FontAwesome-->  
+      <script src="https://kit.fontawesome.com/cd2a226592.js" crossorigin="anonymous"></script>
+      <!-- jQuery, Bootstrap -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
       <!-- Stripe -->
       <script src="https://js.stripe.com/v3/"></script>
-      
-    {% endblock %}
-
-    {% block extra_js %}
-    {% endblock %}
-
-    <title>SkinCared {% block extra_title %}{% endblock %}</title>
-  </head>
-
-  <body>
-    <div class="free-delivery-container">
-        <h3>FREE DELIVERY ON ORDERS OVER £{{ free_delivery_threshold }}</h3>
-    </div>
-
-    <header class="main-header">
-        <!-- Logo -->
-        <div class="logo-container">
+      {% endblock %}
+      {% block extra_js %}
+      {% endblock %}
+      <title>SkinCared {% block extra_title %}{% endblock %}</title>
+   </head>
+   <body>
+      <div class="free-delivery-container">
+         <h3>FREE DELIVERY ON ORDERS OVER £{{ free_delivery_threshold }}</h3>
+      </div>
+      <header class="main-header">
+         <!-- Logo -->
+         <div class="logo-container">
             <a href="{% url 'home' %}">
-                <br>
-                <span class="logo logo-top"><strong>Skin</strong></span>
-                <br>
-                <span class=" logo logo-bottom"><strong>Cared!</strong></span>
+            <br>
+            <span class="logo logo-top"><strong>Skin</strong></span>
+            <br>
+            <span class=" logo logo-bottom"><strong>Cared!</strong></span>
             </a>
             <!-- <p>Combining the best in science and cosmetics</p> -->
-        </div>
-        
-        <!-- Serach Bar -->
-        <div class="serach-bar-container">
+         </div>
+         <!-- Serach Bar -->
+         <div class="serach-bar-container">
             <form method="GET" action="{% url 'all_products' %}">
-                <div class="serach-bar">
-                    <button class="serach-bar-button">
-                        <span class="material-symbols-outlined search-icon">search</span>
-                    </button>
-                    <input class="input-styling" type="text" name="q" placeholder="search for products, brands, specific skin concern or type">
-                </div>
+               <div class="serach-bar">
+                  <button class="serach-bar-button">
+                  <span class="material-symbols-outlined search-icon">search</span>
+                  </button>
+                  <input class="input-styling" type="text" name="q" placeholder="search for products, brands, specific skin concern or type">
+               </div>
             </form>
             <hr>
             <hr>
             <hr>
-        </div>
-
-        <div id="user-profile-shoppingcart-container">
+         </div>
+         <div id="user-profile-shoppingcart-container">
             <ul>
-                <div class="user-profile-container-mobile">
-                    <li class="header-right-icons">
-                        <a href="#">
-                            <span class="material-symbols-outlined profile-icon">person</span>
-                            <p>MY ACCOUNT</p>
-                        </a>
-
-                        <div class="user-profile-drop-down-menu">
-                            {% if request.user.is_authenticated %}
-                                {% if request.user.is_superuser %}
-                                <a href="{% url 'add_product' %}">PRODUCT MANAGEMENT</a>
-                                {% endif %}
-                                <a href="{% url 'profile' %}">PROFILE</a>
-                                <a href="{% url 'account_logout' %}">LOGOUT</a>
-                            {% else %}
-                                <a href="{% url 'account_signup' %}">REGISTER</a>
-                                <a href="{% url 'account_login' %}">LOGIN</a>
-                            {% endif %}
-                        </div>
-                    </li>
-                </div>
-
-                <li class="header-right-icons shopping-bag">
-                    <a class="{% if grand_total %}text-danger{% else %}text-black{% endif %}" href="{% url 'view_bag' %}">
-                        <span class="material-symbols-outlined">shopping_bag</span>
-                        <p>SHOPPING BAG
-                            <br>
-                            {% if grand_total %}
-                            £{{ grand_total|floatformat:2 }}
+               <div class="user-profile-container-mobile">
+                  <li class="header-right-icons">
+                     <a href="#">
+                        <span class="material-symbols-outlined profile-icon">person</span>
+                        <p>MY ACCOUNT</p>
+                     </a>
+                     <div class="user-profile-drop-down-menu">
+                        {% if request.user.is_authenticated %}
+                        {% if request.user.is_superuser %}
+                        <a href="{% url 'add_product' %}">PRODUCT MANAGEMENT</a>
+                        {% endif %}
+                        <a href="{% url 'profile' %}">PROFILE</a>
+                        <a href="{% url 'account_logout' %}">LOGOUT</a>
                         {% else %}
-                            £0.00
-                        </p>
-                    {% endif %}
-                    </a>
-                </li>
+                        <a href="{% url 'account_signup' %}">REGISTER</a>
+                        <a href="{% url 'account_login' %}">LOGIN</a>
+                        {% endif %}
+                     </div>
+                  </li>
+               </div>
+               <li class="header-right-icons shopping-bag">
+                  <a class="{% if grand_total %}text-danger{% else %}text-black{% endif %}" href="{% url 'view_bag' %}">
+                     <span class="material-symbols-outlined">shopping_bag</span>
+                     <p>SHOPPING BAG
+                        <br>
+                        {% if grand_total %}
+                        £{{ grand_total|floatformat:2 }}
+                        {% else %}
+                        £0.00
+                     </p>
+                     {% endif %}
+                  </a>
+               </li>
             </ul>
-        </div>
-    </header>
-
-        <!-- Navigation Bar -->
-        <nav class="nav-container">
-            {% include 'includes/main-navigation.html' %}
-            {% include 'includes/mobile-header.html' %}
-        </nav>
-
-    {% if messages %}
-        <div class="message-container">
-            {% for message in messages %}
-            {% with message.level as level %}
-                {% if level == 40 %}
-                    {% include 'includes/toasts/toast_error.html' %}
-                {% elif level == 30 %}
-                    {% include 'includes/toasts/toast_warning.html' %}
-                {% elif level == 25 %}
-                    {% include 'includes/toasts/toast_success.html' %}
-                {% else %}
-                    {% include 'includes/toasts/toast_info.html' %}
-                {% endif %}
-            {% endwith %}
-        {% endfor %}
-        </div>
-    {% endif %}
-
-    {% block page_header %}
-    {% endblock %}
-
-    {% block content %}
-    {% endblock %}
-    
-    <div class="footer-wrapper">
-        <footer class="footer-container">
+         </div>
+      </header>
+      <!-- Navigation Bar -->
+      <nav class="nav-container">
+         {% include 'includes/main-navigation.html' %}
+         {% include 'includes/mobile-header.html' %}
+      </nav>
+      {% if messages %}
+      <div class="message-container">
+         {% for message in messages %}
+         {% with message.level as level %}
+         {% if level == 40 %}
+         {% include 'includes/toasts/toast_error.html' %}
+         {% elif level == 30 %}
+         {% include 'includes/toasts/toast_warning.html' %}
+         {% elif level == 25 %}
+         {% include 'includes/toasts/toast_success.html' %}
+         {% else %}
+         {% include 'includes/toasts/toast_info.html' %}
+         {% endif %}
+         {% endwith %}
+         {% endfor %}
+      </div>
+      {% endif %}
+      {% block page_header %}
+      {% endblock %}
+      {% block content %}
+      {% endblock %}
+      <div class="footer-wrapper">
+         <footer class="footer-container">
             <div class="footer">
-                <div class="signup-form-button">
-                    <p><b>SUBSCRIBE</b><p>
-                </div>
-                <ul>
-                    <li>
-                        <a href="https://youtube.com" rel="noopener nofollow" target="_blank" aria-label="Explore our Youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/SkinCared-120459897656580" rel="noopener nofollow" target="_blank" aria-label="Explore our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://instagram.com" rel="noopener nofollow" target="_blank" aria-label="Explore our Instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com" rel="noopener nofollow" target="_blank" aria-label="Explore our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
-                    </li>
-                </ul>
-                <div class="mailing-info">
-                    <a href="mailto:skincared@skincared.com">Contact Us: askincared@gmail.com</a>
-                </div>
-                <div class="trade-mark"><script>document.write(new Date().getFullYear())</script> SkinCared &copy; </div>
+               <div class="signup-form-button">
+                  <p><b>SUBSCRIBE</b>
+                  <p>
+               </div>
+               <ul>
+                  <li>
+                     <a href="https://youtube.com" rel="noopener nofollow" target="_blank" aria-label="Explore our Youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
+                  </li>
+                  <li>
+                     <a href="https://www.facebook.com/SkinCared-120459897656580" rel="noopener nofollow" target="_blank" aria-label="Explore our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+                  </li>
+                  <li>
+                     <a href="https://instagram.com" rel="noopener nofollow" target="_blank" aria-label="Explore our Instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a>
+                  </li>
+                  <li>
+                     <a href="https://twitter.com" rel="noopener nofollow" target="_blank" aria-label="Explore our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a>
+                  </li>
+               </ul>
+               <div class="mailing-info">
+                  <a href="mailto:skincared@skincared.com">Contact Us: askincared@gmail.com</a>
+               </div>
+               <div class="trade-mark">
+                  <script>document.write(new Date().getFullYear())</script> SkinCared &copy; 
+               </div>
             </div>
             <div>
-                {% include 'includes/newsletter-signup-form.html' %}
+               {% include 'includes/newsletter-signup-form.html' %}
             </div>
-        </footer>
-    </div>
-    
-
-    {% block postloadjs %}
-    <!-- Bootstrap Toasts -->
-    <script type="text/javascript">
-        $('.toast').toast('show');
-    </script>
-    <!-- Custom JS -->
-    <script src="{% static 'js/script.js' %}"></script>
-    {% endblock %}
-    
-  </body>
+         </footer>
+      </div>
+      {% block postloadjs %}
+      <!-- Bootstrap Toasts -->
+      <script type="text/javascript">
+         $('.toast').toast('show');
+      </script>
+      <!-- Custom JS -->
+      <script src="{% static 'js/script.js' %}"></script>
+      {% endblock %}
+   </body>
 </html>
