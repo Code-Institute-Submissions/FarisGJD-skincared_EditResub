@@ -1663,10 +1663,10 @@ span {
 		text-align: center;
 	}
 
-	.quantity-container {
+	.input-group {
 		display: flex;
 		flex-direction: row;
-		margin-left: 90px;
+        justify-content: center;
 	}
 
 
@@ -1677,6 +1677,7 @@ span {
 
 	.add-to-bag-button {
 		font-size: 1.25rem;
+        margin: auto;
 	}
 
 	.plus-minus-button {
