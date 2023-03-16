@@ -83,7 +83,7 @@ hr {
     font-size: 2rem;
 }
 
-.header-container h2, h5 {
+.header-container h2, h4,  h5 {
     text-align: center;
 }
 
@@ -1356,6 +1356,11 @@ footer ul {
 
 /* Product Management Form */
 
+.product-management-container h4 {
+    margin-bottom: 30px;
+
+}
+
 .btn-file {
     position: relative;
     overflow: hidden;
@@ -2120,6 +2125,17 @@ footer ul {
     .checkout-charge-warning span {
         font-size: 0.8rem;
     }
+
+    .product-management-container h4 {
+        font-size: 1.5rem;
+    
+    }
+
+    .cancel-product-management, .add-product-management  {
+        font-size: 1.2rem;
+    }
+
+  
 }
 
 @media only screen and (max-width: 400px) {
