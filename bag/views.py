@@ -1,4 +1,6 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
+from django.shortcuts import (
+    render, redirect, reverse, HttpResponse, get_object_or_404
+)
 from django.contrib import messages
 from skincare.models import Skincare
 
@@ -20,7 +22,9 @@ def add_to_bag(request, item_id):
     if item_id in list(bag.keys()):
         bag[item_id] += quantity
         messages.success(
-            request, f'Successfully Updated {product.name} Quantity To X{bag[item_id]}'
+            request,
+            f'Successfully Updated {product.name}'
+            f'Quantity To X{bag[item_id]}'
             )
     else:
         bag[item_id] = quantity
@@ -42,7 +46,9 @@ def adjust_bag(request, item_id):
     if quantity > 0:
         bag[item_id] = quantity
         messages.success(
-            request, f'Successfully Updated {product.name} Quantity To X{bag[item_id]}'
+            request,
+            f'Successfully Updated {product.name}'
+            f'Quantity To X{bag[item_id]}'
             )
     else:
         bag.pop(item_id)
