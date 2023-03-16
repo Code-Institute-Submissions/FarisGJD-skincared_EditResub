@@ -1,25 +1,19 @@
 {% extends "account/base.html" %}
-
 {% load i18n %}
-
 {% block head_title %}{% trans "Verify Your E-mail Address" %}{% endblock %}
-
 {% block inner_content %}
-<h2 class="allauth-headers">{% trans "VERIFY YOUR EMAIL ADDRESS" %}</h2>
+<div class="header-container allauth-header">
+   <h2>{% trans "VERIFY YOUR EMAIL ADDRESS" %}</h2>
+</div>
 <div class="content-seperator"></div>
-
-
 {% url 'account_email' as email_url %}
-
 <p>{% blocktrans %}THIS PART OF THE SITE REQUIRES US TO VERIFY YOUR IDENTITY. 
-    FOR THIS PURPOSE, WE ASK THAT YOU VERIFY OWNERSHIP OF YOUR EMAIL ADDRESS.
-    {% endblocktrans %}</p>
-
+   FOR THIS PURPOSE, WE ASK THAT YOU VERIFY OWNERSHIP OF YOUR EMAIL ADDRESS.
+   {% endblocktrans %}
+</p>
 <p>{% blocktrans %}WE HAVE SENT AN EMAIL TO YOU FOR VERIFICATION. 
-    PLEASE CLICK ON THE LINK ATTACHED TO THIS EMAIL. 
-    PLEASE CONTACT US IF YOU DO NOT RECEIVE IT.{% endblocktrans %}</p>
-
+   PLEASE CLICK ON THE LINK ATTACHED TO THIS EMAIL. 
+   PLEASE CONTACT US IF YOU DO NOT RECEIVE IT.{% endblocktrans %}
+</p>
 <p>{% blocktrans %}<strong>NOTE:</strong> YOU CAN STILL <a href="{{ email_url }}">CHANGE YOUR EMAIL ADDRESS</a>.{% endblocktrans %}</p>
-
-
-{% endblock %}
+{% endblock %} 
