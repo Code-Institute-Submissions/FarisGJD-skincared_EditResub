@@ -1148,15 +1148,28 @@ footer ul {
     padding-top: 10px;
 } */
 
-.checkout-update-remove-links-container {
+/* .checkout-update-remove-links-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+    background-color: red;
+} */
+
+/* .update-form {
+    display: felx;
+    flex-direction: row;
+    width: 100%;
+
+} */
+
 
 .update-remove-links {
-    margin-top: 15px;
-    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: red;
+}
+
+.update-remove-links a {
     text-align: center;
 }
 
@@ -1180,6 +1193,7 @@ footer ul {
     margin: auto;
 }
 
+/* asfdajkfoisdjfgaoijfdoiajfidjfaodifjoadijfoadijfoajfoijadiof */
 .empty-shopping-bag a {
     width: 135px;
     margin-top: 30px;
@@ -1230,20 +1244,6 @@ footer ul {
 
 /* Checkout */
 
-.checkout-container{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.checkout-header h2 {
-    font-size: 4rem;
-    margin-top: 40px;
-}
-
 .checkout-form {
     display: flex;
     flex-direction: column;
@@ -1279,30 +1279,11 @@ footer ul {
     margin: 20px 0 30px 0; 
 }
 
-.checkout-buttons {
-    background-color: #000000;
-    font-size: 1.5rem;
-    color: #ffffff;
-    margin-bottom: 5px;
+.complete-order-checkout, .adjust-bag-checkout {
+    margin: 0 0 5px 0; 
 }
 
-.adjust-bag {
-    background-color: #ffffff;
-    border: 0.5px solid #000000;
-    color: #000000;  
-}
-
-.adjust-bag:hover {
-    background-color: #000000;
-    color: #ffffff;
-}
-
-.complete-order:hover {
-    background-color: #ffffff;
-    color: #000000; 
-}
-
-.checkout-charge-warning {
+.checkout-charge-warning span {
     font-size: 1.1rem;
 }
 
@@ -1831,6 +1812,39 @@ footer ul {
     .checkout-meta-sales p {
         font-size: 1.2rem;
     }
+
+    .checkout-update-remove-links-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .update-remove-links {
+        margin-top: 15px;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .update-link, .remove-item {
+        cursor: pointer;
+    }
+    
+    .input-group-checkout {
+        margin-top: 20px;
+    }
+    
+    .checkout-input {
+        text-align: center;
+    }
+    
+    .plus-minus-icon-checkout {
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 1rem;
+        padding: 5px;
+        margin: auto;
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -1988,7 +2002,7 @@ footer ul {
     }
 
     .checkout-headings th {
-        font-size: 1rem;
+        font-size: 0.6rem;
     } 
 
     .checkout-product-info p {
@@ -2078,6 +2092,14 @@ footer ul {
 
     .header-container h2 {
         font-size: 2.5rem;
+    }
+
+    .checkout-form h3 {
+        font-size: 1.3rem; 
+    }
+
+    .checkout-form-header h4 {
+        font-size: 1.3rem;
     }
 
     .full-skincare-header {
