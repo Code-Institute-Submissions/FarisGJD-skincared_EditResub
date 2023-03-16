@@ -52,20 +52,6 @@ window.addEventListener("mouseout", () => {
     navDropDownSkinType.classList.remove("main-nav-js");
 })
 
-const navButtonSkinConcern = document.querySelectorAll(".js-nav-button-skin-concern");
-const navDropDownSkinConcern = document.querySelector(".skin-concern-container");
-
-for (let i = 0; i < navButtonSkinConcern.length; i++) {
-    navButtonSkinConcern[i].addEventListener("mousemove", () => {
-        navDropDownSkinConcern.classList.add("main-nav-js");
-    })
-}
-
-window.addEventListener("mouseout", () => {
-    navDropDownSkinConcern.classList.remove("main-nav-js");
-})
-
-
 // Mobile Navigation Dropdown 
 const hamburger = document.querySelector(".burger-menu");
 const navMenu = document.querySelector(".mobile-navigation-container");

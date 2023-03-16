@@ -123,18 +123,6 @@ def skin_type(request):
     return render(request, 'skin_type/skin_type.html', context)
 
 
-def skin_concern(request):
-    """ A View To Render & Filer For Skin Concerns  """
-
-    skin_concern = SkinConcern.objects.all()
-
-    context = {
-        'skin_concern': skin_concern,
-    }
-
-    return render(request, 'skin_concern/skin_concern.html', context)
-
-
 @login_required
 def add_product(request):
     """ Add a product to the store """
