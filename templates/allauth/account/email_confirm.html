@@ -1,32 +1,21 @@
 {% extends "account/base.html" %}
-
 {% load i18n %}
 {% load account %}
-
 {% block head_title %}{% trans "Confirm E-mail Address" %}{% endblock %}
-
-
 {% block inner_content %}
-<h2 class="allauth-headers">{% trans "CONFIRM EMAIL ADDRESSES" %}</h2>
+<div class="header-container allauth-header">
+   <h2>{% trans "CONFIRM EMAIL ADDRESSES" %}</h2>
+</div>
 <div class="content-seperator"></div>
-
 {% if confirmation %}
-
 {% user_display confirmation.email_address.user as user_display %}
-
 <p>{% blocktrans with confirmation.email_address.email as email %}PLEASE CONFIRM THAT <a href="mailto:{{ email }}">{{ email }}</a> IS AN EMAIL ADDRESS FOR USER {{ user_display }}.{% endblocktrans %}</p>
-
 <form method="post" action="{% url 'account_confirm_email' confirmation.key %}">
-{% csrf_token %}
-    <button class=" btn allauth-buttons  allauth-white-button" type="submit">{% trans 'CONFIRM' %}</button>
+   {% csrf_token %}
+   <button class="btn site-buttons site-black-button allauth-button" type="submit">{% trans 'CONFIRM' %}</button>
 </form>
-
 {% else %}
-
 {% url 'account_email' as email_url %}
-
 <p>{% blocktrans %}THIS EMAIL CONFIRMATION LINK EXPIRED OR IS INVALID. PLEASE <a href="{{ email_url }}">ISSUE A NEW EMAIL CONFIRMATION REQUEST</a>.{% endblocktrans %}</p>
-
 {% endif %}
-
 {% endblock %}

@@ -5,9 +5,11 @@
 {% block head_title %}{% trans "Verify Your E-mail Address" %}{% endblock %}
 
 {% block inner_content %}
-<h2 class="allauth-headers">{% trans "VERIFY YOUR EMAIL ADDRESS" %}</h2>
+<div class="header-container allauth-header">
+    <h2>{% trans "VERIFY YOUR EMAIL ADDRESS" %}</h2>
+</div>
 <div class="content-seperator"></div>
 
-    <p>{% blocktrans %}AN EMAIL HAS BEEN SENT TO YOU FOR VERIFICATION. FOLLOW THE LINK PROVIDED TO FINALISE THE SIGNUP PROCESS. PLEASE CONTACT US IF YOU DONT RECIVE IT.{% endblocktrans %}</p>
+<p>{% blocktrans %}AN EMAIL HAS BEEN SENT TO YOU FOR VERIFICATION. FOLLOW THE LINK PROVIDED TO FINALISE THE SIGNUP PROCESS. PLEASE CONTACT US IF YOU DONT RECIVE IT.{% endblocktrans %}</p>
 
 {% endblock %}

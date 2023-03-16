@@ -1314,8 +1314,9 @@ footer ul {
     background-size: cover;
 }
 
-.allauth-container{
+.allauth-container {
     margin: auto;
+    text-align: center;
 }
 
 .allauth-header {
@@ -2099,7 +2100,7 @@ footer ul {
     
     }
 
-    .product-management-button  {
+    .product-management-button, .allauth-button {
         font-size: 1.2rem;
     }
 
