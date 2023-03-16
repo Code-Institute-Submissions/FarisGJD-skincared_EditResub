@@ -48,12 +48,16 @@
                     </tr>
                 {% endfor %}
                 </table>
-                <hr>
-                <div class="grand-total-delivery">
-                    {% include "bag/bag-total.html" %}       
-                </div>
-                <div class="checkout-shop-more-container">
-                    {% include "bag/checkout-buttons.html" %}
+                <div class="content-seperator"></div>
+
+                <div class="grand-total-and-buttons-container">
+                    <div class="grand-total-delivery">
+                        {% include "bag/bag-total.html" %}       
+                    </div>
+    
+                    <div class="checkout-shop-more-container">
+                        {% include "bag/checkout-buttons.html" %}
+                    </div>
                 </div>
             </div>
 

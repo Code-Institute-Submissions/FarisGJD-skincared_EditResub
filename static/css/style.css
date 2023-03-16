@@ -1111,13 +1111,14 @@ footer ul {
 }
 
 .grand-total-delivery {
-    margin-top: 20px;
     float: right;
     text-align: right;
 }
 
-.grand-total-delivery p {
+.bag-total p {
     font-size: 1.2rem;
+    margin: 2px;
+
 }
 
 .checkout-shop-more-container {
@@ -1132,16 +1133,13 @@ footer ul {
  
 }
 
-.checkout-shop-more-container a {
-    margin-top: 20px;
-}
-
 .secure-checkout-bag p {
     color: #000000; 
 }
 
 .keep-shopping {
-    margin-right: 0; 
+    margin-right: 0;
+    margin-bottom: 10px;
 }
 
 .checkout-update-remove-links-container {
@@ -1996,6 +1994,10 @@ footer ul {
         margin: auto;
      
     }
+
+    .bag-total p {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -2116,9 +2118,27 @@ footer ul {
         font-size: 1.2rem;
     }
 
-      .checkout-shop-more-container p {
-        width: 100px;
-     
+    .bag-total p {
+        font-size: 1rem;
+        margin: 2px;
+    
+    }
+
+    .grand-total-and-buttons-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .input-group-checkout span {
+        font-size: 0.5rem;
+    }
+
+    .input-group-checkout input {
+        width: 15px; 
+        height: 15px; 
+        margin-top: 5px;
     }
   
 }
@@ -2266,6 +2286,18 @@ footer ul {
     }
 
     .checkout-sucess-text {
+        font-size: 0.8rem;
+    }
+
+    .checkout-headings th {
+        font-size: 0.5rem;
+    }
+
+    .checkout-meta-sales p {
+        font-size: 0.5rem;
+    }
+
+    .checkout-product-info p {
         font-size: 0.8rem;
     }
 }
