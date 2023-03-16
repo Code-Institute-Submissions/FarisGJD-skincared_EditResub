@@ -1,39 +1,36 @@
 {% extends "base.html" %}
 {% load static %}
-
 {% block content %}
-    <div class="page-container product-management-container">
-        <div class="header-container">
-            <h2>PRODUCT MANAGEMENT</h2>
-            <div class="content-seperator"></div>
-            <h4>ADD A PRODUCT</h4>
-        </div>
-
-        <div class="form-conatiner">
-            <form method="POST" action="{% url 'add_product' %}" enctype="multipart/form-data">
-                {% csrf_token %}
-                {% for field in form %}
-                        {% if field.name != 'image' %}
-                            {{ field | as_crispy_field }}
-                        {% else %}
-                            {{ field }}
-                        {% endif %}
-                    {% endfor %}
-                <div class="text-right">
-                    <a class="btn allauth-buttons allauth-black-button cancel-product-management" href="{% url 'all_products' %}">CANCEL</a>
-                    <button class="btn allauth-buttons  allauth-white-button add-product-management" type="submit">ADD PRODUCT</button>
-                </div>
-            </form>     
-        </div>
-    </div>
+<div class="page-container product-management-container">
+   <div class="header-container">
+      <h2>PRODUCT MANAGEMENT</h2>
+      <div class="content-seperator"></div>
+      <h4>ADD A PRODUCT</h4>
+   </div>
+   <div class="form-conatiner">
+      <form method="POST" action="{% url 'add_product' %}" enctype="multipart/form-data">
+         {% csrf_token %}
+         {% for field in form %}
+         {% if field.name != 'image' %}
+         {{ field | as_crispy_field }}
+         {% else %}
+         {{ field }}
+         {% endif %}
+         {% endfor %}
+         <div class="text-right">
+            <a class="btn allauth-buttons allauth-black-button product-management-button" href="{% url 'all_products' %}">CANCEL</a>
+            <button class="btn allauth-buttons  allauth-white-button product-management-button" type="submit">ADD PRODUCT</button>
+         </div>
+      </form>
+   </div>
+</div>
 {% endblock %}
-
 {% block postloadjs %}
-    {{ block.super }}
-    <script type="text/javascript">
-        $('#new-image').change(function() {
-            var file = $('#new-image')[0].files[0];
-            $('#filename').text(`Image will be set to: ${file.name}`);
-        });
-    </script>
+{{ block.super }}
+<script type="text/javascript">
+   $('#new-image').change(function() {
+       var file = $('#new-image')[0].files[0];
+       $('#filename').text(`Image will be set to: ${file.name}`);
+   });
+</script>
 {% endblock %}
