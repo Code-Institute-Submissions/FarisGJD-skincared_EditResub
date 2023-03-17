@@ -27,8 +27,8 @@ As a result of this demand SkinCared was born. SkinCared is a B2C E-commerce web
         * [Epics](#epics)
         * [User Stories](#user-stories)
     * [Scope](#scope)
-
-
+    * [Structure](#structure)
+    * [Skeleton](#skeleton)
 
 ***
 # Site Goals
@@ -153,6 +153,53 @@ From the Epics 9 User Stories were created and 47 tasks respectively. All predic
 
 * Account Recovery - Users can reset their password, email address and delivery address 
 
+[Back To Top](#skincared)
+
+***
+# Structure
+Since the website uses the Django programming language, the site has an MVC (model, view, template) structure and uses object relational mapping to convert data between the relational databases present. Therefore, the site is divided into apps which then contain the html pages. This makes the structure extreemly inuit
+
+## Main Template 
+1. base.html - One of the main 'pages' which holds the header, navbar and footer and newsletter signup form 
+
+## Home App 
+2. index.html - Landing page which immediately informs the user what the website is about and its offerings
+
+## Skincare App 
+3. all-products.html - Contains a list of all the sites products and when clicked on leads to the products-details.html
+
+4. products-details.html - Contains a detailed view of the product, the brand it comes from and important information such as weather the product is vegan or cruelty free. Furthermore allows the user to add a product to their bag or the admin to update and delete a product 
+
+5. add-products.html - A UI element on the server side that allows the admin to add a product without accessing the admin
+
+6. edit-products.html - A UI element on the server side that allows the admin to edit a product without accessing the admin 
+
+7. brands.html - A page that shows a full list of brand names which when clicked on take you to the full-brands.html page 
+
+8. full-brands.html - Contains detailed information about the brands that are hosted on SkinCared and will contain future functionality that allows user to filter products by brands
+
+9. skin-type.html - Showcases the different skin types and what products would suite said skin type. Again this will have future filtering functionality 
+
+## Bag App 
+
+10. bag.html - A page where the user can store, update and delete current or future purchases ready for the checkout 
+
+## Checkout App 
+
+11. checkout.html -  A page where the user can securely enter the personal and card details as well as the option to save personal details to the profile page 
+
+12. checkout-success.html - A page that appears after the checkout process is complete and confirms to the user the status of the order as well as sends out confirmation emails 
+
+
+# Profile App 
+13. profile.html - A page where the user can find, edit and update their personal information as well as look at thier historical purchases 
+
+# Skincared App 
+14. 404.html - A page that pops up when there is a 404 error
+
+[Back To Top](#skincared)
+***
+# Skeleton
 
 
 
