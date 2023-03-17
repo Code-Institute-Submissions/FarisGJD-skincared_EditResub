@@ -33,6 +33,7 @@ As a result of this demand SkinCared was born. SkinCared is a B2C E-commerce web
         * [Database Schema](#database-schema)
         * [SEO Considerations](#seo-considerations)
     * [Surface](#surface)
+    * [Social Media Marketing](#social-media-marketing)
 
 ***
 # Site Goals
@@ -399,6 +400,29 @@ The shopping bag utilises template logic to render a different layout. If there 
 ![Preview](static/docs/full-shopping-bag.png)
 ![Preview](static/docs/full-shopping-bagm.png)
 
+### Checkout 
+The checkout page is broken up into two sections. The first being a checkout summary of the products the user is about to purchase and the second being the user details and secure payment form. 
+
+![Preview](static/docs/checkout.png)
+![Preview](static/docs/checkout1.png)
+![Preview](static/docs/checkoutm.png)
+![Preview](static/docs/checkoutm1.png)
+
+### Checkout Success
+When the user has completed the checkout process the checkout success page is rendered givng the user a summary of what they ordered. An confirmation email is also triggered. 
+
+![Preview](static/docs/checkout-success.png)
 
 
+### User Profile 
+The user profile page contains the users saved information as well as their order history. Here the user can update their details. 
 
+![Preview](static/docs/user-profile.png)
+
+### Product Managment
+The product management page, only accessible by the admin is a nice UI feature for the admin to manipulate the database from the serverside. 
+
+![Preview](static/docs/product-management.png)
+
+[Back To Top](#skincared)
+***
