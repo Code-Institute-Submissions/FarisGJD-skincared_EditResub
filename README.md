@@ -13,5 +13,24 @@ Skincare falls under the category of cosmetic products, which are specifically d
 
 As a result of this demand SkinCared was born. SkinCared is a B2C E-commerce website, focussing in procurement and selling of skincare products from around the world. Specifically SkinCared specialises in Eastern & Western skincare which account for most of the overall market share. 
 
-
 [Back To Top](#skincared)
+
+# Table Of Contents
+
+1. [Introduction](#introduction)
+2. [Site Goals](#site-goals)
+    * [Site Goals](#site-goals)
+    * [User Goals](#user-goals)
+***
+# Site Goals
+## Site & User Goals 
+### Site Goals
+-	To deliver an ecommerce solution for the high demand in skincare products.
+- To provide potential and existing consumers a ‘one stop shop’ in skincare, specifically Eastern & Western cosmetics
+- To enable SkinCared and its employees to easily update and maintain the overall site and its content, especially the owner/manager
+- To generate sales by providing the user an intuitive, hassle free experience in terms of finding, selecting and buying products
+
+### User  Goals
+
+
+
