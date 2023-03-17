@@ -29,6 +29,7 @@ As a result of this demand SkinCared was born. SkinCared is a B2C E-commerce web
     * [Scope](#scope)
     * [Structure](#structure)
     * [Skeleton](#skeleton)
+         * [Database Schema](#database-schema)
 
 ***
 # Site Goals
@@ -200,42 +201,87 @@ Since the website uses the Django programming language, the site has an MVC (mod
 [Back To Top](#skincared)
 ***
 # Skeleton
-Mock-ups from similar/competitor E-commerce websites were procured to inform the layout of SkinCared. Typically wireframes would be created but I did not have access to Balsamiq as my subscription expired. 
+Mock-ups from similar/competitor E-commerce websites were procured to inform the layout of SkinCared. Typically wireframes would be created but I did not have access to Balsamiq as my subscription expired. Each page mentioned in the mock-ups achieves the goals set out and defined in the structure plane 
 
-## Home Page Mockup 
-
+### Home Page Mockup 
 ![Preview](static/docs/home-page-mockup.png)
 
 
-## Full Products Mockup 
-
+#### Full Products Mockup 
 ![Preview](static/docs/full-products-mockup.png)
 
-## Product Details Mockup 
+### Product Details Mockup 
 ![Preview](static/docs/product-details-mockup.png)
 ![Preview](static/docs/product-detail-mockup-2.png)
 
-## Full Brands Mockup 
+### Full Brands Mockup 
 ![Preview](static/docs/full-brands-mockup.png)
 
-## Brand Details Mockup 
+### Brand Details Mockup 
 ![Preview](static/docs/brand-details-mockup.png)
 
-## Skin Type Mockup 
+### Skin Type Mockup 
 ![Preview](static/docs/skin-type-mockup.png)
 
-## Bag Mockup 
+### Bag Mockup 
 ![Preview](static/docs/bag-mockup.png)
 
-## Secure Checkout Mockup 
+### Secure Checkout Mockup 
 ![Preview](static/docs/secure-checkout-mockup.png)
 ![Preview](static/docs/secure-checkout-mockup-2.png)
 
-## Secure Checkout Success Mockup 
+### Secure Checkout Success Mockup 
 ![Preview](static/docs/secure-checkout-success-mockup.png)
 
-## User Profile Mockup 
+### User Profile Mockup 
 ![Preview](static/docs/user-profile-mockup.png)
+
+## Database Schema
+Since SkinCared is an site that sells skincare products, several relational custom models were used as it was deemed the easiest way to filter through products and map relationships between objects such as a Brands and their Skincare products. In total there are 5 custom models. Due to time constraints only 4 were used. The ones that haven’t been used were purposely left in the code for future releases. 
+
+### Brand 
+    - Rows:
+            * name - programmatic brand name 
+            * freindly_name - friendly brand name 
+            * character_identifier - a single letter (e.g. e) used to identify the brand and separate them accordingly 
+            * about - description about the brand 
+            * image - container the banner image of the brand 
+            * slug - used in url's to make them easier to read, but also to     make them more search engine friendly
+
+
+### Skin Type 
+    - Rows:
+            * type - name of skin type 
+            * description - summary about the skin type containing useful information and suggestions of what product to buy if your skin coincides with said type 
+
+            * image - container a banner image for the specific skin type 
+            * slug - used in url's to make them easier to read, but also to     make them more search engine friendly
+
+
+### Product Type 
+    - Rows:
+            * concern 
+            * concern_freindly_name 
+            * description
+            * image 
+
+
+### Skincare 
+    - Rows:
+            * concern 
+            * concern_freindly_name 
+            * description
+            * image 
+
+
+### Skin Concern 
+    - Rows:
+        * concern 
+        * concern_freindly_name 
+        * description
+        * image 
+
+
 
 
 
