@@ -460,6 +460,48 @@ All code files HTML, CSS, JavaScript & Python were validated using online and te
 When inspecting the page using Google Chrome some errors appear in the console. As they are comming from external files they were left alone. 
 ![Preview](static/docs/console-testing.png)
 
+## Manual Testing 
+### Home
+Call to action home page 
+- Expected: Clear and obvious call to action 
+- Working Yes 
+
+Navbar ease of use 
+- Expected: All links work to every page inclduing footer 
+- Works: Yes
+
+Collapsed mobile view navbar 
+- Expected: The navbar collapses down for easier viewing on smaller screens 
+- Works: Yes 
+
+Newsletter signup in footer 
+- Expected: Submiting an email returns positive feedback
+- Works: Yes 
+
+External links open in new page
+- Expected: Facebook icon opens SkinCared business facebook page in new window 
+- Works: Yes 
+
+Shop now button
+- Expected: Dispalys all products 
+- Works: Yes 
+
+Search bar
+- Expected: Using a wide array of serach parameters returns correct products 
+- Works: Yes 
+
+Bag Icon 
+- Expected: Total of bag Icon to change with the different products in the bag 
+- Works: Yes 
+
+User Profile Icon 
+- Expected: Drop down menu is revlead when clicked and shows the login status of user 
+Works: Yes 
+
+### Full Products
+
+
+
 ### Lighthouse Testing 
 Lighthouse was used to test the landing page. The results came back extreemly well in regards to accessbility and seo but had issues with performance and best practices. The best practices score wasent as high as lighthouse detected console errors which as mentioned before is to do with stripe code which I cant do much about. Next performance was low. This was due to the loading time which the hero image was making slower. That said when testing the live site this dosent effect the perforamnce of the app so was left. 
 
@@ -549,7 +591,33 @@ Heroku was used to deploy the app by following the steps below:
 
 8. Deployment 
 * Once development is completed change the debug setting to false in settings.py 
-* To manually deploy the Deploy Branch needs to be clicked. The defauly 
-*
+* To manually deploy the Deploy Branch needs to be clicked. The default main option in the dropdown menu is to be selectd in both instances. When the app is deployed a message should appear confirming so. Click view to see the deployed app in the browser 
+
+### Forking The Repository 
+* To fork the proeject navigate to the Github repostory 
+* Click on the Fork button in the upper right hand corner
+
+### Cloning The Repository 
+* Navigate to the repositroy on GitHub
+* Click the dropdown code menu above the list of files 
+* Select your cloning prefernce HTTPS, GitHub, CLI or SSH and click the copy button to. copy the URL to your clipbaord 
+* Open Git Bash
+* Change the current working directoery to the one where you want the cloned 
+* Type git cline and paste the URL from the clipbaord
+* Press Enter to create your local clone 
+
+
+[Back To Top](#skincared)
+***
+
+## Credits 
+
+### Media 
+* Background image from Unsplash
+* Product images from Stylevana, Boots, Cerave 
+* Product info from Stylevan & yesstyle
+
+### Code 
+* The logic for the code was taken from the Botique Ado Walkthrough Project 
 
 
