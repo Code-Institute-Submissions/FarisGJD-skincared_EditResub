@@ -344,10 +344,60 @@ The footer consits of SkinCared contact email, external links notably one of whi
 
 
 ### Homepage
-
+The home or landing page consists of a hero image with text layered over it. It is simple and to the point giving the user an immediate impression of what the site is about. This instant impact is needed as to keep new users attention. Furthermore a shop now button is included to make it even more enticing for the user to shop around.  
 
 ![Preview](static/docs/homepage.png)
+![Preview](static/docs/homepage-mobile.png)
 
+### Header 
+The header consits of the SkinCared logo, serach bar, user profile, shopping bag and free delivery banner. It is extreemly important for the header to be fully functioning as this is the main way the user can head to the shopping bag, use the serach bar or create an account. Furthermore for the mobile view the serach bar utilises JavaScript so that when the search icon is clicked a serach bar appear below it. 
+
+![Preview](static/docs/header.png)
+![Preview](static/docs/header-mobile.png)
+
+### All Products 
+The all products page displays all of SkinCared skincare in latest order. The page encompasses five products per row for xl, l and m screens and 1 for m, s and xs screens. This layout makes it extreemly easy for the user to know exactly what they are looking at. 
+
+![Preview](static/docs/all-products.png)
+![Preview](static/docs/all-products-mobile.png)
+
+
+### Product Details 
+The product details page opens the product up so that a single one sits center stage and contains a plethora of information about the product. Furthermore here the user has the option to add the product to thier bag or if you are the admin update or delete said product for the databse. 
+
+![Preview](static/docs/product-details.png)
+![Preview](static/docs/prdocut-details-mobile.png)
+
+
+### All Brands 
+The all brands page contains a list of all brand names and iamges. It also has its own navigation system so that when there are hundereds of brands on record it will be easy for the user to navigate the page. 
+
+![Preview](static/docs/all-brands.png)
+![Preview](static/docs/all-brandsm.png)
+![Preview](static/docs/all-brandsm1.png)
+
+
+### Brands Details 
+The brand details page contains a banner image of the specified brand and a description of thier history and what they are about. As mentioend previously in future releases this page will also filter the skincare model so that it renders products specific to that brand. For now it serves as a good start. 
+
+![Preview](static/docs/brands-detail.png)
+![Preview](static/docs/brands-detailsm.png)
+
+
+### Skin Type 
+The skin type page contains a list of all the skin types and a descriotion of what they are about and the best products to use with each. Again in a future release this will also filter the skincare model so that it renders products that are relevant to each skin type. For now this is a good start since the description tells the user which products each skin type needs which they can they just serach for using the serach bar at the top. 
+
+![Preview](static/docs/skin-type.png)
+![Preview](static/docs/skin-type-mobile.png)
+
+
+### Shopping Bag 
+The shopping bag utilises template logic to render a different layout. If there are no products in the bag then an empty shopping bag will be rendered with a button to keep shopping. If there are products in the bag then a list of products, product information, price, update and remove links will be rendered aswell as a grand total and buttons to either keep shopping or header to the checkout page. This means that the checkout page cant be entered without any products in the bag. 
+
+![Preview](static/docs/empty-shopping-bag.png)
+![Preview](static/docs/empty-shopping-bagm.png)
+![Preview](static/docs/full-shopping-bag.png)
+![Preview](static/docs/full-shopping-bagm.png)
 
 
 
