@@ -253,33 +253,49 @@ Since SkinCared is an site that sells skincare products, several relational cust
     - Rows:
             * type - name of skin type 
             * description - summary about the skin type containing useful information and suggestions of what product to buy if your skin coincides with said type 
-
             * image - container a banner image for the specific skin type 
             * slug - used in url's to make them easier to read, but also to     make them more search engine friendly
 
 
 ### Product Type 
     - Rows:
-            * concern 
-            * concern_freindly_name 
-            * description
-            * image 
+            * name - programmatic product type name 
+            * freindly_name - friendly product type name 
+            * about - summary about the different product types containing useful information 
+            * image - product type banner image 
 
 
 ### Skincare 
     - Rows:
-            * concern 
-            * concern_freindly_name 
-            * description
-            * image 
-
-
+            * brand - has a foreign key relationship with the Brands model
+            * about - summary about the brand that the product pertains to 
+            * name - name of the product 
+            * usage - area of face or body product to be used on 
+            * quantity - the size (e.g. ml)
+            * price - price of product
+            * image - product image 
+            * description - summary of what the product is and dose
+            * directions - directions on how to use the product 
+            * ingredients - full product ingredients list 
+            * product_type - has a foreign key relationship with the Product Type model 
+            * product_subtype - further details about the product type, programattic name  
+            * product_subtype_friendly_name - further details about the product type, friendly name  
+            * star_ingredient - list of star ingredient will be used for filtering in future releases 
+            * skin_type - many to many relationship with skin type model since one product can be used for many different skin types. Will be used for filtering in future releases 
+            * skin_concern - many to many relationship with skin concern model since one product can be used for many skin conc erns. Will be used for filtering in future releases 
+            * cruelty_free - cruelty free status 
+            * vegan - vegan status 
+            * alcohol_free - alchol free status 
+            * fragrance_free - fragrance free status 
+            * sku - unqiue product number 
+            * rating - product rating, will be used in future releases
+            
 ### Skin Concern 
     - Rows:
-        * concern 
-        * concern_freindly_name 
-        * description
-        * image 
+        * concern - programmatic skin concern name 
+        * concern_freindly_name - friendly skin concern name 
+        * description - summary about the different types of skin concern containing useful information 
+        * image - skin concern banner image 
 
 
 
