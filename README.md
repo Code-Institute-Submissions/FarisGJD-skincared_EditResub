@@ -26,6 +26,7 @@ As a result of this demand SkinCared was born. SkinCared is a B2C E-commerce web
         * [Ideal User](#ideal-user)
         * [Epics](#epics)
         * [User Stories](#user-stories)
+    * [Scope](#scope)
 
 
 
@@ -119,6 +120,38 @@ From the Epics 9 User Stories were created and 47 tasks respectively. All predic
     * [#27](https://github.com/FarisGJD/skincared/issues/27)
     As a **site owner**, I can **include a signup form building my list of contacts and add descriptive meta tags**, so that **I can directly communicate with my consumers and achieve higher rankings in search results.**
 
+[Back To Top](#skincared)
+
+***
+# Scope
+## Planned Functionality 
+* Skincare Products – View full list of the sites products as well as a detailed look at the product when clicked on 
+
+* Product Search – By product type, usage and a search bar that takes extensive search critera such as brand name or ingredient 
+
+* Brands - Look up information about the brands SkinCared hosts, what they are about and their ethos 
+
+* Shopping Bag - A bag where the user can add the items they want to or intend to purchase, as well as upadte or delete them
+
+* Chekout - Securley takes the users delivery and payment information as well as option to save the users delivery details 
+
+* Checkout Success - Informs the user of successful payment and confirms order as well as sends confirmation email
+
+* User Profile - Houses the users information as well as historical orders. User can Create, Read, Update & Delete thier info 
+
+* Login & Singup - Users can create an account, login, logout and signup to a SkinCared account
+
+* Product Management - Site owner can add, update and delete products from the server side 
+
+* Authentication – Different levels of functionality for customer compared to an admin 
+
+* Newsletter Signup Form - The use of a newsletter signup form so that the user can be emailed about promotions 
+
+* Contact Details & Social Media - 
+
+* Feedback - Pop up window with appropriate message for when the user is performing an action on the site 
+
+* Account Recovery - Users can reset their password, email address and delivery address 
 
 
 
