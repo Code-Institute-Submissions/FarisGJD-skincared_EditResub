@@ -191,15 +191,52 @@ Since the website uses the Django programming language, the site has an MVC (mod
 12. checkout-success.html - A page that appears after the checkout process is complete and confirms to the user the status of the order as well as sends out confirmation emails 
 
 
-# Profile App 
+## Profile App 
 13. profile.html - A page where the user can find, edit and update their personal information as well as look at thier historical purchases 
 
-# Skincared App 
+## Skincared App 
 14. 404.html - A page that pops up when there is a 404 error
 
 [Back To Top](#skincared)
 ***
 # Skeleton
+Mock-ups from similar/competitor E-commerce websites were procured to inform the layout of SkinCared. Typically wireframes would be created but I did not have access to Balsamiq as my subscription expired. 
+
+## Home Page Mockup 
+
+![Preview](static/docs/home-page-mockup.png)
+
+
+## Full Products Mockup 
+
+![Preview](static/docs/full-products-mockup.png)
+
+## Product Details Mockup 
+![Preview](static/docs/product-details-mockup.png)
+![Preview](static/docs/product-detail-mockup-2.png)
+
+## Full Brands Mockup 
+![Preview](static/docs/full-brands-mockup.png)
+
+## Brand Details Mockup 
+![Preview](static/docs/brand-details-mockup.png)
+
+## Skin Type Mockup 
+![Preview](static/docs/skin-type-mockup.png)
+
+## Bag Mockup 
+![Preview](static/docs/bag-mockup.png)
+
+## Secure Checkout Mockup 
+![Preview](static/docs/secure-checkout-mockup.png)
+![Preview](static/docs/secure-checkout-mockup-2.png)
+
+## Secure Checkout Success Mockup 
+![Preview](static/docs/secure-checkout-success-mockup.png)
+
+## User Profile Mockup 
+![Preview](static/docs/user-profile-mockup.png)
+
 
 
 
