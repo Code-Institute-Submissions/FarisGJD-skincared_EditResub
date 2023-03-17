@@ -29,7 +29,10 @@ As a result of this demand SkinCared was born. SkinCared is a B2C E-commerce web
     * [Scope](#scope)
     * [Structure](#structure)
     * [Skeleton](#skeleton)
-         * [Database Schema](#database-schema)
+        * [Mockups](#mockups)
+        * [Database Schema](#database-schema)
+        * [SEO Considerations](#seo-considerations)
+    * [Surface](#surface)
 
 ***
 # Site Goals
@@ -201,6 +204,8 @@ Since the website uses the Django programming language, the site has an MVC (mod
 [Back To Top](#skincared)
 ***
 # Skeleton
+
+## Mockups 
 Mock-ups from similar/competitor E-commerce websites were procured to inform the layout of SkinCared. Typically wireframes would be created but I did not have access to Balsamiq as my subscription expired. Each page mentioned in the mock-ups achieves the goals set out and defined in the structure plane 
 
 ### Home Page Mockup 
@@ -297,11 +302,51 @@ Since SkinCared is an site that sells skincare products, several relational cust
         * description - summary about the different types of skin concern containing useful information 
         * image - skin concern banner image 
 
+## SEO Considerations
+In order to improve the sites search engine ranks two files were included into the project. The first being sitemap.xml which speeds up content discovery for serach engines as they crawl and index the web application. This was paried with a robots.txt file to signal search engines that they are allowed on the site and may have free access to it. The robots.txt file also tells search engies where they should not go which were defined in the project code (e.g. accounts, bag, profiles etc...)
+
+### Content Strategy 
+SkinCared SEO content strategy is to responsibly use heading, strong and emphasis tags were applicable as well as semantic html. Furthermore, specific short tail and long tail keywords were placed and highlighted with said tags throughout the project. The key words were obtained from word tracker, a keyword research tool that allows you to discover what keywords competitors are using. These were then filtered to ones that had relevance, authority and volume. For example, keywords that are high in volume and low in competition. Note keyword stuffing was strictly forgone as this could lower the sites SEO. 
+
+### Keyword Research 
+Descriptive meta tags are another way to increase SEO rankings. Within the projects header the keyword meta tag was stuffed with words that had the most relevance, authority and volume. Note keyword stuffing is allowed here. 
+
+[Back To Top](#skincared)
+***
+# Surface
+
+### Colour Scheme  
+The site uses a simple colour pallet consisting of shades of white, black and grey. This was purposefully done as to not distract or deter from the products as they themselves were vibrant in colour. Furthermore, the muted tones make the product images stand out more. To add a pop of colour shades of blue and red were used in giving the user feedback such as hovering over an element. 
+
+![Preview](static/docs/site-color-pallet.png)
+![Preview](static/docs/site-feedback-color-pallet.png)
+
+### Typography
+
+Two different fonts were used for the site. Raleway was used for the hero image text as to make it stand out. Roboto was used for the rest of the sites text. Both of which are recommended as complementary. 
+
+### Images 
+The hero image was aquired from Unsplash and the product images were proqured from Stylevana
+
+## Features 
+
+### Navigation 
+The sites navigation can be broken down to two parts. The first and most prevelant being the main navigation which shows up on xl-large, large and medium screen sizes while the mobile navigation appears on medium, small and extra small screens. JavaScript was utilised to display the appropriate navigation drop down when hovered over for the main navigation menu. 
+
+![Preview](static/docs/main-nav.png)
+![Preview](static/docs/mobile-nav.png)
+
+### Footer 
+The footer consits of SkinCared contact email, external links notably one of which is to SkinCared Facebook business page and a subscribe button that when clicked on uses JavaScript to reveal a Mailchinp newsletter signup form. As shown in the second image below the signup form gives various feedback to the user when filled out. 
+
+![Preview](static/docs/footer.png)
+![Preview](static/docs/footer-and-newsletter.png)
 
 
+### Homepage
 
 
-
+![Preview](static/docs/homepage.png)
 
 
 
