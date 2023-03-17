@@ -59,7 +59,18 @@ SkinCared strategy for competing in the saturated skincare market is to provide 
 - Interested in Eastern or Western skincare
 
 ## Epics
-? Epics were created which were further distilled into ? User Stories. 
+9 epics were created which were further developed into  9 user stories and 47 tasks respectivley. For more details please check the project tab of this repository. 
+
+1. 
+
+
+
+
+
+
+
+
+
 ## User Stories 
 
 
