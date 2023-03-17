@@ -21,6 +21,13 @@ As a result of this demand SkinCared was born. SkinCared is a B2C E-commerce web
 2. [Site Goals](#site-goals)
     * [Site Goals](#site-goals)
     * [User Goals](#user-goals)
+3. [Development Planes](#development-planes)
+   * [Strategy](#strategy)
+        * [Demographics](#demographics)
+        * [Psychographics](#psychographics)
+    * [Scope](#scope)
+
+
 ***
 # Site Goals
 ## Site & User Goals 
@@ -29,8 +36,22 @@ As a result of this demand SkinCared was born. SkinCared is a B2C E-commerce web
 - To provide potential and existing consumers a ‘one stop shop’ in skincare, specifically Eastern & Western cosmetics
 - To enable SkinCared and its employees to easily update and maintain the overall site and its content, especially the owner/manager
 - To generate sales by providing the user an intuitive, hassle free experience in terms of finding, selecting and buying products
+- Showcase the wide variety of brands SkinCared houses in terms of their ethos and product selection 
 
 ### User  Goals
+- Buy skincare products that suite their skins needs or find new ones that intrigue them 
+- Learn about the different skin types and products that coincide with said skin type as to build an effective skincare routine 
+- Have an seamless user experience in terms on finding, discovering and purchasing skincare products 
+
+[Back To Top](#skincared)
+
+***
+# Development Planes 
+## Strategy
+SkinCared strategy for competing  in the saturated skincare market is to provide a singlar point of sale for Eastern & Western skincare products which is unique within the market place. 
+
+
+
 
 
 
