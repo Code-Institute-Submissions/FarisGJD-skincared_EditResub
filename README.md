@@ -516,4 +516,40 @@ The website was tested on the following with no issues
 ***
 
 ## Deployment 
+Heroku was used to deploy the app by following the steps below: 
+
+### Heroku 
+1. Create heroku app: 
+
+* Navigate to the heroku website 
+* In the heroku browser create an account 
+* Active the account by authenticating your email 
+* Click the new button to create a new app 
+* Enter a unique name for your application 
+* Select the closest region to you 
+* Click create app 
+
+2. Create the Database: 
+* In the Heroku dashbaord click on the resources tab 
+* Navigate down to add-ons and seraach for and select Heroku Postgres 
+
+3. Set up environment variables: 
+* In the settings tab scroll down to reveal config vars and transfer your environment vairables there 
+4.  Set up aws s3 for static and media files storage 
+
+5. Add heroku hostname to allowed hosts variable in the settings.py file 
+
+6. At the top level directory create a procfile adding web: gunicorn app_name.wsgi 
+
+7. Heroku Deployment 
+*  Click delopy tab in Heroku 
+* In the deployment method section select github and click the connet to github button to confirm
+* In the search box enter the Github repo name
+* Cick search and then click connect to link the heroku app to the Github repo 
+
+8. Deployment 
+* Once development is completed change the debug setting to false in settings.py 
+* To manually deploy the Deploy Branch needs to be clicked. The defauly 
+*
+
 
