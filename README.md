@@ -58,20 +58,69 @@ SkinCared strategy for competing in the saturated skincare market is to provide 
 - Someone looking to add to their skincare arsenal 
 - Interested in Eastern or Western skincare
 
-## Epics
-9 epics were created which were further developed into  9 user stories and 47 tasks respectivley. For more details please check the project tab of this repository. 
+## Epics 
+9 epics were created which were further developed into  9 User Stories and 47 tasks respectivley. For more details please check the project tab of this repository. 
 
-1. 
+1. [#12](https://github.com/FarisGJD/skincared/issues/12) Initial workspace setup for early deployment - As a developer, I can **create and setup my workspace in terms of files, folders, packages and applications**, so that I can deploy my workspace early.
 
-
-
-
+2. [#14](https://github.com/FarisGJD/skincared/issues/14)Create home app & base tempalte - As a **user**, I can **check SkinCared's landing page**, so that **I can determine whether the site is suited to my needs and navigate accordingly.**
 
 
+3. [#16](https://github.com/FarisGJD/skincared/issues/16) Create products (skincare) app - As a **user**, I can **view SkinCared products range**, so that **I can find an item that will fit my needs.**
+
+4. [#18](https://github.com/FarisGJD/skincared/issues/18) Create bag app - As a **user**, I can **add items to my bag and keep them there**, so that **I can purchase now or later.**
+
+5. [#20](https://github.com/FarisGJD/skincared/issues/20)
+Create Create checkout app - As a **user**, I can **finalize the checkout process**, so that **I can complete my intended purchase.**
+
+6. [#22](https://github.com/FarisGJD/skincared/issues/22)
+Add Stripe, Stripe Elements & Stripe Webhooks functionality - As a **user**, I can **use a secure payment system such as Stripe**, so that **I can feel safe in handing over sensitive information.**
+
+7. [#24](https://github.com/FarisGJD/skincared/issues/24)
+Create profile app and customise allauth - As a **user**, I can **signup or login to my SkinCared account**, so that **I can update my personal details and look at my order history.**
 
 
+8. [#25](https://github.com/FarisGJD/skincared/issues/25)
+Add product management functionality - As a **site owner**, I can **manipulate the admin through the site**, so that **I have ease of use.**
+
+
+9. [#28](https://github.com/FarisGJD/skincared/issues/28)
+Add web marketing and seo - As a **site owner**, I can **user SEO and web marketing techniques**, so that **I can target my audience more effectively and precisely.**
 
 ## User Stories 
+From the Epics 9 User Stories were created and 47 tasks respectively. All predicted tasks and stories were able to be completed as this is the first release of SkinCared and is to act as a minimal viable product with the core functionality in place to achieve said User Stories.
+
+1. ### Initial workspace setup for early deployment 
+    * [#13](https://github.com/FarisGJD/skincared/issues/13) As a **developer**, I can **I can setup Django and install the supporting libraries and packages I need**, so that **so I can start the development process.**
+
+2. ### Create home app & base tempalte
+    * [#15](https://github.com/FarisGJD/skincared/issues/15) As a **user**, I can **head to the site's landing page and use its navigation menu**so that **I can traverse the website in the hopes of buying something.** 
+
+3. ### Create products (skincare) app
+    * [#17](https://github.com/FarisGJD/skincared/issues/17) As a **user**, I can **checkout SkinCareds product lines as well as the brands that they house and more information about skincare**, so that **I can make an informed purchase.**
+
+4. ### Create bag app
+    * [#19](https://github.com/FarisGJD/skincared/issues/19) As a **user**, I can **manage and house the items I am interested in purchasing at one location**so that **I can continue to the checkout menu now or in the future.**
+
+5. ### Create Create checkout app
+    * [#21](https://github.com/FarisGJD/skincared/issues/21) As a **user**, I can **continue the purchase process from the bag to the checkout**, so that **I can purchase my items.**
+
+6. ### Add Stripe, Stripe Elements & Stripe Webhooks functionality
+    * [#23](https://github.com/FarisGJD/skincared/issues/23) As a **user**, I can **make a secure purchase with my card details**, so that **my sensitive information stays private and I can build trust with SkinCared.**
+
+7. ### Create profile app and customise allauth
+    *[#24](https://github.com/FarisGJD/skincared/issues/24)As a **user**, I can **signup or log in to an existing account**, so that **I can look at my historical purchases as well as update my contact info.**
+
+
+8. ### Add product management functionality
+    * [#26](https://github.com/FarisGJD/skincared/issues/26) As a **site owner**, I can **perform full CRUD functionality on the server side**, so that **I can manipulate the database easily.**
+
+9. ### Add web marketing and seo
+    * [#27](https://github.com/FarisGJD/skincared/issues/27)
+    As a **site owner**, I can **include a signup form building my list of contacts and add descriptive meta tags**, so that **I can directly communicate with my consumers and achieve higher rankings in search results.**
+
+
+
 
 
 
