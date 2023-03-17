@@ -94,15 +94,12 @@ def full_brands(request, slug):
 
     # Retrives Brand object
     queryset = Brand.objects.all()
-    # Retrives Skincare Object
-    skincare = Skincare.objects.all()
 
     # Retrives the slug from the Brand object then applies it to each brand
     full_brand = get_object_or_404(queryset, slug=slug)
 
     context = {
         'full_brand': full_brand,
-        'skincare': skincare,
     }
 
     return render(request, 'brands/full_brands.html', context)
